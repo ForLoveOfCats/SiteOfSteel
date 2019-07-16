@@ -28,7 +28,9 @@ var searchData=
   ['translation',['Translation',['../interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da',1,'IPushable.Translation()'],['../interfaceIInGrid.html#ac50b9ee86629d811b2516b07b6f5b617',1,'IInGrid.Translation()']]],
   ['triangle',['Triangle',['../classHUD.html#a1490290df774a0f1c7d125b9b8895c69',1,'HUD']]],
   ['triangle_5fwall',['TRIANGLE_WALL',['../classItems.html#a6774bacbe40c425044480de464c64e40af7204b86d9f24f48d86d8d593b5a5529',1,'Items']]],
+  ['trianglewallbuildposition',['TriangleWallBuildPosition',['../classBuildingLogic.html#a06a4a1cfa51a49e49051fd5240c12bdc',1,'BuildingLogic']]],
+  ['trianglewallbuildrotation',['TriangleWallBuildRotation',['../classBuildingLogic.html#a095fc2df8d65726f3b52a65db8ff03a1',1,'BuildingLogic']]],
   ['triggered',['Triggered',['../classJumperRocket.html#a7e97d127ae3205937bf06e325606f7ae',1,'JumperRocket']]],
   ['trycalculatebuildposition',['TryCalculateBuildPosition',['../classItems.html#ade14792193004ab0107656faf611e81b',1,'Items']]],
-  ['type',['Type',['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classItems_1_1Instance.html#a370e33c7315b936bfe6cf91744c63ea3',1,'Items.Instance.Type()'],['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()'],['../classItems.html#a76f20ab3ea0745d32edfbf224fbb8de3',1,'Items.TYPE()'],['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()']]]
+  ['type',['TYPE',['../classItems.html#a76f20ab3ea0745d32edfbf224fbb8de3',1,'Items.TYPE()'],['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()'],['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classItems_1_1Instance.html#a370e33c7315b936bfe6cf91744c63ea3',1,'Items.Instance.Type()'],['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()']]]
 ];

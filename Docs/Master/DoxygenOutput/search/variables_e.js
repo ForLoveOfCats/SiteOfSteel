@@ -10,6 +10,7 @@ var searchData=
   ['playerpositionlabel',['PlayerPositionLabel',['../classHUD.html#abc40b615d16307b3ddfb8d9259ae23af',1,'HUD']]],
   ['players',['Players',['../classNet.html#a070d439f7753b65f79e5d6857deb0a02',1,'Net']]],
   ['port',['Port',['../classNet.html#a00281962c44645cb373990271b12da66',1,'Net']]],
+  ['positiondelegate',['PositionDelegate',['../structItems_1_1IdInfo.html#a02aeb4a7a10b2142809ea6d0df520c32',1,'Items::IdInfo']]],
   ['possessed',['Possessed',['../classPlayer.html#a39e4ad34a140c50cb15ad6a9192484cb',1,'Player']]],
   ['possessedplayer',['PossessedPlayer',['../classGame.html#a657fc98ebb4b162ff245dc672a1c5307',1,'Game']]]
 ];

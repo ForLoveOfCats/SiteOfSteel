@@ -9,7 +9,7 @@ var searchData=
   ['buildcredits',['BuildCredits',['../classMenu.html#a9734a321f0db99467aec416e45f34d76',1,'Menu']]],
   ['buildhelp',['BuildHelp',['../classMenu.html#a5a0b784e7255367f513d34b3042cce66',1,'Menu']]],
   ['buildhost',['BuildHost',['../classMenu.html#a225716c200f2996ead49914121831a06',1,'Menu']]],
-  ['buildinfodelegate',['BuildInfoDelegate',['../classItems.html#a05903c6ad11b30e87f2e264c819a3b39',1,'Items']]],
+  ['buildinfodelegate',['BuildInfoDelegate',['../classItems.html#a877fbf3885f8d4ae863724e5533f1585',1,'Items']]],
   ['buildintro',['BuildIntro',['../classMenu.html#a50804a9650bd7889535b3dc4c70fdc6f',1,'Menu']]],
   ['buildlicenses',['BuildLicenses',['../classMenu.html#a0c8a171128e62233f086347f3e4ffd6a',1,'Menu']]],
   ['buildmain',['BuildMain',['../classMenu.html#a4a2287d8d13a4783cadd6dffdd3efb28',1,'Menu']]],

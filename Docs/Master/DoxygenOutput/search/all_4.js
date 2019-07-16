@@ -9,6 +9,7 @@ var searchData=
   ['deletetoolbar',['DeleteToolbar',['../classHostMenu.html#a095215f41392e62fc3f41b3aaaae655c',1,'HostMenu']]],
   ['dict',['Dict',['../classGridClass.html#a5a8b89ff058c6aef87364222adbd2909',1,'GridClass']]],
   ['direction',['DIRECTION',['../classBindings.html#a35badd58ab9e62e5f47320ec08569985',1,'Bindings']]],
+  ['disallowedcollisions',['DisallowedCollisions',['../structItems_1_1IdInfo.html#aaaac0bccf046361b2713ae1eaa33b7da',1,'Items::IdInfo']]],
   ['disconnect',['Disconnect',['../classNet.html#ab6706e6ef877b569fda5732628c4305f',1,'Net.Disconnect()'],['../classAPI.html#a11462fe5b535625ad0daaa8acf5e727d',1,'API.Disconnect()']]],
   ['disconnectpressed',['DisconnectPressed',['../classPauseMenu.html#a3170290086f2906ba464fe26c79df839',1,'PauseMenu']]],
   ['discordpressed',['DiscordPressed',['../classMainMenu.html#a7eb34f23c973b256f9502d47cc3466cb',1,'MainMenu']]],

@@ -6,6 +6,8 @@ var searchData=
   ['waitingforservertimer',['WaitingForServerTimer',['../classNet.html#a974c15795b0fb662668b9b311b2768c6',1,'Net']]],
   ['waitingforversion',['WaitingForVersion',['../classNet.html#a94c8abd95a0885b9ab7eead18ebe0231',1,'Net']]],
   ['wall',['WALL',['../classItems.html#a6774bacbe40c425044480de464c64e40a48d536b2de1195d0c9f6ea8ab884085e',1,'Items']]],
+  ['wallbuildposition',['WallBuildPosition',['../classBuildingLogic.html#a6b4d310121925dba42e186c4a5c771a0',1,'BuildingLogic']]],
+  ['wallbuildrotation',['WallBuildRotation',['../classBuildingLogic.html#a468d41e95b97fc5bb949cb595b5b36e2',1,'BuildingLogic']]],
   ['wallkickhorzontalforce',['WallKickHorzontalForce',['../classPlayer.html#a262b8462c7a9248d62a0604b83ff19a2',1,'Player']]],
   ['wallkickjumpforce',['WallKickJumpForce',['../classPlayer.html#a76aceddd904d3f32a69c430b26441bb7',1,'Player']]],
   ['wasonfloor',['WasOnFloor',['../classPlayer.html#ab9e768c08a825e60fd8c99aae9b1e790',1,'Player']]],

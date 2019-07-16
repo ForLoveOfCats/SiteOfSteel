@@ -56,6 +56,8 @@ var searchData=
   ['show',['Show',['../classHUD.html#ae23f583776c0909d14745faab062592a',1,'HUD']]],
   ['shownodes',['ShowNodes',['../classHUD.html#a309b9fb94a82c084e5d3a251c80b8df3',1,'HUD']]],
   ['slope',['SLOPE',['../classItems.html#a6774bacbe40c425044480de464c64e40a9e25d7b0ad41e0f1fbf4879602236875',1,'Items']]],
+  ['slopebuildposition',['SlopeBuildPosition',['../classBuildingLogic.html#a853461f8b377d2305271a7f2c0f805b6',1,'BuildingLogic']]],
+  ['slopebuildrotation',['SlopeBuildRotation',['../classBuildingLogic.html#a2471bdb2bd05482908fd17d8753515d5',1,'BuildingLogic']]],
   ['slotbutton',['SlotButton',['../classSlotButton.html',1,'']]],
   ['slotbutton_2ecs',['SlotButton.cs',['../SlotButton_8cs.html',1,'']]],
   ['slotbuttonscene',['SlotButtonScene',['../classHostMenu.html#a51daf6bf1d4334c1f1fce5bcb2fc116e',1,'HostMenu']]],
