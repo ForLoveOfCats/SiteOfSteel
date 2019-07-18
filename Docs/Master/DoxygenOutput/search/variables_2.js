@@ -18,6 +18,7 @@ var searchData=
   ['createtoolbar',['CreateToolbar',['../classHostMenu.html#a6d30eceb483cf5275c225733c3d6a7ab',1,'HostMenu']]],
   ['credits',['Credits',['../classMenu.html#a8e3f33f86cf579b02deaa2a7a2833eb1',1,'Menu']]],
   ['crosshair',['Crosshair',['../classHUD.html#aa0d5b764945352a1519ce2a0dad93329',1,'HUD']]],
+  ['crouchdownforce',['CrouchDownForce',['../classPlayer.html#a9d7cc2ac56ad104c7b2e76181bf22adc',1,'Player']]],
   ['currentchunk',['CurrentChunk',['../classPlayer.html#aa36f605a9c1de629f607962cf6154e3f',1,'Player']]],
   ['currentchunktuple',['CurrentChunkTuple',['../classDroppedItem.html#aeefcd62dee470961cd1ba454a9428d29',1,'DroppedItem']]],
   ['currentmeshtype',['CurrentMeshType',['../classGhost.html#aac43ffc4b9f7be8713f5302d3222fe00',1,'Ghost']]]

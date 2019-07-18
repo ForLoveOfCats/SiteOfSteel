@@ -54,10 +54,11 @@ var searchData=
   ['creditspressed',['CreditsPressed',['../classMainMenu.html#a06735179c8e3457f5bf35ee2f42b8aae',1,'MainMenu']]],
   ['crosshair',['Crosshair',['../classHUD.html#aa0d5b764945352a1519ce2a0dad93329',1,'HUD']]],
   ['crouch',['Crouch',['../classPlayer.html#a0ecb24c69cfd5e961aedc2b34a18c3ff',1,'Player']]],
+  ['crouchdownforce',['CrouchDownForce',['../classPlayer.html#a9d7cc2ac56ad104c7b2e76181bf22adc',1,'Player']]],
   ['cs',['Cs',['../Scripting_8cs.html#a7d6fdf16b051e23e37d48415984cdd6a',1,'Scripting.cs']]],
   ['currentchunk',['CurrentChunk',['../classPlayer.html#aa36f605a9c1de629f607962cf6154e3f',1,'Player']]],
   ['currentchunktuple',['CurrentChunkTuple',['../classDroppedItem.html#aeefcd62dee470961cd1ba454a9428d29',1,'DroppedItem']]],
   ['currentmeshtype',['CurrentMeshType',['../classGhost.html#aac43ffc4b9f7be8713f5302d3222fe00',1,'Ghost']]],
-  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html',1,'Items']]],
-  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html#a1f76dda9a9426715a0ecfd46031287e3',1,'Items::CustomItemEnum']]]
+  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html#a1f76dda9a9426715a0ecfd46031287e3',1,'Items::CustomItemEnum']]],
+  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html',1,'Items']]]
 ];
