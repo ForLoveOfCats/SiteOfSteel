@@ -13,6 +13,7 @@ var searchData=
   ['consolelabel',['ConsoleLabel',['../classConsole.html#addfa0b407ee45b1300eeeac3c0f73d39',1,'Console']]],
   ['consolestate',['ConsoleState',['../classScripting.html#ab2953cfcf0676e372aa8af4de16f584d',1,'Scripting']]],
   ['contents',['Contents',['../classMenu.html#a2d3f0ac7428055fcfe812364a376a6bb',1,'Menu']]],
+  ['cooldownbar',['CooldownBar',['../classHUD.html#aaac6d5fd070a1cad3e0a88c7e6188993',1,'HUD']]],
   ['count',['Count',['../classItems_1_1Instance.html#af909a6d0140e1766819d9210cd09363d',1,'Items::Instance']]],
   ['createedit',['CreateEdit',['../classHostMenu.html#afb988cd1819ca72f815a7b67b9af146e',1,'HostMenu']]],
   ['createtoolbar',['CreateToolbar',['../classHostMenu.html#a6d30eceb483cf5275c225733c3d6a7ab',1,'HostMenu']]],

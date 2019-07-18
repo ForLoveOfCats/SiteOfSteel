@@ -26,6 +26,7 @@ var searchData=
   ['possessed',['Possessed',['../classPlayer.html#a39e4ad34a140c50cb15ad6a9192484cb',1,'Player']]],
   ['possessedplayer',['PossessedPlayer',['../classGame.html#a657fc98ebb4b162ff245dc672a1c5307',1,'Game']]],
   ['preparechunkspace',['PrepareChunkSpace',['../classWorld.html#aadc744808252b6bd71cbc37b366be8a3',1,'World']]],
+  ['preventswitch',['PreventSwitch',['../classPlayer.html#a90d88120746dc851a3d42c02523cd064',1,'Player']]],
   ['primaryfire',['PrimaryFire',['../classPlayer.html#af69288a0c9f8edbae77d6a2a2babd73f',1,'Player']]],
   ['print',['Print',['../classConsole.html#a33ae8eb0a6b648d7599bb15b6fe59d50',1,'Console']]],
   ['projectilecollided',['ProjectileCollided',['../interfaceIProjectileCollision.html#a3f9fae7635c0a16fc29ad1ec540351b4',1,'IProjectileCollision.ProjectileCollided()'],['../classJumperRocket.html#af0f17aefa5de7e7068835ed06152a57b',1,'JumperRocket.ProjectileCollided()']]],

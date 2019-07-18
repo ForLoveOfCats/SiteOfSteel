@@ -18,6 +18,7 @@ var searchData=
   ['buildhelp',['BuildHelp',['../classMenu.html#a5a0b784e7255367f513d34b3042cce66',1,'Menu']]],
   ['buildhost',['BuildHost',['../classMenu.html#a225716c200f2996ead49914121831a06',1,'Menu']]],
   ['buildinfodelegate',['BuildInfoDelegate',['../classItems.html#a877fbf3885f8d4ae863724e5533f1585',1,'Items']]],
+  ['buildingcooldown',['BuildingCooldown',['../classPlayer.html#a942848473c33991c56984bc8fb72aac1',1,'Player']]],
   ['buildinglogic',['BuildingLogic',['../classBuildingLogic.html',1,'']]],
   ['buildinglogic_2ecs',['BuildingLogic.cs',['../BuildingLogic_8cs.html',1,'']]],
   ['buildintro',['BuildIntro',['../classMenu.html#a50804a9650bd7889535b3dc4c70fdc6f',1,'Menu']]],

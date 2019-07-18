@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['firecooldown',['FireCooldown',['../classRocketJumper.html#a0b56876039c0d30cf830b4e493fb3cb0',1,'RocketJumper']]],
   ['forwardaxis',['ForwardAxis',['../classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5',1,'Player']]],
   ['forwardsens',['ForwardSens',['../classPlayer.html#a97a080a05fd57146c3e777c48c1b3573',1,'Player']]],
   ['fplandsfx',['FpLandSfx',['../classPlayerSfxManager.html#abd208eb2b4cfe0690301b5936c61ac03',1,'PlayerSfxManager']]],

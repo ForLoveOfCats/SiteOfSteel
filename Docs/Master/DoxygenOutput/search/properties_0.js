@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['flymode',['FlyMode',['../classPlayer.html#abceda65c999f3787d043092ac74833c7',1,'Player']]],
-  ['friction',['Friction',['../classPlayer.html#a894a3f15b5af81008d42e5f80d4da678',1,'Player']]]
+  ['currentcooldown',['CurrentCooldown',['../classPlayer.html#afdac119610bf6045dee06e9ed18ff5d2',1,'Player']]],
+  ['currentmaxcooldown',['CurrentMaxCooldown',['../classPlayer.html#a27f511504b76f9a22f0733302556b08a',1,'Player']]]
 ];

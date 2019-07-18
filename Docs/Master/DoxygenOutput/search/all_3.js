@@ -44,6 +44,7 @@ var searchData=
   ['contributing_2emd',['CONTRIBUTING.md',['../CONTRIBUTING_8md.html',1,'']]],
   ['controlleraxis',['CONTROLLERAXIS',['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94ba7a6aee4e03dfe69db748aaef9540144c',1,'Bindings']]],
   ['controllerbutton',['CONTROLLERBUTTON',['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94bac1c3d167f2f9ed99eb35fd9591c61b24',1,'Bindings']]],
+  ['cooldownbar',['CooldownBar',['../classHUD.html#aaac6d5fd070a1cad3e0a88c7e6188993',1,'HUD']]],
   ['copyfolder',['CopyFolder',['../classGame.html#a9fc5cf0a2f25ef99975ddc085766380a',1,'Game']]],
   ['count',['Count',['../classItems_1_1Instance.html#af909a6d0140e1766819d9210cd09363d',1,'Items::Instance']]],
   ['createedit',['CreateEdit',['../classHostMenu.html#afb988cd1819ca72f815a7b67b9af146e',1,'HostMenu']]],
@@ -58,7 +59,9 @@ var searchData=
   ['cs',['Cs',['../Scripting_8cs.html#a7d6fdf16b051e23e37d48415984cdd6a',1,'Scripting.cs']]],
   ['currentchunk',['CurrentChunk',['../classPlayer.html#aa36f605a9c1de629f607962cf6154e3f',1,'Player']]],
   ['currentchunktuple',['CurrentChunkTuple',['../classDroppedItem.html#aeefcd62dee470961cd1ba454a9428d29',1,'DroppedItem']]],
+  ['currentcooldown',['CurrentCooldown',['../classPlayer.html#afdac119610bf6045dee06e9ed18ff5d2',1,'Player']]],
+  ['currentmaxcooldown',['CurrentMaxCooldown',['../classPlayer.html#a27f511504b76f9a22f0733302556b08a',1,'Player']]],
   ['currentmeshtype',['CurrentMeshType',['../classGhost.html#aac43ffc4b9f7be8713f5302d3222fe00',1,'Ghost']]],
-  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html#a1f76dda9a9426715a0ecfd46031287e3',1,'Items::CustomItemEnum']]],
-  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html',1,'Items']]]
+  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html',1,'Items']]],
+  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html#a1f76dda9a9426715a0ecfd46031287e3',1,'Items::CustomItemEnum']]]
 ];

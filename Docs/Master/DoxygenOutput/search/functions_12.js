@@ -9,6 +9,7 @@ var searchData=
   ['secondaryfire',['SecondaryFire',['../classPlayer.html#a4216fab6e9ebf943310864b944967cbc',1,'Player']]],
   ['selectsave',['SelectSave',['../classHostMenu.html#a5418c34f7d8a10f17dbd0ea9a7da6452',1,'HostMenu']]],
   ['sendchunk',['SendChunk',['../classWorld.html#ab33ea77893ece60d5cb4b459668fccd6',1,'World']]],
+  ['setcooldown',['SetCooldown',['../classPlayer.html#aecdc42d5a359aec687e62a536e21d591',1,'Player']]],
   ['setfly',['SetFly',['../classPlayer.html#aa9c4fba2cae05877533675beaa981c96',1,'Player']]],
   ['setfreeze',['SetFreeze',['../classPlayer.html#a2d65fa4937a1c2cbf0d037c4acd8d55b',1,'Player']]],
   ['setup',['Setup',['../classMenu.html#a715cc048f561645af12e42654078cf3a',1,'Menu']]],
