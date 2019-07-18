@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['hascollided',['HasCollided',['../classJumperRocket.html#af43cd2792bc6b2bce670970acec16217',1,'JumperRocket']]],
   ['hasjumped',['HasJumped',['../classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf',1,'Player']]],
   ['help',['Help',['../classMenu.html#a693ecce98aad000f39aa4461b6afcdad',1,'Menu']]],
   ['helpmenu',['HelpMenu',['../classHelpMenu.html',1,'']]],

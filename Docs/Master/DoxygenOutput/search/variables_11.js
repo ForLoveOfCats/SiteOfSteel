@@ -15,5 +15,7 @@ var searchData=
   ['slotsvbox',['SlotsVBox',['../classHostMenu.html#a9472b85df12d7fa168dd0b401d817649',1,'HostMenu']]],
   ['spot',['Spot',['../structItems_1_1CustomItemEnum.html#a17967637360c9e88a161ac650b851934',1,'Items::CustomItemEnum']]],
   ['sprintmultiplyer',['SprintMultiplyer',['../classPlayer.html#a7af9b0fa358e431600ab9ff20c825e39',1,'Player']]],
-  ['sprintsens',['SprintSens',['../classPlayer.html#a6459ac126e09881a85b7db2c59a61dd2',1,'Player']]]
+  ['sprintsens',['SprintSens',['../classPlayer.html#a6459ac126e09881a85b7db2c59a61dd2',1,'Player']]],
+  ['startpoint',['StartPoint',['../classProjectileCollision.html#ab40b0f19d27f3d42999251e4eb49472f',1,'ProjectileCollision']]],
+  ['startpointpath',['StartPointPath',['../classProjectileCollision.html#a648e1eeab7ff513ccdfe9a55045665d0',1,'ProjectileCollision']]]
 ];

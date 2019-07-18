@@ -69,6 +69,8 @@ var searchData=
   ['sprintmultiplyer',['SprintMultiplyer',['../classPlayer.html#a7af9b0fa358e431600ab9ff20c825e39',1,'Player']]],
   ['sprintsens',['SprintSens',['../classPlayer.html#a6459ac126e09881a85b7db2c59a61dd2',1,'Player']]],
   ['start',['Start',['../classWorld.html#af2a2e1d5380aa94b6e3c1e5db940f9b5',1,'World']]],
+  ['startpoint',['StartPoint',['../classProjectileCollision.html#ab40b0f19d27f3d42999251e4eb49472f',1,'ProjectileCollision']]],
+  ['startpointpath',['StartPointPath',['../classProjectileCollision.html#a648e1eeab7ff513ccdfe9a55045665d0',1,'ProjectileCollision']]],
   ['startup',['Startup',['../classStartup.html',1,'']]],
   ['startup_2ecs',['Startup.cs',['../Startup_8cs.html',1,'']]],
   ['steelmath',['SteelMath',['../classSteelMath.html',1,'']]],

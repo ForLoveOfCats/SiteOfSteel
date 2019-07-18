@@ -99,13 +99,14 @@ Inheritance diagram for JumperRocket:</div>
  <div class="center">
   <img src="classJumperRocket.png" usemap="#JumperRocket_map" alt=""/>
   <map id="JumperRocket_map" name="JumperRocket_map">
+<area href="interfaceIProjectileCollision.html" alt="IProjectileCollision" shape="rect" coords="126,0,242,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af43cd2792bc6b2bce670970acec16217"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJumperRocket.html#af43cd2792bc6b2bce670970acec16217">HasCollided</a> (Node Collided)</td></tr>
-<tr class="separator:af43cd2792bc6b2bce670970acec16217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0f17aefa5de7e7068835ed06152a57b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJumperRocket.html#af0f17aefa5de7e7068835ed06152a57b">ProjectileCollided</a> (Vector3 CollisionPointPosition)</td></tr>
+<tr class="separator:af0f17aefa5de7e7068835ed06152a57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbf8830e4f179a201509b4c90c4c4be3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJumperRocket.html#afbf8830e4f179a201509b4c90c4c4be3">EffectAreaEntered</a> (Node Body)</td></tr>
 <tr class="separator:afbf8830e4f179a201509b4c90c4c4be3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa22710236c57f7321d3a35ac9e549b31"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJumperRocket.html#aa22710236c57f7321d3a35ac9e549b31">EffectAreaExited</a> (Node Body)</td></tr>
@@ -129,6 +130,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a6469116a1983ba2c2c3e8fcecadcae95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e97d127ae3205937bf06e325606f7ae"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJumperRocket.html#a7e97d127ae3205937bf06e325606f7ae">Triggered</a> = false</td></tr>
 <tr class="separator:a7e97d127ae3205937bf06e325606f7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3da2dbb47af3ca450fbea16c3d7b4ce"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classJumperRocket.html#ae3da2dbb47af3ca450fbea16c3d7b4ce">TriggeredPosition</a> = null</td></tr>
+<tr class="separator:ae3da2dbb47af3ca450fbea16c3d7b4ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -167,7 +170,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00019">19</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
+<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00020">20</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
 
 </div>
 </div>
@@ -194,7 +197,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00109">109</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
+<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00110">110</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
 
 </div>
 </div>
@@ -220,7 +223,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00036">36</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
+<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00034">34</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
 
 </div>
 </div>
@@ -246,7 +249,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00049">49</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
+<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00047">47</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
 
 </div>
 </div>
@@ -271,11 +274,11 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00063">63</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
+<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00061">61</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="af43cd2792bc6b2bce670970acec16217"></a>
+<a class="anchor" id="af0f17aefa5de7e7068835ed06152a57b"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -283,10 +286,10 @@ Static Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void JumperRocket.HasCollided </td>
+          <td class="memname">void JumperRocket.ProjectileCollided </td>
           <td>(</td>
-          <td class="paramtype">Node&#160;</td>
-          <td class="paramname"><em>Collided</em></td><td>)</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>CollisionPointPosition</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -297,7 +300,9 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00026">26</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
+<p>Implements <a class="el" href="interfaceIProjectileCollision.html#a3f9fae7635c0a16fc29ad1ec540351b4">IProjectileCollision</a>.</p>
+
+<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00027">27</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
 
 </div>
 </div>
@@ -334,7 +339,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00017">17</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
+<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00018">18</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
 
 </div>
 </div>
@@ -356,7 +361,7 @@ Static Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00016">16</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
+<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00017">17</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
 
 </div>
 </div>
@@ -427,6 +432,20 @@ Static Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00013">13</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae3da2dbb47af3ca450fbea16c3d7b4ce"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 JumperRocket.TriggeredPosition = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="JumperRocket_8cs_source.html#l00014">14</a> of file <a class="el" href="JumperRocket_8cs_source.html">JumperRocket.cs</a>.</p>
 
 </div>
 </div>
