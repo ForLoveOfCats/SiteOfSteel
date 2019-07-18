@@ -126,7 +126,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="classJumperRocket.html">JumperRocket</a> Rocket = JumperRocketScene.Instance() as <a class="code" href="classJumperRocket.html">JumperRocket</a>;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        Rocket.IsLocal = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        Rocket.Player = UsingPlayer;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        Rocket.Translation = UsingPlayer.RocketStart.GetGlobalTransform().origin;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        Rocket.Translation = UsingPlayer.ProjectileEmitter.GetGlobalTransform().origin;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        Rocket.RotationDegrees = <span class="keyword">new</span> Vector3(-UsingPlayer.<a class="code" href="classPlayer.html#a4248bd33d63e58f75a47ad88ed2a22f0">LookVertical</a>, UsingPlayer.<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>, 0);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        Rocket.Momentum = <span class="keyword">new</span> Vector3(0, 0, <a class="code" href="classRocketJumper.html#ac05f5635b26f5fbf4ba6b0654014f7b5">RocketTravelSpeed</a>)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            .Rotated(<span class="keyword">new</span> Vector3(1,0,0), Deg2Rad(Rocket.RotationDegrees.x))</div>

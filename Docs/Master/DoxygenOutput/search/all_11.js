@@ -37,7 +37,6 @@ var searchData=
   ['rockethorizontalmultiplyer',['RocketHorizontalMultiplyer',['../classRocketJumper.html#a13388f62766ec38e2852c1295a229c49',1,'RocketJumper']]],
   ['rocketjumper',['RocketJumper',['../classRocketJumper.html',1,'RocketJumper'],['../classRocketJumper.html#a776fdca843c9d2a1a1af2815fb9910d3',1,'RocketJumper.RocketJumper()'],['../classRocketJumper.html#a84c4644d81e986b040a6e84831a760a4',1,'RocketJumper.RocketJumper()']]],
   ['rocketjumper_2ecs',['RocketJumper.cs',['../RocketJumper_8cs.html',1,'']]],
-  ['rocketstart',['RocketStart',['../classPlayer.html#a1fb4705797b4375e78635fe981d5a6e3',1,'Player']]],
   ['rockettravelspeed',['RocketTravelSpeed',['../classRocketJumper.html#ac05f5635b26f5fbf4ba6b0654014f7b5',1,'RocketJumper']]],
   ['rocketverticaldivisor',['RocketVerticalDivisor',['../classRocketJumper.html#a5d769f0ff038f9290eba6d033b97d47e',1,'RocketJumper']]],
   ['rotationdelegate',['RotationDelegate',['../structItems_1_1IdInfo.html#ab81e4124de5196bb94b7169c855a8148',1,'Items::IdInfo']]],

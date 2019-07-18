@@ -12,7 +12,6 @@ var searchData=
   ['rightsens',['RightSens',['../classPlayer.html#a9c135d11f60fd2d64f233e355a6ee534',1,'Player']]],
   ['rocketfusetime',['RocketFuseTime',['../classRocketJumper.html#a9a286ae821e8f7ecfe8c1e8abeee75f9',1,'RocketJumper']]],
   ['rockethorizontalmultiplyer',['RocketHorizontalMultiplyer',['../classRocketJumper.html#a13388f62766ec38e2852c1295a229c49',1,'RocketJumper']]],
-  ['rocketstart',['RocketStart',['../classPlayer.html#a1fb4705797b4375e78635fe981d5a6e3',1,'Player']]],
   ['rockettravelspeed',['RocketTravelSpeed',['../classRocketJumper.html#ac05f5635b26f5fbf4ba6b0654014f7b5',1,'RocketJumper']]],
   ['rocketverticaldivisor',['RocketVerticalDivisor',['../classRocketJumper.html#a5d769f0ff038f9290eba6d033b97d47e',1,'RocketJumper']]],
   ['rotationdelegate',['RotationDelegate',['../structItems_1_1IdInfo.html#ab81e4124de5196bb94b7169c855a8148',1,'Items::IdInfo']]],

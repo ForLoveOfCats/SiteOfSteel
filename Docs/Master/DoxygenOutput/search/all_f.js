@@ -31,5 +31,7 @@ var searchData=
   ['projectilecollided',['ProjectileCollided',['../interfaceIProjectileCollision.html#a3f9fae7635c0a16fc29ad1ec540351b4',1,'IProjectileCollision.ProjectileCollided()'],['../classJumperRocket.html#af0f17aefa5de7e7068835ed06152a57b',1,'JumperRocket.ProjectileCollided()']]],
   ['projectilecollision',['ProjectileCollision',['../classProjectileCollision.html',1,'']]],
   ['projectilecollision_2ecs',['ProjectileCollision.cs',['../ProjectileCollision_8cs.html',1,'']]],
+  ['projectileemitter',['ProjectileEmitter',['../classPlayer.html#a659f17d0555c37490a3fe07327380a4e',1,'Player']]],
+  ['projectileemitterhinge',['ProjectileEmitterHinge',['../classPlayer.html#a60490302c621c7dfd879429a9041baf9',1,'Player']]],
   ['provideversion',['ProvideVersion',['../classNet.html#a6e5278a935b7cf89e102296efff668c7',1,'Net']]]
 ];
