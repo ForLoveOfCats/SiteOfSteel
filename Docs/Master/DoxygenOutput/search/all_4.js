@@ -1,6 +1,8 @@
 var searchData=
 [
   ['deadzone',['Deadzone',['../classGame.html#a5bf073ab5879a60a8c996cc5a1be4b69',1,'Game']]],
+  ['debugplot',['DebugPlot',['../classWorld.html#ace3299e5ee13bdbc4b05118fcefe66ed',1,'World']]],
+  ['debugplotpointscene',['DebugPlotPointScene',['../classWorld.html#a1f3a0fc26d755245f509ff6c671c0023',1,'World']]],
   ['deceleratetime',['DecelerateTime',['../classPlayer.html#a90ff798c649498407ad3dbef73c69eed',1,'Player']]],
   ['defaultnickname',['DefaultNickname',['../classGame.html#a6d2baafc3b9a7fba21f2bb149cea99b8',1,'Game']]],
   ['defaultplatforms',['DefaultPlatforms',['../classWorld.html#a8558f725c7074adbaa5fbbeb63843f55',1,'World']]],

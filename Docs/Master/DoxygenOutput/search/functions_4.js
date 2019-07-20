@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['debugplot',['DebugPlot',['../classWorld.html#ace3299e5ee13bdbc4b05118fcefe66ed',1,'World']]],
   ['defaultplatforms',['DefaultPlatforms',['../classWorld.html#a8558f725c7074adbaa5fbbeb63843f55',1,'World']]],
   ['deletepressed',['DeletePressed',['../classHostMenu.html#a9c4c0f08f7ba0726a44c28499504c1e5',1,'HostMenu']]],
   ['disconnect',['Disconnect',['../classNet.html#ab6706e6ef877b569fda5732628c4305f',1,'Net.Disconnect()'],['../classAPI.html#a11462fe5b535625ad0daaa8acf5e727d',1,'API.Disconnect()']]],

@@ -154,65 +154,72 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classJumperRocket.html#ae3da2dbb47af3ca450fbea16c3d7b4ce">TriggeredPosition</a> != null)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            Translation = (Vector3)<a class="code" href="classJumperRocket.html#ae3da2dbb47af3ca450fbea16c3d7b4ce">TriggeredPosition</a>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classJumperRocket.html#a3f61d00957e81980db22b40fc18f65fe">IsLocal</a>)</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        {</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keywordflow">if</span>((<a class="code" href="classPlayer.html">Player</a> as Spatial).Translation.DistanceTo(Translation) &lt;= <a class="code" href="classRocketJumper.html">RocketJumper</a>.<a class="code" href="classRocketJumper.html#a577763f2a4de186d3b97ea9123302426">MaxRocketDistance</a>)</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                AffectedBodies.Add(<a class="code" href="classJumperRocket.html#a3a87e611c02e256e5631ef6886c1edfd">Player</a>);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">foreach</span>(Node _Body <span class="keywordflow">in</span> <a class="code" href="classJumperRocket.html#a20e82cd798cc9a367fdab427b84904cc">AffectedBodies</a>)</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;            <span class="keywordflow">if</span>(_Body is <a class="code" href="interfaceIPushable.html">IPushable</a> Body)</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            {</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                <span class="keywordtype">float</span> Distance = Clamp(Translation.DistanceTo(Body.Translation) - <a class="code" href="classRocketJumper.html#a1212554c9292361761e1f927d17f09fc">RocketJumper.MinRocketDistance</a>, 1, <a class="code" href="classRocketJumper.html#a577763f2a4de186d3b97ea9123302426">RocketJumper.MaxRocketDistance</a>);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <span class="keywordtype">float</span> Power = RocketJumper.MaxRocketDistance / Distance / <a class="code" href="classRocketJumper.html#a577763f2a4de186d3b97ea9123302426">RocketJumper.MaxRocketDistance</a>;</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                Vector3 Push = ((Body.Translation - Translation) / <a class="code" href="classRocketJumper.html">RocketJumper</a>.<a class="code" href="classRocketJumper.html#a577763f2a4de186d3b97ea9123302426">MaxRocketDistance</a>).Normalized()</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    * <a class="code" href="classRocketJumper.html">RocketJumper</a>.<a class="code" href="classRocketJumper.html#a1c5e5af31906c1b0ad11b7db1c317d51">MaxRocketPush</a> * Power;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                {</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                    Vector3 Flat = Push.Flattened();</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    Flat *= <a class="code" href="classRocketJumper.html#a13388f62766ec38e2852c1295a229c49">RocketJumper.RocketHorizontalMultiplyer</a>;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                    Push.x = Flat.x;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                    Push.z = Flat.z;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                }</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                Push.y /= <a class="code" href="classRocketJumper.html#a5d769f0ff038f9290eba6d033b97d47e">RocketJumper.RocketVerticalDivisor</a>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                Body.ApplyPush(Push);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <span class="keywordflow">if</span>(Body is <a class="code" href="classPlayer.html">Player</a> AffectedPlayer)</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                    AffectedPlayer.RecoverPercentage = 0;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            }</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        AffectedBodies.Clear();</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        AudioStreamPlayer3D ExplodeSfxInstance = ExplodeSfx.Instance() as AudioStreamPlayer3D;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        ExplodeSfxInstance.Play();</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        ExplodeSfxInstance.Translation = Translation;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        World.EntitiesRoot.AddChild(ExplodeSfxInstance);</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        CPUParticles ParticleSystem = ExplodeParticles.Instance() as CPUParticles;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        ParticleSystem.Translation = Translation;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        ParticleSystem.Emitting = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        World.EntitiesRoot.AddChild(ParticleSystem);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        QueueFree();</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="classJumperRocket.html#a06f02b34d340300d673aec58ea33e88c">  110</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="classJumperRocket.html#a06f02b34d340300d673aec58ea33e88c">_PhysicsProcess</a>(<span class="keywordtype">float</span> Delta)</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    {</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">if</span>(IsLocal)</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        {</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <span class="keywordflow">if</span>(Triggered || (Life &gt;= <a class="code" href="classRocketJumper.html">RocketJumper</a>.<a class="code" href="classRocketJumper.html#a9a286ae821e8f7ecfe8c1e8abeee75f9">RocketFuseTime</a>))</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            {</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                Explode();</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                Net.SteelRpc(<span class="keyword">this</span>, nameof(Explode));</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            }</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        }</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        MoveAndCollide(Momentum * Delta);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        Life += Delta;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        Vector3 Origin = GetNode&lt;Spatial&gt;(<span class="stringliteral">&quot;ExplosionOrigin&quot;</span>).GetGlobalTransform().origin;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classJumperRocket.html#a3f61d00957e81980db22b40fc18f65fe">IsLocal</a>)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        {</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;            <span class="keywordflow">if</span>((<a class="code" href="classPlayer.html">Player</a> as Spatial).Translation.DistanceTo(Origin) &lt;= <a class="code" href="classRocketJumper.html">RocketJumper</a>.<a class="code" href="classRocketJumper.html#a577763f2a4de186d3b97ea9123302426">MaxRocketDistance</a>)</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                AffectedBodies.Add(<a class="code" href="classJumperRocket.html#a3a87e611c02e256e5631ef6886c1edfd">Player</a>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        }</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">foreach</span>(Node _Body <span class="keywordflow">in</span> <a class="code" href="classJumperRocket.html#a20e82cd798cc9a367fdab427b84904cc">AffectedBodies</a>)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;            <span class="keywordflow">if</span>(_Body is <a class="code" href="interfaceIPushable.html">IPushable</a> Body)</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;            {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                PhysicsDirectSpaceState State = GetWorld().DirectSpaceState;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                Godot.Collections.Dictionary Results = State.IntersectRay(Origin, Body.Translation, <span class="keyword">new</span> Godot.Collections.Array(){Body}, 1);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                <span class="keywordflow">if</span>(Results.Count &gt; 0)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                <span class="keywordtype">float</span> Distance = Clamp(Origin.DistanceTo(Body.Translation) - <a class="code" href="classRocketJumper.html#a1212554c9292361761e1f927d17f09fc">RocketJumper.MinRocketDistance</a>, 1, <a class="code" href="classRocketJumper.html#a577763f2a4de186d3b97ea9123302426">RocketJumper.MaxRocketDistance</a>);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordtype">float</span> Power = RocketJumper.MaxRocketDistance / Distance / <a class="code" href="classRocketJumper.html#a577763f2a4de186d3b97ea9123302426">RocketJumper.MaxRocketDistance</a>;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                Vector3 Push = ((Body.Translation - Origin) / <a class="code" href="classRocketJumper.html">RocketJumper</a>.<a class="code" href="classRocketJumper.html#a577763f2a4de186d3b97ea9123302426">MaxRocketDistance</a>).Normalized()</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                    * <a class="code" href="classRocketJumper.html">RocketJumper</a>.<a class="code" href="classRocketJumper.html#a1c5e5af31906c1b0ad11b7db1c317d51">MaxRocketPush</a> * Power;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                    Vector3 Flat = Push.Flattened();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    Flat *= <a class="code" href="classRocketJumper.html#a13388f62766ec38e2852c1295a229c49">RocketJumper.RocketHorizontalMultiplyer</a>;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                    Push.x = Flat.x;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    Push.z = Flat.z;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                Push.y /= <a class="code" href="classRocketJumper.html#a5d769f0ff038f9290eba6d033b97d47e">RocketJumper.RocketVerticalDivisor</a>;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                Body.ApplyPush(Push);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                <span class="keywordflow">if</span>(Body is <a class="code" href="classPlayer.html">Player</a> AffectedPlayer)</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                    AffectedPlayer.RecoverPercentage = 0;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        AffectedBodies.Clear();</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        AudioStreamPlayer3D ExplodeSfxInstance = ExplodeSfx.Instance() as AudioStreamPlayer3D;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        ExplodeSfxInstance.Play();</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        ExplodeSfxInstance.Translation = Translation;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        World.EntitiesRoot.AddChild(ExplodeSfxInstance);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        CPUParticles ParticleSystem = ExplodeParticles.Instance() as CPUParticles;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        ParticleSystem.Translation = Translation;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        ParticleSystem.Emitting = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        World.EntitiesRoot.AddChild(ParticleSystem);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        QueueFree();</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    }</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno"><a class="line" href="classJumperRocket.html#a06f02b34d340300d673aec58ea33e88c">  117</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="classJumperRocket.html#a06f02b34d340300d673aec58ea33e88c">_PhysicsProcess</a>(<span class="keywordtype">float</span> Delta)</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    {</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">if</span>(IsLocal)</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        {</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            <span class="keywordflow">if</span>(Triggered || (Life &gt;= <a class="code" href="classRocketJumper.html">RocketJumper</a>.<a class="code" href="classRocketJumper.html#a9a286ae821e8f7ecfe8c1e8abeee75f9">RocketFuseTime</a>))</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            {</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                Explode();</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                Net.SteelRpc(<span class="keyword">this</span>, nameof(Explode));</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        }</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        MoveAndCollide(Momentum * Delta);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        Life += Delta;</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
 <div class="ttc" id="classJumperRocket_html_a7e97d127ae3205937bf06e325606f7ae"><div class="ttname"><a href="classJumperRocket.html#a7e97d127ae3205937bf06e325606f7ae">JumperRocket.Triggered</a></div><div class="ttdeci">bool Triggered</div><div class="ttdef"><b>Definition:</b> <a href="JumperRocket_8cs_source.html#l00013">JumperRocket.cs:13</a></div></div>
 <div class="ttc" id="classJumperRocket_html_afbf8830e4f179a201509b4c90c4c4be3"><div class="ttname"><a href="classJumperRocket.html#afbf8830e4f179a201509b4c90c4c4be3">JumperRocket.EffectAreaEntered</a></div><div class="ttdeci">void EffectAreaEntered(Node Body)</div><div class="ttdef"><b>Definition:</b> <a href="JumperRocket_8cs_source.html#l00034">JumperRocket.cs:34</a></div></div>
 <div class="ttc" id="classRocketJumper_html_a5d769f0ff038f9290eba6d033b97d47e"><div class="ttname"><a href="classRocketJumper.html#a5d769f0ff038f9290eba6d033b97d47e">RocketJumper.RocketVerticalDivisor</a></div><div class="ttdeci">static float RocketVerticalDivisor</div><div class="ttdef"><b>Definition:</b> <a href="RocketJumper_8cs_source.html#l00014">RocketJumper.cs:14</a></div></div>
@@ -230,7 +237,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classJumperRocket_html_a5a0d036032dd6dfe92782ed8904a0b18"><div class="ttname"><a href="classJumperRocket.html#a5a0d036032dd6dfe92782ed8904a0b18">JumperRocket.Explode</a></div><div class="ttdeci">void Explode()</div><div class="ttdef"><b>Definition:</b> <a href="JumperRocket_8cs_source.html#l00061">JumperRocket.cs:61</a></div></div>
 <div class="ttc" id="classExplodeSfx_html"><div class="ttname"><a href="classExplodeSfx.html">ExplodeSfx</a></div><div class="ttdef"><b>Definition:</b> <a href="ExplodeSfx_8cs_source.html#l00004">ExplodeSfx.cs:4</a></div></div>
 <div class="ttc" id="classJumperRocket_html_a23466fdba1f8ac493475b1106337e1be"><div class="ttname"><a href="classJumperRocket.html#a23466fdba1f8ac493475b1106337e1be">JumperRocket.ExplodeParticles</a></div><div class="ttdeci">static PackedScene ExplodeParticles</div><div class="ttdef"><b>Definition:</b> <a href="JumperRocket_8cs_source.html#l00018">JumperRocket.cs:18</a></div></div>
-<div class="ttc" id="classJumperRocket_html_a06f02b34d340300d673aec58ea33e88c"><div class="ttname"><a href="classJumperRocket.html#a06f02b34d340300d673aec58ea33e88c">JumperRocket._PhysicsProcess</a></div><div class="ttdeci">override void _PhysicsProcess(float Delta)</div><div class="ttdef"><b>Definition:</b> <a href="JumperRocket_8cs_source.html#l00110">JumperRocket.cs:110</a></div></div>
+<div class="ttc" id="classJumperRocket_html_a06f02b34d340300d673aec58ea33e88c"><div class="ttname"><a href="classJumperRocket.html#a06f02b34d340300d673aec58ea33e88c">JumperRocket._PhysicsProcess</a></div><div class="ttdeci">override void _PhysicsProcess(float Delta)</div><div class="ttdef"><b>Definition:</b> <a href="JumperRocket_8cs_source.html#l00117">JumperRocket.cs:117</a></div></div>
 <div class="ttc" id="classJumperRocket_html_a3a87e611c02e256e5631ef6886c1edfd"><div class="ttname"><a href="classJumperRocket.html#a3a87e611c02e256e5631ef6886c1edfd">JumperRocket.Player</a></div><div class="ttdeci">Node Player</div><div class="ttdef"><b>Definition:</b> <a href="JumperRocket_8cs_source.html#l00009">JumperRocket.cs:9</a></div></div>
 <div class="ttc" id="classJumperRocket_html"><div class="ttname"><a href="classJumperRocket.html">JumperRocket</a></div><div class="ttdef"><b>Definition:</b> <a href="JumperRocket_8cs_source.html#l00006">JumperRocket.cs:6</a></div></div>
 <div class="ttc" id="classJumperRocket_html_ae3da2dbb47af3ca450fbea16c3d7b4ce"><div class="ttname"><a href="classJumperRocket.html#ae3da2dbb47af3ca450fbea16c3d7b4ce">JumperRocket.TriggeredPosition</a></div><div class="ttdeci">Vector3 TriggeredPosition</div><div class="ttdef"><b>Definition:</b> <a href="JumperRocket_8cs_source.html#l00014">JumperRocket.cs:14</a></div></div>
