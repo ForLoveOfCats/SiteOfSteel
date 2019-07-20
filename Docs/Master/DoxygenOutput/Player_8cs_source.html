@@ -709,232 +709,235 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;                HUDInstance.HotbarUpdate();</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;</div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;                SfxManager.FpThrow();</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;            }</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        }</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    }</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;                <a class="code" href="classPlayer.html#aecdc42d5a359aec687e62a536e21d591">SetCooldown</a>(0, <a class="code" href="classPlayer.html#a51bf41341dbd95c45a24f75e2c9a5312">SlotSwitchCooldown</a>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;            }</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;        }</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    }</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div>
-<div class="line"><a name="l00626"></a><span class="lineno"><a class="line" href="classPlayer.html#a5aba1eb2c3a5238a1ccd2b49ec7989d9">  626</a></span>&#160;    <span class="keyword">private</span> Vector3 <a class="code" href="classPlayer.html#a5aba1eb2c3a5238a1ccd2b49ec7989d9">AirAccelerate</a>(Vector3 Vel, Vector3 WishDir, <span class="keywordtype">float</span> Delta)</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    {</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;        WishDir = ClampVec3(WishDir, 0, 1) * ((<a class="code" href="classPlayer.html#aeca7bf2e2564f6fe45d14f8a90bbf319">MaxMovementSpeed</a> + <a class="code" href="classPlayer.html#ad818f7e53af29b3c9cace678392d587f">BaseMovementSpeed</a>) / 2);</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;        <span class="keywordtype">float</span> CurrentSpeed = Vel.Dot(WishDir);</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;        <span class="keywordtype">float</span> AddSpeed = <a class="code" href="classPlayer.html#aeca7bf2e2564f6fe45d14f8a90bbf319">MaxMovementSpeed</a> - CurrentSpeed;</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        AddSpeed = Clamp(AddSpeed, 0, <a class="code" href="classPlayer.html#abc09c674116eea2ec514147d801a1acd">AirAcceleration</a>*Delta);</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        <span class="keywordflow">return</span> Vel + WishDir * AddSpeed;</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    }</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;</div>
+<div class="line"><a name="l00627"></a><span class="lineno"><a class="line" href="classPlayer.html#a5aba1eb2c3a5238a1ccd2b49ec7989d9">  627</a></span>&#160;    <span class="keyword">private</span> Vector3 <a class="code" href="classPlayer.html#a5aba1eb2c3a5238a1ccd2b49ec7989d9">AirAccelerate</a>(Vector3 Vel, Vector3 WishDir, <span class="keywordtype">float</span> Delta)</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    {</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;        WishDir = ClampVec3(WishDir, 0, 1) * ((<a class="code" href="classPlayer.html#aeca7bf2e2564f6fe45d14f8a90bbf319">MaxMovementSpeed</a> + <a class="code" href="classPlayer.html#ad818f7e53af29b3c9cace678392d587f">BaseMovementSpeed</a>) / 2);</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;        <span class="keywordtype">float</span> CurrentSpeed = Vel.Dot(WishDir);</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        <span class="keywordtype">float</span> AddSpeed = <a class="code" href="classPlayer.html#aeca7bf2e2564f6fe45d14f8a90bbf319">MaxMovementSpeed</a> - CurrentSpeed;</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        AddSpeed = Clamp(AddSpeed, 0, <a class="code" href="classPlayer.html#abc09c674116eea2ec514147d801a1acd">AirAcceleration</a>*Delta);</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;        <span class="keywordflow">return</span> Vel + WishDir * AddSpeed;</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    }</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;</div>
-<div class="line"><a name="l00636"></a><span class="lineno"><a class="line" href="classPlayer.html#af1fd6167696c0c13d549edf825cad6d8">  636</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="classPlayer.html#af1fd6167696c0c13d549edf825cad6d8">_PhysicsProcess</a>(<span class="keywordtype">float</span> Delta)</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    {</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classPlayer.html#a39e4ad34a140c50cb15ad6a9192484cb">Possessed</a> || <a class="code" href="classPlayer.html#a2d141900f49e890a21e842fa481405e2">Frozen</a>)</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        {</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;            List&lt;DroppedItem&gt; ToPickUpList = <span class="keyword">new</span> List&lt;DroppedItem&gt;();</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;            <span class="keywordflow">foreach</span>(<a class="code" href="classDroppedItem.html">DroppedItem</a> Item <span class="keywordflow">in</span> <a class="code" href="classWorld.html">World</a>.<a class="code" href="classWorld.html#ae34cf9ac92cf6d79a02caf2d56b7106e">ItemList</a>)</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;            {</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>.DistanceTo(Item.<a class="code" href="interfaceIInGrid.html#ac50b9ee86629d811b2516b07b6f5b617">Translation</a>) &lt;= <a class="code" href="classPlayer.html#a952529bd40e04dd1856359538905dd10">ItemPickupDistance</a> &amp;&amp; Item.Life &gt;= <a class="code" href="classDroppedItem.html#ae6594be368c138341f8ee04f586af147">DroppedItem.MinPickupLife</a>)</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;                {</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;                    PhysicsDirectSpaceState State = GetWorld().DirectSpaceState;</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                    Godot.Collections.Dictionary Results = State.IntersectRay(<a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>, Item.Translation, <span class="keyword">new</span> Godot.Collections.Array{<span class="keyword">this</span>}, 1);</div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;                    <span class="keywordflow">if</span>(Results.Count &lt;= 0)</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                        ToPickUpList.Add(Item);</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                }</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;            }</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;            <span class="keywordflow">if</span>(ToPickUpList.Count &gt; 0)</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;            {</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;                SfxManager.FpPickup();</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;                <span class="keywordflow">foreach</span>(<a class="code" href="classDroppedItem.html">DroppedItem</a> Item <span class="keywordflow">in</span> ToPickUpList)</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;                {</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;                    <span class="keywordflow">if</span>(<a class="code" href="classGame.html">Game</a>.<a class="code" href="classGame.html#a8fabb92a077015d3dac14460f8f36532">Mode</a>.<a class="code" href="classGamemode.html#a3d7709959c55749cd87ea894fdc22d30">ShouldPickupItem</a>(Item.<a class="code" href="classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c">Type</a>))</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                    {</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;                        World.Self.RequestDroppedItem(Net.Work.GetNetworkUniqueId(), Item.GetName());</div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;                        World.ItemList.Remove(Item);</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;                    }</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;                }</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;            }</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;        }</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;        <a class="code" href="classPlayer.html#afdac119610bf6045dee06e9ed18ff5d2">CurrentCooldown</a> = Clamp(<a class="code" href="classPlayer.html#afdac119610bf6045dee06e9ed18ff5d2">CurrentCooldown</a> + (100*Delta), 0, <a class="code" href="classPlayer.html#a27f511504b76f9a22f0733302556b08a">CurrentMaxCooldown</a>);</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;</div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;        <a class="code" href="classPlayer.html#a87c1e53706908ab6e4af3bf7d164cc62">RecoverPercentage</a> = Clamp(<a class="code" href="classPlayer.html#a87c1e53706908ab6e4af3bf7d164cc62">RecoverPercentage</a> + Delta*<a class="code" href="classPlayer.html#a27cdc203f83b608f7dee64d883a3bd83">RecoverSpeed</a>, 0, 1);</div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a8042c5639c1f4f63e64fc196f9d485ad">JumpAxis</a> &gt; 0 &amp;&amp; IsOnFloor())</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;        {</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;            Momentum.y = <a class="code" href="classPlayer.html#a93e1c803723f5f12b5134c86a0502a49">JumpStartForce</a>;</div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;            <a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;            <a class="code" href="classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf">HasJumped</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        }</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> &amp;&amp; !<a class="code" href="classPlayer.html#ab9e768c08a825e60fd8c99aae9b1e790">WasOnFloor</a>)</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        {</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;            Momentum.y += <a class="code" href="classPlayer.html#a7e653f903ca9770902a5f523ca50ffd1">JumpContinueForce</a>*Delta;</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;            <a class="code" href="classPlayer.html#aa0cc9476a82ae73f63392e840023575f">JumpTimer</a> += Delta;</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#aa0cc9476a82ae73f63392e840023575f">JumpTimer</a> &gt;= <a class="code" href="classPlayer.html#aa06732cd3f6955f9c36de519ce4fd32f">MaxJumpLength</a>)</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;            {</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;                <a class="code" href="classPlayer.html#aa0cc9476a82ae73f63392e840023575f">JumpTimer</a> = 0;</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;                <a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;            }</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;        }</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> &amp;&amp; !<a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a>)</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        {</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;            Momentum.y = Mathf.Clamp(Momentum.y - <a class="code" href="classPlayer.html#a036d88dc59eb68bd4c08208683bfef96">Gravity</a>*Delta, -<a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>, <a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>);</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;        }</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a> &amp;&amp; <a class="code" href="classPlayer.html#a8042c5639c1f4f63e64fc196f9d485ad">JumpAxis</a> &lt;= 0 &amp;&amp; !<a class="code" href="classPlayer.html#a79992b7d78e692089f4b921937193e05">IsCrouching</a>)</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;        {</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;            <span class="comment">//In flymode and jump is not being held</span></div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.y &gt; 0)</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;            {</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;                Momentum.y = Mathf.Clamp(Momentum.y - <a class="code" href="classPlayer.html#a894a3f15b5af81008d42e5f80d4da678">Friction</a>*Delta, 0, <a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>);</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;            }</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.y &lt; 0)</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;            {</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;                Momentum.y = Mathf.Clamp(Momentum.y + <a class="code" href="classPlayer.html#a894a3f15b5af81008d42e5f80d4da678">Friction</a>*Delta, -<a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>, 0);</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;            }</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;        }</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        <span class="keywordflow">if</span>(IsOnFloor() &amp;&amp; !<a class="code" href="classPlayer.html#ab9e768c08a825e60fd8c99aae9b1e790">WasOnFloor</a> &amp;&amp; Abs(<a class="code" href="classPlayer.html#a380b565ee1fa38bf086fb2c6c7c82b87">LastMomentumY</a>) &gt; <a class="code" href="classPlayer.html#aa9fb8c67bf181b7aed7490b7a0dcfd69">SfxMinLandMomentumY</a>)</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        {</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;            <span class="keywordtype">float</span> Volume = Abs(Clamp(<a class="code" href="classPlayer.html#a380b565ee1fa38bf086fb2c6c7c82b87">LastMomentumY</a>, -<a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>, 0))/4 - 30;</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;            SfxManager.FpLand(Volume);</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;        }</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;        <a class="code" href="classPlayer.html#ab9e768c08a825e60fd8c99aae9b1e790">WasOnFloor</a> = IsOnFloor();</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> &amp;&amp; (IsOnFloor() || <a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a>))</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        {</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;            <span class="keywordtype">float</span> SpeedLimit = <a class="code" href="classPlayer.html#ad818f7e53af29b3c9cace678392d587f">BaseMovementSpeed</a>;</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad0c9b3b6fbd26878e93c2f6f196772e4">IsSprinting</a>)</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;            {</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;                SpeedLimit *= <a class="code" href="classPlayer.html#a7af9b0fa358e431600ab9ff20c825e39">SprintMultiplyer</a>;</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;            }</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;            <span class="keywordtype">float</span> X = 0, Z = 0;</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d">RightAxis</a> &gt; 0)</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;                X = -<a class="code" href="classPlayer.html#a9c135d11f60fd2d64f233e355a6ee534">RightSens</a>;</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d">RightAxis</a> &lt; 0)</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;                X = <a class="code" href="classPlayer.html#ab90c205f1c1a5cb64081b2d6d00a4dd2">LeftSens</a>;</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5">ForwardAxis</a> &gt; 0)</div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;                Z = <a class="code" href="classPlayer.html#a97a080a05fd57146c3e777c48c1b3573">ForwardSens</a>;</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5">ForwardAxis</a> &lt; 0)</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;                Z = -<a class="code" href="classPlayer.html#ad38956b8cb2ca0547045f56e62eb897c">BackwardSens</a>;</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;            <span class="keywordtype">float</span> Speed = Momentum.Length();</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;            <span class="keywordflow">if</span>(Speed &gt; 0)</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;            {</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;                Speed = Clamp(Speed - <a class="code" href="classPlayer.html#a894a3f15b5af81008d42e5f80d4da678">Friction</a>*Delta, 0, Speed);</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;                Vector3 HorzMomentum = <span class="keyword">new</span> Vector3(<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.x, 0, <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.z).Normalized() * Speed;</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;                Momentum.x = HorzMomentum.x;</div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;                Momentum.z = HorzMomentum.z;</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;            }</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;            {</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;                Vector3 WishDir = ClampVec3(<span class="keyword">new</span> Vector3(X, 0, Z), 0, 1) * SpeedLimit;</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;                WishDir = WishDir.Rotated(<span class="keyword">new</span> Vector3(0,1,0), Deg2Rad(<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>));</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;                <span class="keywordtype">float</span> Multiplyer = Clamp(SpeedLimit - <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.Flattened().Length(), 0, SpeedLimit) / SpeedLimit;</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;                WishDir *= Multiplyer;</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;</div>
+<div class="line"><a name="l00637"></a><span class="lineno"><a class="line" href="classPlayer.html#af1fd6167696c0c13d549edf825cad6d8">  637</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="classPlayer.html#af1fd6167696c0c13d549edf825cad6d8">_PhysicsProcess</a>(<span class="keywordtype">float</span> Delta)</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;    {</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classPlayer.html#a39e4ad34a140c50cb15ad6a9192484cb">Possessed</a> || <a class="code" href="classPlayer.html#a2d141900f49e890a21e842fa481405e2">Frozen</a>)</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;        {</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;            List&lt;DroppedItem&gt; ToPickUpList = <span class="keyword">new</span> List&lt;DroppedItem&gt;();</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;            <span class="keywordflow">foreach</span>(<a class="code" href="classDroppedItem.html">DroppedItem</a> Item <span class="keywordflow">in</span> <a class="code" href="classWorld.html">World</a>.<a class="code" href="classWorld.html#ae34cf9ac92cf6d79a02caf2d56b7106e">ItemList</a>)</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;            {</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>.DistanceTo(Item.<a class="code" href="interfaceIInGrid.html#ac50b9ee86629d811b2516b07b6f5b617">Translation</a>) &lt;= <a class="code" href="classPlayer.html#a952529bd40e04dd1856359538905dd10">ItemPickupDistance</a> &amp;&amp; Item.Life &gt;= <a class="code" href="classDroppedItem.html#ae6594be368c138341f8ee04f586af147">DroppedItem.MinPickupLife</a>)</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;                {</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;                    PhysicsDirectSpaceState State = GetWorld().DirectSpaceState;</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;                    Godot.Collections.Dictionary Results = State.IntersectRay(<a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>, Item.Translation, <span class="keyword">new</span> Godot.Collections.Array{<span class="keyword">this</span>}, 1);</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;                    <span class="keywordflow">if</span>(Results.Count &lt;= 0)</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;                        ToPickUpList.Add(Item);</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;                }</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;            }</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;            <span class="keywordflow">if</span>(ToPickUpList.Count &gt; 0)</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;            {</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;                SfxManager.FpPickup();</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;                <a class="code" href="classPlayer.html#aecdc42d5a359aec687e62a536e21d591">SetCooldown</a>(0, <a class="code" href="classPlayer.html#a51bf41341dbd95c45a24f75e2c9a5312">SlotSwitchCooldown</a>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                <span class="keywordflow">foreach</span>(<a class="code" href="classDroppedItem.html">DroppedItem</a> Item <span class="keywordflow">in</span> ToPickUpList)</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;                {</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;                    <span class="keywordflow">if</span>(<a class="code" href="classGame.html">Game</a>.<a class="code" href="classGame.html#a8fabb92a077015d3dac14460f8f36532">Mode</a>.<a class="code" href="classGamemode.html#a3d7709959c55749cd87ea894fdc22d30">ShouldPickupItem</a>(Item.<a class="code" href="classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c">Type</a>))</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;                    {</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;                        World.Self.RequestDroppedItem(Net.Work.GetNetworkUniqueId(), Item.GetName());</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;                        World.ItemList.Remove(Item);</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;                    }</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;                }</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;            }</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;        }</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;        <a class="code" href="classPlayer.html#afdac119610bf6045dee06e9ed18ff5d2">CurrentCooldown</a> = Clamp(<a class="code" href="classPlayer.html#afdac119610bf6045dee06e9ed18ff5d2">CurrentCooldown</a> + (100*Delta), 0, <a class="code" href="classPlayer.html#a27f511504b76f9a22f0733302556b08a">CurrentMaxCooldown</a>);</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;        <a class="code" href="classPlayer.html#a87c1e53706908ab6e4af3bf7d164cc62">RecoverPercentage</a> = Clamp(<a class="code" href="classPlayer.html#a87c1e53706908ab6e4af3bf7d164cc62">RecoverPercentage</a> + Delta*<a class="code" href="classPlayer.html#a27cdc203f83b608f7dee64d883a3bd83">RecoverSpeed</a>, 0, 1);</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a8042c5639c1f4f63e64fc196f9d485ad">JumpAxis</a> &gt; 0 &amp;&amp; IsOnFloor())</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;        {</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;            Momentum.y = <a class="code" href="classPlayer.html#a93e1c803723f5f12b5134c86a0502a49">JumpStartForce</a>;</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;            <a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;            <a class="code" href="classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf">HasJumped</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        }</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> &amp;&amp; !<a class="code" href="classPlayer.html#ab9e768c08a825e60fd8c99aae9b1e790">WasOnFloor</a>)</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;        {</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;            Momentum.y += <a class="code" href="classPlayer.html#a7e653f903ca9770902a5f523ca50ffd1">JumpContinueForce</a>*Delta;</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;            <a class="code" href="classPlayer.html#aa0cc9476a82ae73f63392e840023575f">JumpTimer</a> += Delta;</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#aa0cc9476a82ae73f63392e840023575f">JumpTimer</a> &gt;= <a class="code" href="classPlayer.html#aa06732cd3f6955f9c36de519ce4fd32f">MaxJumpLength</a>)</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;            {</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;                <a class="code" href="classPlayer.html#aa0cc9476a82ae73f63392e840023575f">JumpTimer</a> = 0;</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;                <a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;            }</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;        }</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> &amp;&amp; !<a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a>)</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;        {</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;            Momentum.y = Mathf.Clamp(Momentum.y - <a class="code" href="classPlayer.html#a036d88dc59eb68bd4c08208683bfef96">Gravity</a>*Delta, -<a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>, <a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>);</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;        }</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a> &amp;&amp; <a class="code" href="classPlayer.html#a8042c5639c1f4f63e64fc196f9d485ad">JumpAxis</a> &lt;= 0 &amp;&amp; !<a class="code" href="classPlayer.html#a79992b7d78e692089f4b921937193e05">IsCrouching</a>)</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;        {</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;            <span class="comment">//In flymode and jump is not being held</span></div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.y &gt; 0)</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            {</div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;                Momentum.y = Mathf.Clamp(Momentum.y - <a class="code" href="classPlayer.html#a894a3f15b5af81008d42e5f80d4da678">Friction</a>*Delta, 0, <a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>);</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;            }</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.y &lt; 0)</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;            {</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;                Momentum.y = Mathf.Clamp(Momentum.y + <a class="code" href="classPlayer.html#a894a3f15b5af81008d42e5f80d4da678">Friction</a>*Delta, -<a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>, 0);</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;            }</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        }</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        <span class="keywordflow">if</span>(IsOnFloor() &amp;&amp; !<a class="code" href="classPlayer.html#ab9e768c08a825e60fd8c99aae9b1e790">WasOnFloor</a> &amp;&amp; Abs(<a class="code" href="classPlayer.html#a380b565ee1fa38bf086fb2c6c7c82b87">LastMomentumY</a>) &gt; <a class="code" href="classPlayer.html#aa9fb8c67bf181b7aed7490b7a0dcfd69">SfxMinLandMomentumY</a>)</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;        {</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;            <span class="keywordtype">float</span> Volume = Abs(Clamp(<a class="code" href="classPlayer.html#a380b565ee1fa38bf086fb2c6c7c82b87">LastMomentumY</a>, -<a class="code" href="classPlayer.html#aa49ffbd37b2956afdc004cd8d3e4a0d8">MaxVerticalSpeed</a>, 0))/4 - 30;</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;            SfxManager.FpLand(Volume);</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        }</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        <a class="code" href="classPlayer.html#ab9e768c08a825e60fd8c99aae9b1e790">WasOnFloor</a> = IsOnFloor();</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classPlayer.html#acac5478896fc08c0da58ff9aa6514c08">IsJumping</a> &amp;&amp; (IsOnFloor() || <a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a>))</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;        {</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;            <span class="keywordtype">float</span> SpeedLimit = <a class="code" href="classPlayer.html#ad818f7e53af29b3c9cace678392d587f">BaseMovementSpeed</a>;</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad0c9b3b6fbd26878e93c2f6f196772e4">IsSprinting</a>)</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;            {</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;                SpeedLimit *= <a class="code" href="classPlayer.html#a7af9b0fa358e431600ab9ff20c825e39">SprintMultiplyer</a>;</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;            }</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;            <span class="keywordtype">float</span> X = 0, Z = 0;</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d">RightAxis</a> &gt; 0)</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;                X = -<a class="code" href="classPlayer.html#a9c135d11f60fd2d64f233e355a6ee534">RightSens</a>;</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d">RightAxis</a> &lt; 0)</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;                X = <a class="code" href="classPlayer.html#ab90c205f1c1a5cb64081b2d6d00a4dd2">LeftSens</a>;</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5">ForwardAxis</a> &gt; 0)</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;                Z = <a class="code" href="classPlayer.html#a97a080a05fd57146c3e777c48c1b3573">ForwardSens</a>;</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5">ForwardAxis</a> &lt; 0)</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;                Z = -<a class="code" href="classPlayer.html#ad38956b8cb2ca0547045f56e62eb897c">BackwardSens</a>;</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;            <span class="keywordtype">float</span> Speed = Momentum.Length();</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;            <span class="keywordflow">if</span>(Speed &gt; 0)</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;            {</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;                Speed = Clamp(Speed - <a class="code" href="classPlayer.html#a894a3f15b5af81008d42e5f80d4da678">Friction</a>*Delta, 0, Speed);</div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;                Vector3 HorzMomentum = <span class="keyword">new</span> Vector3(<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.x, 0, <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.z).Normalized() * Speed;</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;                Momentum.x = HorzMomentum.x;</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;                Momentum.z = HorzMomentum.z;</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;            }</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;            {</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;                Vector3 WishDir = ClampVec3(<span class="keyword">new</span> Vector3(X, 0, Z), 0, 1) * SpeedLimit;</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;                WishDir = WishDir.Rotated(<span class="keyword">new</span> Vector3(0,1,0), Deg2Rad(<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>));</div>
 <div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;                Momentum.x += WishDir.x;</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;                Momentum.z += WishDir.z;</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;            }</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;        }</div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;        {</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;            <span class="keywordtype">float</span> X = 0, Z = 0;</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d">RightAxis</a> &gt; 0)</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;                X = -<a class="code" href="classPlayer.html#a9c135d11f60fd2d64f233e355a6ee534">RightSens</a>;</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d">RightAxis</a> &lt; 0)</div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;                X = <a class="code" href="classPlayer.html#ab90c205f1c1a5cb64081b2d6d00a4dd2">LeftSens</a>;</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5">ForwardAxis</a> &gt; 0)</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;                Z = <a class="code" href="classPlayer.html#a97a080a05fd57146c3e777c48c1b3573">ForwardSens</a>;</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5">ForwardAxis</a> &lt; 0)</div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;                Z = -<a class="code" href="classPlayer.html#ad38956b8cb2ca0547045f56e62eb897c">BackwardSens</a>;</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;            Vector3 WishDir = <span class="keyword">new</span> Vector3(X, 0, Z);</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;            WishDir = WishDir.Rotated(<span class="keyword">new</span> Vector3(0,1,0), Deg2Rad(<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>)) * <a class="code" href="classPlayer.html#a87c1e53706908ab6e4af3bf7d164cc62">RecoverPercentage</a>;</div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;            <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a> = <a class="code" href="classPlayer.html#a5aba1eb2c3a5238a1ccd2b49ec7989d9">AirAccelerate</a>(Momentum, WishDir, Delta);</div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;        }</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;        <a class="code" href="classPlayer.html#a380b565ee1fa38bf086fb2c6c7c82b87">LastMomentumY</a> = Momentum.y;</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;</div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;        Vector3 OldPos = <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>;</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a>)</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;        {</div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;            Vector3 FlatVel = <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>;</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;            FlatVel.y = 0;</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;            MoveAndSlide(FlatVel</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;                         .Rotated(<span class="keyword">new</span> Vector3(0,1,0), Mathf.Deg2Rad(LoopRotation(-<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>)))</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;                         .Rotated(<span class="keyword">new</span> Vector3(1,0,0), Mathf.Deg2Rad(LoopRotation(-<a class="code" href="classPlayer.html#a4248bd33d63e58f75a47ad88ed2a22f0">LookVertical</a>)))</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;                         .Rotated(<span class="keyword">new</span> Vector3(0,1,0), Mathf.Deg2Rad(LoopRotation(<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>))),</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;                         <span class="keyword">new</span> Vector3(0,1,0), <span class="keyword">true</span>, 100, Mathf.Deg2Rad(60));</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;            MoveAndSlide(<span class="keyword">new</span> Vector3(0,<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.y,0).Rotated(<span class="keyword">new</span> Vector3(0,1,0), Mathf.Deg2Rad(<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>)), <span class="keyword">new</span> Vector3(0,1,0), <span class="keyword">true</span>, 100, Mathf.Deg2Rad(60))</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                .Rotated(<span class="keyword">new</span> Vector3(0,1,0), Mathf.Deg2Rad(LoopRotation(-<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>)));</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;        }</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        {</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;            <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a> = MoveAndSlide(<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>, <span class="keyword">new</span> Vector3(0,1,0), <span class="keyword">true</span>, 100, Mathf.Deg2Rad(60));</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;            <span class="keywordflow">if</span>(GetSlideCount() &gt; 0)</div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;            {</div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;                Game.Mode.OnPlayerCollide(GetSlideCollision(0));</div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;            }</div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a8042c5639c1f4f63e64fc196f9d485ad">JumpAxis</a> &gt; 0 &amp;&amp; !<a class="code" href="classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf">HasJumped</a> &amp;&amp; IsOnWall() &amp;&amp; GetSlideCount() &gt; 0 &amp;&amp; Game.Mode.ShouldWallKick())</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;            {</div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;                <a class="code" href="classPlayer.html#a87c1e53706908ab6e4af3bf7d164cc62">RecoverPercentage</a> = 0;</div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;                <a class="code" href="classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf">HasJumped</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;</div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;                <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a> += <a class="code" href="classPlayer.html#a262b8462c7a9248d62a0604b83ff19a2">WallKickHorzontalForce</a> * GetSlideCollision(0).Normal;</div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;                Momentum.y = <a class="code" href="classPlayer.html#a76aceddd904d3f32a69c430b26441bb7">WallKickJumpForce</a>;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;                <span class="keywordtype">float</span> Multiplyer = Clamp(SpeedLimit - <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.Flattened().Length(), 0, SpeedLimit) / SpeedLimit;</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;                WishDir *= Multiplyer;</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;                Momentum.x += WishDir.x;</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;                Momentum.z += WishDir.z;</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;            }</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;        }</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;        {</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;            <span class="keywordtype">float</span> X = 0, Z = 0;</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d">RightAxis</a> &gt; 0)</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;                X = -<a class="code" href="classPlayer.html#a9c135d11f60fd2d64f233e355a6ee534">RightSens</a>;</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d">RightAxis</a> &lt; 0)</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;                X = <a class="code" href="classPlayer.html#ab90c205f1c1a5cb64081b2d6d00a4dd2">LeftSens</a>;</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5">ForwardAxis</a> &gt; 0)</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;                Z = <a class="code" href="classPlayer.html#a97a080a05fd57146c3e777c48c1b3573">ForwardSens</a>;</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5">ForwardAxis</a> &lt; 0)</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;                Z = -<a class="code" href="classPlayer.html#ad38956b8cb2ca0547045f56e62eb897c">BackwardSens</a>;</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;</div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;            Vector3 WishDir = <span class="keyword">new</span> Vector3(X, 0, Z);</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;            WishDir = WishDir.Rotated(<span class="keyword">new</span> Vector3(0,1,0), Deg2Rad(<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>)) * <a class="code" href="classPlayer.html#a87c1e53706908ab6e4af3bf7d164cc62">RecoverPercentage</a>;</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;            <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a> = <a class="code" href="classPlayer.html#a5aba1eb2c3a5238a1ccd2b49ec7989d9">AirAccelerate</a>(Momentum, WishDir, Delta);</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;        }</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;        <a class="code" href="classPlayer.html#a380b565ee1fa38bf086fb2c6c7c82b87">LastMomentumY</a> = Momentum.y;</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;        Vector3 OldPos = <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>;</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a>)</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;        {</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;            Vector3 FlatVel = <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>;</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;            FlatVel.y = 0;</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;            MoveAndSlide(FlatVel</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;                         .Rotated(<span class="keyword">new</span> Vector3(0,1,0), Mathf.Deg2Rad(LoopRotation(-<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>)))</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;                         .Rotated(<span class="keyword">new</span> Vector3(1,0,0), Mathf.Deg2Rad(LoopRotation(-<a class="code" href="classPlayer.html#a4248bd33d63e58f75a47ad88ed2a22f0">LookVertical</a>)))</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;                         .Rotated(<span class="keyword">new</span> Vector3(0,1,0), Mathf.Deg2Rad(LoopRotation(<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>))),</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                         <span class="keyword">new</span> Vector3(0,1,0), <span class="keyword">true</span>, 100, Mathf.Deg2Rad(60));</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;            MoveAndSlide(<span class="keyword">new</span> Vector3(0,<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>.y,0).Rotated(<span class="keyword">new</span> Vector3(0,1,0), Mathf.Deg2Rad(<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>)), <span class="keyword">new</span> Vector3(0,1,0), <span class="keyword">true</span>, 100, Mathf.Deg2Rad(60))</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;                .Rotated(<span class="keyword">new</span> Vector3(0,1,0), Mathf.Deg2Rad(LoopRotation(-<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>)));</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;        }</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;        {</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;            <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a> = MoveAndSlide(<a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a>, <span class="keyword">new</span> Vector3(0,1,0), <span class="keyword">true</span>, 100, Mathf.Deg2Rad(60));</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;            <span class="keywordflow">if</span>(GetSlideCount() &gt; 0)</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;            {</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;                Game.Mode.OnPlayerCollide(GetSlideCollision(0));</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;            }</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;</div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classPlayer.html#a8042c5639c1f4f63e64fc196f9d485ad">JumpAxis</a> &gt; 0 &amp;&amp; !<a class="code" href="classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf">HasJumped</a> &amp;&amp; IsOnWall() &amp;&amp; GetSlideCount() &gt; 0 &amp;&amp; Game.Mode.ShouldWallKick())</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;            {</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;                <a class="code" href="classPlayer.html#a87c1e53706908ab6e4af3bf7d164cc62">RecoverPercentage</a> = 0;</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;                <a class="code" href="classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf">HasJumped</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;</div>
-<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;                SfxManager.FpWallKick();</div>
-<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;            }</div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;        }</div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;        Vector3 NewPos = <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>;</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;        <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a> = OldPos;</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;        <span class="keywordflow">if</span>(NewPos != OldPos)</div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;        {</div>
-<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classGame.html">Game</a>.<a class="code" href="classGame.html#a8fabb92a077015d3dac14460f8f36532">Mode</a>.<a class="code" href="classGamemode.html#a25ee42c135457544e9551c70b7ebea77">ShouldPlayerMove</a>(NewPos))</div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;            {</div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;                <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a> = NewPos;</div>
-<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;            }</div>
-<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;        }</div>
-<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;</div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a> &amp;&amp; IsOnFloor() &amp;&amp; Momentum.y &lt;= 0f)</div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;        {</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;            Momentum.y = -1f;</div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;        }</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;        Net.SteelRpcUnreliable(<span class="keyword">this</span>, nameof(<a class="code" href="classPlayer.html#ac651dee0e80d1fe60fc9cafda72e5710">Update</a>), <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>, RotationDegrees);</div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classWorld.html">World</a>.<a class="code" href="classWorld.html#a8e28a7ce76cf6c242e81790ac4c7ad47">GetChunkTuple</a>(Translation).Equals(<a class="code" href="classPlayer.html#aa36f605a9c1de629f607962cf6154e3f">CurrentChunk</a>))</div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;        {</div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;            <a class="code" href="classPlayer.html#aa36f605a9c1de629f607962cf6154e3f">CurrentChunk</a> = World.GetChunkTuple(<a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>);</div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;            Net.UnloadAndRequestChunks();</div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;        }</div>
-<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;    }</div>
-<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;</div>
-<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;</div>
-<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;    [Remote]</div>
-<div class="line"><a name="l00834"></a><span class="lineno"><a class="line" href="classPlayer.html#ac651dee0e80d1fe60fc9cafda72e5710">  834</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classPlayer.html#ac651dee0e80d1fe60fc9cafda72e5710">Update</a>(Vector3 Position, Vector3 Rotation)</div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;    {</div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classGame.html">Game</a>.<a class="code" href="classGame.html#a8fabb92a077015d3dac14460f8f36532">Mode</a>.<a class="code" href="classGamemode.html#ab83e8c906b405e0377c9004e5ce9da1f">ShouldSyncRemotePlayerPosition</a>(<a class="code" href="classPlayer.html#ae8b62f5f01eef62c98db37b5efa8215b">Id</a>, Position))</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;        {</div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;            <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a> = Position;</div>
-<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;        }</div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;</div>
-<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classGame.html">Game</a>.<a class="code" href="classGame.html#a8fabb92a077015d3dac14460f8f36532">Mode</a>.<a class="code" href="classGamemode.html#a2d76937dbf99443536426b6bf0d107a1">ShouldSyncRemotePlayerRotation</a>(<a class="code" href="classPlayer.html#ae8b62f5f01eef62c98db37b5efa8215b">Id</a>, Rotation))</div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;        {</div>
-<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;            RotationDegrees = Rotation;</div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;        }</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;    }</div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;}</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;                <a class="code" href="classPlayer.html#ac03ec8b9fab4448468e0ecfe669d2cbc">Momentum</a> += <a class="code" href="classPlayer.html#a262b8462c7a9248d62a0604b83ff19a2">WallKickHorzontalForce</a> * GetSlideCollision(0).Normal;</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;                Momentum.y = <a class="code" href="classPlayer.html#a76aceddd904d3f32a69c430b26441bb7">WallKickJumpForce</a>;</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;                SfxManager.FpWallKick();</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;            }</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;        }</div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;        Vector3 NewPos = <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>;</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;        <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a> = OldPos;</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;        <span class="keywordflow">if</span>(NewPos != OldPos)</div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;        {</div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="classGame.html">Game</a>.<a class="code" href="classGame.html#a8fabb92a077015d3dac14460f8f36532">Mode</a>.<a class="code" href="classGamemode.html#a25ee42c135457544e9551c70b7ebea77">ShouldPlayerMove</a>(NewPos))</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;            {</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;                <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a> = NewPos;</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;            }</div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;        }</div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;</div>
+<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classPlayer.html#abceda65c999f3787d043092ac74833c7">FlyMode</a> &amp;&amp; IsOnFloor() &amp;&amp; Momentum.y &lt;= 0f)</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;        {</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;            Momentum.y = -1f;</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;        }</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;        Net.SteelRpcUnreliable(<span class="keyword">this</span>, nameof(<a class="code" href="classPlayer.html#ac651dee0e80d1fe60fc9cafda72e5710">Update</a>), <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>, RotationDegrees);</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="classWorld.html">World</a>.<a class="code" href="classWorld.html#a8e28a7ce76cf6c242e81790ac4c7ad47">GetChunkTuple</a>(Translation).Equals(<a class="code" href="classPlayer.html#aa36f605a9c1de629f607962cf6154e3f">CurrentChunk</a>))</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;        {</div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;            <a class="code" href="classPlayer.html#aa36f605a9c1de629f607962cf6154e3f">CurrentChunk</a> = World.GetChunkTuple(<a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a>);</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;            Net.UnloadAndRequestChunks();</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;        }</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;    }</div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;    [Remote]</div>
+<div class="line"><a name="l00837"></a><span class="lineno"><a class="line" href="classPlayer.html#ac651dee0e80d1fe60fc9cafda72e5710">  837</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="classPlayer.html#ac651dee0e80d1fe60fc9cafda72e5710">Update</a>(Vector3 Position, Vector3 Rotation)</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;    {</div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classGame.html">Game</a>.<a class="code" href="classGame.html#a8fabb92a077015d3dac14460f8f36532">Mode</a>.<a class="code" href="classGamemode.html#ab83e8c906b405e0377c9004e5ce9da1f">ShouldSyncRemotePlayerPosition</a>(<a class="code" href="classPlayer.html#ae8b62f5f01eef62c98db37b5efa8215b">Id</a>, Position))</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;        {</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;            <a class="code" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a> = Position;</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;        }</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="classGame.html">Game</a>.<a class="code" href="classGame.html#a8fabb92a077015d3dac14460f8f36532">Mode</a>.<a class="code" href="classGamemode.html#a2d76937dbf99443536426b6bf0d107a1">ShouldSyncRemotePlayerRotation</a>(<a class="code" href="classPlayer.html#ae8b62f5f01eef62c98db37b5efa8215b">Id</a>, Rotation))</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;        {</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;            RotationDegrees = Rotation;</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;        }</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;    }</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;}</div>
 <div class="ttc" id="classPlayer_html_a332209051f5c687b04f9922890120a29"><div class="ttname"><a href="classPlayer.html#a332209051f5c687b04f9922890120a29">Player.HUDInstance</a></div><div class="ttdeci">HUD HUDInstance</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00081">Player.cs:81</a></div></div>
 <div class="ttc" id="classPlayer_html_a8187a9fc8791d7c392bd876026db0728"><div class="ttname"><a href="classPlayer.html#a8187a9fc8791d7c392bd876026db0728">Player.BuildRotation</a></div><div class="ttdeci">int BuildRotation</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00075">Player.cs:75</a></div></div>
 <div class="ttc" id="classPlayer_html_a81d7c10580f7dfc28f841f02f8ee584b"><div class="ttname"><a href="classPlayer.html#a81d7c10580f7dfc28f841f02f8ee584b">Player.InventoryUp</a></div><div class="ttdeci">void InventoryUp()</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00225">Player.cs:225</a></div></div>
@@ -1053,14 +1056,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classGamemode_html_a6e6e30f5b8eb7165f4bbeb43a14e5c73"><div class="ttname"><a href="classGamemode.html#a6e6e30f5b8eb7165f4bbeb43a14e5c73">Gamemode.ShouldJump</a></div><div class="ttdeci">virtual bool ShouldJump()</div><div class="ttdef"><b>Definition:</b> <a href="Gamemode_8cs_source.html#l00056">Gamemode.cs:56</a></div></div>
 <div class="ttc" id="classGamemode_html_a2d76937dbf99443536426b6bf0d107a1"><div class="ttname"><a href="classGamemode.html#a2d76937dbf99443536426b6bf0d107a1">Gamemode.ShouldSyncRemotePlayerRotation</a></div><div class="ttdeci">virtual bool ShouldSyncRemotePlayerRotation(int PeerId, Vector3 Position)</div><div class="ttdef"><b>Definition:</b> <a href="Gamemode_8cs_source.html#l00116">Gamemode.cs:116</a></div></div>
 <div class="ttc" id="classPlayerSfxManager_html"><div class="ttname"><a href="classPlayerSfxManager.html">PlayerSfxManager</a></div><div class="ttdef"><b>Definition:</b> <a href="PlayerSfxManager_8cs_source.html#l00004">PlayerSfxManager.cs:4</a></div></div>
-<div class="ttc" id="classPlayer_html_af1fd6167696c0c13d549edf825cad6d8"><div class="ttname"><a href="classPlayer.html#af1fd6167696c0c13d549edf825cad6d8">Player._PhysicsProcess</a></div><div class="ttdeci">override void _PhysicsProcess(float Delta)</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00636">Player.cs:636</a></div></div>
+<div class="ttc" id="classPlayer_html_af1fd6167696c0c13d549edf825cad6d8"><div class="ttname"><a href="classPlayer.html#af1fd6167696c0c13d549edf825cad6d8">Player._PhysicsProcess</a></div><div class="ttdeci">override void _PhysicsProcess(float Delta)</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00637">Player.cs:637</a></div></div>
 <div class="ttc" id="classPlayer_html_a4216fab6e9ebf943310864b944967cbc"><div class="ttname"><a href="classPlayer.html#a4216fab6e9ebf943310864b944967cbc">Player.SecondaryFire</a></div><div class="ttdeci">void SecondaryFire(float Sens)</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00576">Player.cs:576</a></div></div>
 <div class="ttc" id="classGamemode_html_af9c2f87278fc379c1d9777a40d268349"><div class="ttname"><a href="classGamemode.html#af9c2f87278fc379c1d9777a40d268349">Gamemode.ShouldMovementReset</a></div><div class="ttdeci">virtual bool ShouldMovementReset()</div><div class="ttdef"><b>Definition:</b> <a href="Gamemode_8cs_source.html#l00092">Gamemode.cs:92</a></div></div>
 <div class="ttc" id="classGhost_html_aac43ffc4b9f7be8713f5302d3222fe00"><div class="ttname"><a href="classGhost.html#aac43ffc4b9f7be8713f5302d3222fe00">Ghost.CurrentMeshType</a></div><div class="ttdeci">Items.ID CurrentMeshType</div><div class="ttdef"><b>Definition:</b> <a href="Ghost_8cs_source.html#l00011">Ghost.cs:11</a></div></div>
 <div class="ttc" id="classPlayer_html_a586d83e2ac46eb3f080884ff1aff787d"><div class="ttname"><a href="classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d">Player.RightAxis</a></div><div class="ttdeci">int RightAxis</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00043">Player.cs:43</a></div></div>
 <div class="ttc" id="classPlayer_html_abceda65c999f3787d043092ac74833c7"><div class="ttname"><a href="classPlayer.html#abceda65c999f3787d043092ac74833c7">Player.FlyMode</a></div><div class="ttdeci">bool FlyMode</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00038">Player.cs:38</a></div></div>
 <div class="ttc" id="classPlayer_html_afba22011adb6b3eb7030056845adc62d"><div class="ttname"><a href="classPlayer.html#afba22011adb6b3eb7030056845adc62d">Player.Inventory</a></div><div class="ttdeci">Items.Instance[] Inventory</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00072">Player.cs:72</a></div></div>
-<div class="ttc" id="classPlayer_html_a5aba1eb2c3a5238a1ccd2b49ec7989d9"><div class="ttname"><a href="classPlayer.html#a5aba1eb2c3a5238a1ccd2b49ec7989d9">Player.AirAccelerate</a></div><div class="ttdeci">Vector3 AirAccelerate(Vector3 Vel, Vector3 WishDir, float Delta)</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00626">Player.cs:626</a></div></div>
+<div class="ttc" id="classPlayer_html_a5aba1eb2c3a5238a1ccd2b49ec7989d9"><div class="ttname"><a href="classPlayer.html#a5aba1eb2c3a5238a1ccd2b49ec7989d9">Player.AirAccelerate</a></div><div class="ttdeci">Vector3 AirAccelerate(Vector3 Vel, Vector3 WishDir, float Delta)</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00627">Player.cs:627</a></div></div>
 <div class="ttc" id="interfaceIPushable_html"><div class="ttname"><a href="interfaceIPushable.html">IPushable</a></div><div class="ttdef"><b>Definition:</b> <a href="IPushable_8cs_source.html#l00004">IPushable.cs:4</a></div></div>
 <div class="ttc" id="classPlayer_html_a942848473c33991c56984bc8fb72aac1"><div class="ttname"><a href="classPlayer.html#a942848473c33991c56984bc8fb72aac1">Player.BuildingCooldown</a></div><div class="ttdeci">float BuildingCooldown</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00032">Player.cs:32</a></div></div>
 <div class="ttc" id="classPlayer_html_aa36f605a9c1de629f607962cf6154e3f"><div class="ttname"><a href="classPlayer.html#aa36f605a9c1de629f607962cf6154e3f">Player.CurrentChunk</a></div><div class="ttdeci">System.Tuple&lt; int, int &gt; CurrentChunk</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00040">Player.cs:40</a></div></div>
@@ -1076,7 +1079,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="ttc" id="classPlayer_html_a7af9b0fa358e431600ab9ff20c825e39"><div class="ttname"><a href="classPlayer.html#a7af9b0fa358e431600ab9ff20c825e39">Player.SprintMultiplyer</a></div><div class="ttdeci">float SprintMultiplyer</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00014">Player.cs:14</a></div></div>
 <div class="ttc" id="classPlayer_html_ab90c205f1c1a5cb64081b2d6d00a4dd2"><div class="ttname"><a href="classPlayer.html#ab90c205f1c1a5cb64081b2d6d00a4dd2">Player.LeftSens</a></div><div class="ttdeci">float LeftSens</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00049">Player.cs:49</a></div></div>
 <div class="ttc" id="classPlayer_html_abc4d2a0f6ffeafb8c50912261538f8aa"><div class="ttname"><a href="classPlayer.html#abc4d2a0f6ffeafb8c50912261538f8aa">Player.InventorySlot8</a></div><div class="ttdeci">void InventorySlot8()</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00279">Player.cs:279</a></div></div>
-<div class="ttc" id="classPlayer_html_ac651dee0e80d1fe60fc9cafda72e5710"><div class="ttname"><a href="classPlayer.html#ac651dee0e80d1fe60fc9cafda72e5710">Player.Update</a></div><div class="ttdeci">void Update(Vector3 Position, Vector3 Rotation)</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00834">Player.cs:834</a></div></div>
+<div class="ttc" id="classPlayer_html_ac651dee0e80d1fe60fc9cafda72e5710"><div class="ttname"><a href="classPlayer.html#ac651dee0e80d1fe60fc9cafda72e5710">Player.Update</a></div><div class="ttdeci">void Update(Vector3 Position, Vector3 Rotation)</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00837">Player.cs:837</a></div></div>
 <div class="ttc" id="classPlayer_html_a0aa8f47fa4e02bf730ea27a0bffcf9bf"><div class="ttname"><a href="classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf">Player.HasJumped</a></div><div class="ttdeci">bool HasJumped</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00056">Player.cs:56</a></div></div>
 <div class="ttc" id="classPlayer_html_aecdc42d5a359aec687e62a536e21d591"><div class="ttname"><a href="classPlayer.html#aecdc42d5a359aec687e62a536e21d591">Player.SetCooldown</a></div><div class="ttdeci">void SetCooldown(float NewCooldown, float NewMaxCooldown, bool NewPreventSwitch)</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00210">Player.cs:210</a></div></div>
 <div class="ttc" id="classPlayer_html_a4248bd33d63e58f75a47ad88ed2a22f0"><div class="ttname"><a href="classPlayer.html#a4248bd33d63e58f75a47ad88ed2a22f0">Player.LookVertical</a></div><div class="ttdeci">float LookVertical</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00063">Player.cs:63</a></div></div>
