@@ -12,6 +12,7 @@ week so lets get right into it!
 
 <br>
 <br>
+<br>
 
 
 ## SkyOfSteel mentioned in latest Godot devblog
@@ -20,6 +21,7 @@ front and center! You can go give it a read
 [here](https://godotengine.org/article/csharp-android-support).
 
 
+<br>
 <br>
 <br>
 
@@ -35,12 +37,14 @@ front and center! You can go give it a read
 
 <br>
 
-If you enjoy SkyOfSteel please consider rating it on Itch, giving it a
-review, and sharing it with your friends! The best way for any indie
-game to grow is through word of mouth so any help on that from is
-greatly appreciated!
+If you enjoy SkyOfSteel please consider rating it on
+[Itch](https://forloveofcats.itch.io/skyofsteel), giving it a review,
+and sharing it with your friends! The best way for any indie game to
+grow is through word of mouth so any help on that from is greatly
+appreciated!
 
 
+<br>
 <br>
 <br>
 
@@ -64,6 +68,7 @@ movement input respectively.
 
 <br>
 <br>
+<br>
 
 
 ## Rocket jumping improvements
@@ -84,6 +89,7 @@ player when a rocket explodes.
 
 <br>
 <br>
+<br>
 
 
 ## Added ground pound
@@ -96,6 +102,7 @@ highly WIP and explorative.
 
 <br>
 <br>
+<br>
 
 
 
@@ -104,6 +111,7 @@ This is for the FPS combat coming soon as it allows the player to
 provide a better target for shooting.
 
 
+<br>
 <br>
 <br>
 
@@ -125,6 +133,7 @@ Your browser does not support the video tag.
 
 <br>
 <br>
+<br>
 
 
 ## Refactored build system and general item information lookup
@@ -139,6 +148,7 @@ triangle walls to be placed intersecting. This has been fixed.
 ![Picture of a wall blocking a triangle wall](NewPlayerModel/WallInWall.png)
 
 
+<br>
 <br>
 <br>
 
@@ -157,6 +167,7 @@ invaliable when redesigning the rocket collision.
 
 <br>
 <br>
+<br>
 
 
 ## Focuses for finishing up 0.1.4
@@ -169,6 +180,7 @@ release ;)
 
 <br>
 <br>
+<br>
 
 
 ## And now a message from our sponsor, YOU!
@@ -178,10 +190,20 @@ SkyOfSteel and value my work, any support on
 appreciated. If you cannot help to support me financially or do not
 wish to, thank you anyway for your support and interest!
 
+
 <br>
+<br>
+<br>
+
 
 # Remember to rate on Itch, share with your friends, and until next time, Cheers!
 
+<br>
+
+<iframe src="https://itch.io/embed/372880?linkback=true&amp;border_width=5&amp;bg_color=77b0ff&amp;fg_color=000000&amp;link_color=14e500&amp;border_color=4c4c56"
+			  width="800" height="175" frameborder="0"></iframe>
+
+<br>
 <br>
 <br>
 <br>
