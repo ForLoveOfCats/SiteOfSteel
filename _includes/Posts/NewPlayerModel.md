@@ -73,7 +73,7 @@ movement input respectively.
 
 ## Rocket jumping improvements
 I've improved the functionality and feel of rocket jumping
-conciderably. Previously the rocket would pass through the surface it
+considerably. Previously the rocket would pass through the surface it
 hit before exploding. Because of this it was not as reliable as I
 would have liked and in addition prevented me from adding a check to
 prevent pushing items and players through surfaces. I've fixed this
@@ -161,7 +161,7 @@ triangle walls to be placed intersecting. This has been fixed.
 
 <br>
 
-This is a simple way to visual 3d positions when debugging. It proved
+This is a simple way to visualize 3d positions when debugging. It proved
 invaliable when redesigning the rocket collision.
 
 
@@ -174,7 +174,7 @@ invaliable when redesigning the rocket collision.
 Over the next week I intend to wrap up the new player model with more
 texture work as well as adding head and leg movement before adding in
 the first hitscan firearm! That's right, a major forcus of next week
-is to get FPS combat implimented. 0.1.4 is shaping up to be a great
+is to get FPS combat implemented. 0.1.4 is shaping up to be a great
 release ;)
 
 
