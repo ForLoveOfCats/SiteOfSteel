@@ -40,7 +40,7 @@ front and center! You can go give it a read
 If you enjoy SkyOfSteel please consider rating it on
 [Itch](https://forloveofcats.itch.io/skyofsteel), giving it a review,
 and sharing it with your friends! The best way for any indie game to
-grow is through word of mouth so any help on that from is greatly
+grow is through word of mouth so any help on that front is greatly
 appreciated!
 
 
