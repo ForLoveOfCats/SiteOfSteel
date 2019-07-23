@@ -117,18 +117,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classHitscan.html#ae2fdad260018f7fd72b1b6d6631514ac">   27</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="classHitscan.html#ae2fdad260018f7fd72b1b6d6631514ac">Fire</a>(<span class="keywordtype">float</span> VerticalRecoil, <span class="keywordtype">float</span> HorizontalRecoil)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        GD.Print(<span class="stringliteral">&quot;Hitscan.Fire&quot;</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        Assert(<a class="code" href="classHitscan.html#a9ee4a22e1a0ef1c279b05634b2c62abb">NextRecoilDirection</a> == 1 || <a class="code" href="classHitscan.html#a9ee4a22e1a0ef1c279b05634b2c62abb">NextRecoilDirection</a> == -1);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        Assert(<a class="code" href="classHitscan.html#a9ee4a22e1a0ef1c279b05634b2c62abb">NextRecoilDirection</a> == 1 || <a class="code" href="classHitscan.html#a9ee4a22e1a0ef1c279b05634b2c62abb">NextRecoilDirection</a> == -1);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="classPlayer.html">Player</a> Plr = <a class="code" href="classGame.html#a657fc98ebb4b162ff245dc672a1c5307">Game.PossessedPlayer</a>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        Plr.ApplyLookVertical(VerticalRecoil);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        Plr.LookHorizontal -= HorizontalRecoil*<a class="code" href="classHitscan.html#a9ee4a22e1a0ef1c279b05634b2c62abb">NextRecoilDirection</a>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        Plr.SetRotationDegrees(<span class="keyword">new</span> Vector3(0, Plr.<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>, 0));</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        NextRecoilDirection *= -1;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="classPlayer.html">Player</a> Plr = <a class="code" href="classGame.html#a657fc98ebb4b162ff245dc672a1c5307">Game.PossessedPlayer</a>;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        Plr.ApplyLookVertical(VerticalRecoil);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        Plr.LookHorizontal -= HorizontalRecoil*<a class="code" href="classHitscan.html#a9ee4a22e1a0ef1c279b05634b2c62abb">NextRecoilDirection</a>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        Plr.SetRotationDegrees(<span class="keyword">new</span> Vector3(0, Plr.<a class="code" href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">LookHorizontal</a>, 0));</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        NextRecoilDirection *= -1;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
 <div class="ttc" id="classGame_html_a657fc98ebb4b162ff245dc672a1c5307"><div class="ttname"><a href="classGame.html#a657fc98ebb4b162ff245dc672a1c5307">Game.PossessedPlayer</a></div><div class="ttdeci">static Player PossessedPlayer</div><div class="ttdef"><b>Definition:</b> <a href="Game_8cs_source.html#l00015">Game.cs:15</a></div></div>
 <div class="ttc" id="classHitscan_html"><div class="ttname"><a href="classHitscan.html">Hitscan</a></div><div class="ttdef"><b>Definition:</b> <a href="Hitscan_8cs_source.html#l00005">Hitscan.cs:5</a></div></div>
 <div class="ttc" id="classPlayer_html_a648b8dc110677287f624c875ebc48e9c"><div class="ttname"><a href="classPlayer.html#a648b8dc110677287f624c875ebc48e9c">Player.LookHorizontal</a></div><div class="ttdeci">float LookHorizontal</div><div class="ttdef"><b>Definition:</b> <a href="Player_8cs_source.html#l00062">Player.cs:62</a></div></div>
