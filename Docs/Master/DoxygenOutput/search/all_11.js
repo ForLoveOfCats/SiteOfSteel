@@ -24,7 +24,7 @@ var searchData=
   ['requestdroppeditem',['RequestDroppedItem',['../classWorld.html#a381f572b7408eefaf8e7247f909a0ce5',1,'World']]],
   ['requestgmload',['RequestGmLoad',['../classScripting.html#a6e5f98645ee157d62e7082cb483881d7',1,'Scripting']]],
   ['requestgmunload',['RequestGmUnload',['../classScripting.html#a6e576d1afe6661807b9c73f6fb264563',1,'Scripting']]],
-  ['reset',['Reset',['../classMenu.html#a0b7ee91c82cf1aaf5eceea6ff62fb541',1,'Menu.Reset()'],['../classHitscan.html#a66338a7061bea50d538812bb73452197',1,'Hitscan.Reset()']]],
+  ['reset',['Reset',['../classHitscan.html#a66338a7061bea50d538812bb73452197',1,'Hitscan.Reset()'],['../classMenu.html#a0b7ee91c82cf1aaf5eceea6ff62fb541',1,'Menu.Reset()']]],
   ['resetselectedsave',['ResetSelectedSave',['../classHostMenu.html#a6d0b9adbecad158a212ae60c7179929a',1,'HostMenu']]],
   ['resetslotsvbox',['ResetSlotsVBox',['../classHostMenu.html#ad3dba43f531641d82cc7bd00873f7b57',1,'HostMenu']]],
   ['returnpressed',['ReturnPressed',['../classPauseMenu.html#aa613cb3284324c6877dac14c28ddb45e',1,'PauseMenu']]],
