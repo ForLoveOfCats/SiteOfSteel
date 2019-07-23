@@ -7,6 +7,7 @@ var searchData=
   ['netremove',['NetRemove',['../classTile.html#a8a9bfc50db9c24cbfa98d1f84e19b3dd',1,'Tile']]],
   ['newcustomitemenum',['NewCustomItemEnum',['../classItems.html#a6a0a4f4abb410fcef800127ef2ca0032',1,'Items']]],
   ['newpressed',['NewPressed',['../classHostMenu.html#a5ff8318be73e137a5fce7ee87c0c6243',1,'HostMenu']]],
+  ['nextrecoildirection',['NextRecoilDirection',['../classHitscan.html#a9ee4a22e1a0ef1c279b05634b2c62abb',1,'Hitscan']]],
   ['nextspot',['NextSpot',['../structItems_1_1CustomItemEnum.html#a1a861970f6d670fcdbe2af2c15c20823',1,'Items::CustomItemEnum']]],
   ['nick',['Nick',['../classMenu.html#a9ab9e8029418db931966d7b1b49e60be',1,'Menu']]],
   ['nicklabellayer',['NickLabelLayer',['../classHUD.html#a3be891433f21adab54f3394f1075163c',1,'HUD']]],
