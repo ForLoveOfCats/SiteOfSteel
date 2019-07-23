@@ -12,7 +12,6 @@ var searchData=
   ['bindingswitharg',['BindingsWithArg',['../classBindings.html#a3df4046be4d10b9afdf0655aaa5ac0ad',1,'Bindings']]],
   ['bindingswithoutarg',['BindingsWithoutArg',['../classBindings.html#a2eac57675cdaf45dcf9b394ddffc9449',1,'Bindings']]],
   ['bindsenabled',['BindsEnabled',['../classGame.html#ab1cc3ceac9b0e2c1b42b4cf3c4f0660f',1,'Game']]],
-  ['buildable',['BUILDABLE',['../classItems.html#a76f20ab3ea0745d32edfbf224fbb8de3acf929af6b34366e303f51acfec4eb7be',1,'Items']]],
   ['buildconnect',['BuildConnect',['../classMenu.html#adf1a9a1b15063f62974a714f6fdb00ed',1,'Menu']]],
   ['buildcredits',['BuildCredits',['../classMenu.html#a9734a321f0db99467aec416e45f34d76',1,'Menu']]],
   ['buildhelp',['BuildHelp',['../classMenu.html#a5a0b784e7255367f513d34b3042cce66',1,'Menu']]],

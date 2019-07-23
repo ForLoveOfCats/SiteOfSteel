@@ -9,7 +9,6 @@ var searchData=
   ['update',['Update',['../classMenu.html#ae0f2050064fcfe85d12add6e4f861292',1,'Menu.Update()'],['../classPlayer.html#ac651dee0e80d1fe60fc9cafda72e5710',1,'Player.Update()']]],
   ['updatemenu',['UpdateMenu',['../classUpdateMenu.html',1,'']]],
   ['updatemenu_2ecs',['UpdateMenu.cs',['../UpdateMenu_8cs.html',1,'']]],
-  ['usable',['USABLE',['../classItems.html#a76f20ab3ea0745d32edfbf224fbb8de3a17a30f4986aa89ca9675d255091d4546',1,'Items']]],
   ['usedelegate',['UseDelegate',['../structItems_1_1IdInfo.html#a1bec42d513e848c1135f6a35c47274c4',1,'Items::IdInfo']]],
   ['usedelegates',['UseDelegates',['../classItems.html#aa4838350e0b5fb1867ae2c4f88b2f79f',1,'Items']]],
   ['useitem',['UseItem',['../classItems.html#a00b58366a9fe755cb62a173fa188a850',1,'Items']]],
