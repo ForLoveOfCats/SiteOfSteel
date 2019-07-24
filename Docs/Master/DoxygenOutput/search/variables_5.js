@@ -8,6 +8,7 @@ var searchData=
   ['fprocketfiresfx',['FpRocketFireSfx',['../classPlayerSfxManager.html#a65a61d6ed923bd269a473904f50a55be',1,'PlayerSfxManager']]],
   ['fpslabel',['FPSLabel',['../classHUD.html#ae2d67215a1ca8ee4a50c4f6fbdb3bafa',1,'HUD']]],
   ['fpthrowsfx',['FpThrowSfx',['../classPlayerSfxManager.html#a1afdbfe2b043a8576fabff4dacc6110d',1,'PlayerSfxManager']]],
+  ['fpthunderboltfiresfx',['FpThunderboltFireSfx',['../classPlayerSfxManager.html#adf6301e8e05bf8581c395af3b2a98d74',1,'PlayerSfxManager']]],
   ['fpwallkicksfx',['FpWallKickSfx',['../classPlayerSfxManager.html#aef1d4a060f9ada9a337252d01972db2a',1,'PlayerSfxManager']]],
   ['friction',['Friction',['../classDroppedItem.html#a895d5e94e52e517acd5c793ed2d93216',1,'DroppedItem']]],
   ['frozen',['Frozen',['../classPlayer.html#a2d141900f49e890a21e842fa481405e2',1,'Player']]],

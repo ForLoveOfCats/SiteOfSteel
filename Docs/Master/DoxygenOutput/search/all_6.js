@@ -19,6 +19,8 @@ var searchData=
   ['fpsmax',['FpsMax',['../classAPI.html#a49b3ad540535cb23f8f2f445b663b1a8',1,'API']]],
   ['fpthrow',['FpThrow',['../classPlayerSfxManager.html#a604e35f67a0a627d32349aab21189edb',1,'PlayerSfxManager']]],
   ['fpthrowsfx',['FpThrowSfx',['../classPlayerSfxManager.html#a1afdbfe2b043a8576fabff4dacc6110d',1,'PlayerSfxManager']]],
+  ['fpthunderboltfire',['FpThunderboltFire',['../classPlayerSfxManager.html#a3c33afa1c7866bc072ada5e5d7dbded0',1,'PlayerSfxManager']]],
+  ['fpthunderboltfiresfx',['FpThunderboltFireSfx',['../classPlayerSfxManager.html#adf6301e8e05bf8581c395af3b2a98d74',1,'PlayerSfxManager']]],
   ['fpwallkick',['FpWallKick',['../classPlayerSfxManager.html#a823b95e1ac66f3cc0448b4a3c4ef1b83',1,'PlayerSfxManager']]],
   ['fpwallkicksfx',['FpWallKickSfx',['../classPlayerSfxManager.html#aef1d4a060f9ada9a337252d01972db2a',1,'PlayerSfxManager']]],
   ['friction',['Friction',['../classDroppedItem.html#a895d5e94e52e517acd5c793ed2d93216',1,'DroppedItem.Friction()'],['../classPlayer.html#a894a3f15b5af81008d42e5f80d4da678',1,'Player.Friction()']]],

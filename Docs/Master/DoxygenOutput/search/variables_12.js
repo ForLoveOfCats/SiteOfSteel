@@ -10,6 +10,7 @@ var searchData=
   ['tppickupsfx',['TpPickupSfx',['../classPlayerSfxManager.html#ae43796c640017b97d2687b523416aa5f',1,'PlayerSfxManager']]],
   ['tprocketfiresfx',['TpRocketFireSfx',['../classPlayerSfxManager.html#a849fb116061af9935c8452df69ae4aab',1,'PlayerSfxManager']]],
   ['tpthrowsfx',['TpThrowSfx',['../classPlayerSfxManager.html#ae0b0281402ef6b4b88f7ab95a3219fee',1,'PlayerSfxManager']]],
+  ['tpthunderboltfiresfx',['TpThunderboltFireSfx',['../classPlayerSfxManager.html#a5fdd0e1fb327f43a4f820ad38d54bf98',1,'PlayerSfxManager']]],
   ['tpwallkicksfx',['TpWallKickSfx',['../classPlayerSfxManager.html#abdb2eb61aa9ce4bfe403dab9c0ec2cdf',1,'PlayerSfxManager']]],
   ['triangle',['Triangle',['../classHUD.html#a1490290df774a0f1c7d125b9b8895c69',1,'HUD']]],
   ['triggered',['Triggered',['../classJumperRocket.html#a7e97d127ae3205937bf06e325606f7ae',1,'JumperRocket']]],

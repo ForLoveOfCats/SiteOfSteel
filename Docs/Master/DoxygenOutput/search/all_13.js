@@ -25,6 +25,8 @@ var searchData=
   ['tprocketfiresfx',['TpRocketFireSfx',['../classPlayerSfxManager.html#a849fb116061af9935c8452df69ae4aab',1,'PlayerSfxManager']]],
   ['tpthrow',['TpThrow',['../classPlayerSfxManager.html#a148572afa7144859263ac72ff27c3224',1,'PlayerSfxManager']]],
   ['tpthrowsfx',['TpThrowSfx',['../classPlayerSfxManager.html#ae0b0281402ef6b4b88f7ab95a3219fee',1,'PlayerSfxManager']]],
+  ['tpthunderboltfire',['TpThunderboltFire',['../classPlayerSfxManager.html#a5cd7cd8f041229c31b3e415900f8ae59',1,'PlayerSfxManager']]],
+  ['tpthunderboltfiresfx',['TpThunderboltFireSfx',['../classPlayerSfxManager.html#a5fdd0e1fb327f43a4f820ad38d54bf98',1,'PlayerSfxManager']]],
   ['tpwallkick',['TpWallKick',['../classPlayerSfxManager.html#ab19fd9f860251062642770711c46c04f',1,'PlayerSfxManager']]],
   ['tpwallkicksfx',['TpWallKickSfx',['../classPlayerSfxManager.html#abdb2eb61aa9ce4bfe403dab9c0ec2cdf',1,'PlayerSfxManager']]],
   ['translation',['Translation',['../interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da',1,'IPushable.Translation()'],['../interfaceIInGrid.html#ac50b9ee86629d811b2516b07b6f5b617',1,'IInGrid.Translation()']]],
