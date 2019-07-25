@@ -30,6 +30,7 @@ var searchData=
   ['returnpressed',['ReturnPressed',['../classPauseMenu.html#aa613cb3284324c6877dac14c28ddb45e',1,'PauseMenu']]],
   ['right',['RIGHT',['../classBindings.html#a35badd58ab9e62e5f47320ec08569985a21507b40c80068eda19865706fdc2403',1,'Bindings']]],
   ['rightaxis',['RightAxis',['../classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d',1,'Player']]],
+  ['rightlegflames',['RightLegFlames',['../classPlayer.html#a7f8fe631c5808d21d21c3b595ab720fe',1,'Player']]],
   ['rightmove',['RightMove',['../classPlayer.html#ad31409406e4a4b2ccaff1f187f3c6b9d',1,'Player']]],
   ['rightsens',['RightSens',['../classPlayer.html#a9c135d11f60fd2d64f233e355a6ee534',1,'Player']]],
   ['rocket_5fjumper',['ROCKET_JUMPER',['../classItems.html#a6774bacbe40c425044480de464c64e40a8a268eec595412742bfefa6674e207d8',1,'Items']]],
