@@ -106,13 +106,15 @@ Inheritance diagram for Hitscan:</div>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a66338a7061bea50d538812bb73452197"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHitscan.html#a66338a7061bea50d538812bb73452197">Reset</a> ()</td></tr>
 <tr class="separator:a66338a7061bea50d538812bb73452197"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77ee42dfe25d354ed692d81378424359"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHitscan.html#a77ee42dfe25d354ed692d81378424359">Fire</a> (float VerticalAngle, float HorizontalAngle, float Range)</td></tr>
-<tr class="separator:a77ee42dfe25d354ed692d81378424359"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0783e6b2c19431cf922b702504582f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHitscan.html#ace0783e6b2c19431cf922b702504582f">Fire</a> (float VerticalAngle, float HorizontalAngle, float Range, float HDmg, float BDmg, float LDmg)</td></tr>
+<tr class="separator:ace0783e6b2c19431cf922b702504582f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae13a7beec5f2814b75432605d6a2dece"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHitscan.html#ae13a7beec5f2814b75432605d6a2dece">ApplyRecoil</a> (float VerticalRecoil, float HorizontalRecoil)</td></tr>
 <tr class="separator:ae13a7beec5f2814b75432605d6a2dece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
+<tr class="memitem:a35958563eb61842392ffbf5f422fc127"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHitscan.html#a35958563eb61842392ffbf5f422fc127">DrawHits</a> = false</td></tr>
+<tr class="separator:a35958563eb61842392ffbf5f422fc127"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ee4a22e1a0ef1c279b05634b2c62abb"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHitscan.html#a9ee4a22e1a0ef1c279b05634b2c62abb">NextRecoilDirection</a></td></tr>
 <tr class="separator:a9ee4a22e1a0ef1c279b05634b2c62abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a485a860f32d1e16a2574f8a7ed2a884b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classHitscan.html">Hitscan</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHitscan.html#a485a860f32d1e16a2574f8a7ed2a884b">Self</a></td></tr>
@@ -148,7 +150,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00013">13</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
+<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00015">15</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
 
 </div>
 </div>
@@ -185,11 +187,11 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00050">50</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
+<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00070">70</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a77ee42dfe25d354ed692d81378424359"></a>
+<a class="anchor" id="ace0783e6b2c19431cf922b702504582f"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -212,7 +214,25 @@ Private Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>Range</em>&#160;</td>
+          <td class="paramname"><em>Range</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>HDmg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>BDmg</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>LDmg</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -227,7 +247,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00028">28</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
+<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00030">30</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
 
 </div>
 </div>
@@ -252,11 +272,33 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00022">22</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
+<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00024">24</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a35958563eb61842392ffbf5f422fc127"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Hitscan.DrawHits = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00008">8</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a9ee4a22e1a0ef1c279b05634b2c62abb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -275,7 +317,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00008">8</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
+<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00010">10</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
 
 </div>
 </div>
@@ -297,7 +339,7 @@ Private Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00011">11</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
+<p>Definition at line <a class="el" href="Hitscan_8cs_source.html#l00013">13</a> of file <a class="el" href="Hitscan_8cs_source.html">Hitscan.cs</a>.</p>
 
 </div>
 </div>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['scancode',['SCANCODE',['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94baa16d0119a218f7f66394fb87eb428c8f',1,'Bindings']]],
-  ['slope',['SLOPE',['../classItems.html#a6774bacbe40c425044480de464c64e40a9e25d7b0ad41e0f1fbf4879602236875',1,'Items']]]
+  ['platform',['PLATFORM',['../classItems.html#a6774bacbe40c425044480de464c64e40a8b55a44b49368262df89fd0e17b1a181',1,'Items']]]
 ];

@@ -37,5 +37,5 @@ var searchData=
   ['triggered',['Triggered',['../classJumperRocket.html#a7e97d127ae3205937bf06e325606f7ae',1,'JumperRocket']]],
   ['triggeredposition',['TriggeredPosition',['../classJumperRocket.html#ae3da2dbb47af3ca450fbea16c3d7b4ce',1,'JumperRocket']]],
   ['trycalculatebuildposition',['TryCalculateBuildPosition',['../classItems.html#ade14792193004ab0107656faf611e81b',1,'Items']]],
-  ['type',['TYPE',['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()'],['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()']]]
+  ['type',['Type',['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classHitboxClass.html#aa791bf0b8bc217c38d37ad583714693b',1,'HitboxClass.Type()'],['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()'],['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203',1,'HitboxClass.TYPE()'],['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()']]]
 ];

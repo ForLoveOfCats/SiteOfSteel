@@ -20,6 +20,7 @@ var searchData=
   ['down',['DOWN',['../classBindings.html#a35badd58ab9e62e5f47320ec08569985ac4e0e4e3118472beeb2ae75827450f1f',1,'Bindings']]],
   ['downloadpressed',['DownloadPressed',['../classUpdateMenu.html#aafec8c1731e4bb83e513706b29cc6897',1,'UpdateMenu']]],
   ['dowork',['DoWork',['../classGridClass.html#aab7c8aed9bb44418fa14b23302923051',1,'GridClass']]],
+  ['drawhits',['DrawHits',['../classHitscan.html#a35958563eb61842392ffbf5f422fc127',1,'Hitscan']]],
   ['dropitem',['DropItem',['../classWorld.html#a07d255abe9b0b4be42729d58e5f738c8',1,'World']]],
   ['droporupdateitem',['DropOrUpdateItem',['../classWorld.html#a7d7fb74853603f7020615a62227cbe66',1,'World']]],
   ['droppeditem',['DroppedItem',['../classDroppedItem.html',1,'']]],

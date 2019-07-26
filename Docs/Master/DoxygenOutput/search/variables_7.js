@@ -2,6 +2,7 @@ var searchData=
 [
   ['hasjumped',['HasJumped',['../classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf',1,'Player']]],
   ['headjoint',['HeadJoint',['../classPlayer.html#a701822cb49c25d0827efa3fb35b7b82c',1,'Player']]],
+  ['headshotdamage',['HeadshotDamage',['../classThunderbolt.html#a454053f2885f1bd2d5b1fbe30b18c8a7',1,'Thunderbolt']]],
   ['health',['Health',['../classPlayer.html#aa79638dd0093c0bb0d4b905f8646e663',1,'Player']]],
   ['healthbar',['HealthBar',['../classHUD.html#a5dda4b330ec036c98d43c14991b8462f',1,'HUD']]],
   ['help',['Help',['../classMenu.html#a693ecce98aad000f39aa4461b6afcdad',1,'Menu']]],

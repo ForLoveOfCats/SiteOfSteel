@@ -6,6 +6,8 @@ var searchData=
   ['leftlegflames',['LeftLegFlames',['../classPlayer.html#a7960c7e3cb7c6e926796a1a856c7dadb',1,'Player']]],
   ['leftmove',['LeftMove',['../classPlayer.html#afaa2306a55687698787aeff4294d601f',1,'Player']]],
   ['leftsens',['LeftSens',['../classPlayer.html#ab90c205f1c1a5cb64081b2d6d00a4dd2',1,'Player']]],
+  ['legs',['LEGS',['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203a994822189b7aa270c0ef47c2b1825379',1,'HitboxClass']]],
+  ['legshotdamage',['LegshotDamage',['../classThunderbolt.html#ac635269f2bfdb5b7d0e34166749a3c28',1,'Thunderbolt']]],
   ['legsjoint',['LegsJoint',['../classPlayer.html#abf41f6deda7cfbf003c002490e23b631',1,'Player']]],
   ['license_2emd',['LICENSE.md',['../LICENSE_8md.html',1,'']]],
   ['licenses',['Licenses',['../classMenu.html#acb60e6638d8b9c6d1e58af5ef8f9b9f1',1,'Menu']]],

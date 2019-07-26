@@ -6,5 +6,6 @@ var searchData=
   ['oldtype',['OldType',['../classGhost.html#a3c1d547105422deabe08d19d65d2fe6c',1,'Ghost']]],
   ['oldvisible',['OldVisible',['../classGhost.html#a8ff78b763d71dc3e9619544ffa2ba36e',1,'Ghost']]],
   ['ownerid',['OwnerId',['../classTile.html#a6f2f091cf3ea524ecb48c1ba0e802572',1,'Tile']]],
+  ['owningplayer',['OwningPlayer',['../classHitboxClass.html#a12bc2eeda6ec84efe61915e21de1079f',1,'HitboxClass']]],
   ['ownname',['OwnName',['../classGamemode.html#a23457a1d16e53b768ad1a84322da77fe',1,'Gamemode']]]
 ];

@@ -13,5 +13,6 @@ var searchData=
   ['open',['Open',['../classConsole.html#ad7d9459bb157673ce63aaba13c18dd87',1,'Console.Open()'],['../classConsoleWindow.html#a47d5d235fc82bdbb6935797d7a91aa8d',1,'ConsoleWindow.Open()']]],
   ['operator_20id',['operator ID',['../structItems_1_1CustomItemEnum.html#a75cf4280598fc20b7d25b27edaef7897',1,'Items::CustomItemEnum']]],
   ['ownerid',['OwnerId',['../classTile.html#a6f2f091cf3ea524ecb48c1ba0e802572',1,'Tile']]],
+  ['owningplayer',['OwningPlayer',['../classHitboxClass.html#a12bc2eeda6ec84efe61915e21de1079f',1,'HitboxClass']]],
   ['ownname',['OwnName',['../classGamemode.html#a23457a1d16e53b768ad1a84322da77fe',1,'Gamemode']]]
 ];

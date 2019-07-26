@@ -1,7 +1,9 @@
 var searchData=
 [
   ['hasjumped',['HasJumped',['../classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf',1,'Player']]],
+  ['head',['HEAD',['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203ae15e216fc1c639f787b1231ecdfa1bf8',1,'HitboxClass']]],
   ['headjoint',['HeadJoint',['../classPlayer.html#a701822cb49c25d0827efa3fb35b7b82c',1,'Player']]],
+  ['headshotdamage',['HeadshotDamage',['../classThunderbolt.html#a454053f2885f1bd2d5b1fbe30b18c8a7',1,'Thunderbolt']]],
   ['health',['Health',['../classPlayer.html#aa79638dd0093c0bb0d4b905f8646e663',1,'Player']]],
   ['healthbar',['HealthBar',['../classHUD.html#a5dda4b330ec036c98d43c14991b8462f',1,'HUD']]],
   ['help',['Help',['../classMenu.html#a693ecce98aad000f39aa4461b6afcdad',1,'Menu']]],
@@ -12,6 +14,8 @@ var searchData=
   ['hidenodes',['HideNodes',['../classHUD.html#a391a807f80febe4ce1c214e15f245a7d',1,'HUD']]],
   ['history',['History',['../classConsole.html#ab6186a269c9464b078fde3b6d68c02b8',1,'Console']]],
   ['historylocation',['HistoryLocation',['../classConsole.html#a32054f383b53fb33087094cde120b47e',1,'Console']]],
+  ['hitboxclass',['HitboxClass',['../classHitboxClass.html',1,'']]],
+  ['hitboxclass_2ecs',['HitboxClass.cs',['../HitboxClass_8cs.html',1,'']]],
   ['hitscan',['Hitscan',['../classHitscan.html',1,'Hitscan'],['../classHitscan.html#a297aa452fdbf7b7e08a90bbab4977662',1,'Hitscan.Hitscan()']]],
   ['hitscan_2ecs',['Hitscan.cs',['../Hitscan_8cs.html',1,'']]],
   ['horizontalrecoil',['HorizontalRecoil',['../classThunderbolt.html#a427d3e8da2a751efc9a6333b36220d36',1,'Thunderbolt']]],

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['down',['DOWN',['../classBindings.html#a35badd58ab9e62e5f47320ec08569985ac4e0e4e3118472beeb2ae75827450f1f',1,'Bindings']]]
+  ['controlleraxis',['CONTROLLERAXIS',['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94ba7a6aee4e03dfe69db748aaef9540144c',1,'Bindings']]],
+  ['controllerbutton',['CONTROLLERBUTTON',['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94bac1c3d167f2f9ed99eb35fd9591c61b24',1,'Bindings']]]
 ];
