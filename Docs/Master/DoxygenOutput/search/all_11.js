@@ -27,6 +27,7 @@ var searchData=
   ['reset',['Reset',['../classHitscan.html#a66338a7061bea50d538812bb73452197',1,'Hitscan.Reset()'],['../classMenu.html#a0b7ee91c82cf1aaf5eceea6ff62fb541',1,'Menu.Reset()']]],
   ['resetselectedsave',['ResetSelectedSave',['../classHostMenu.html#a6d0b9adbecad158a212ae60c7179929a',1,'HostMenu']]],
   ['resetslotsvbox',['ResetSlotsVBox',['../classHostMenu.html#ad3dba43f531641d82cc7bd00873f7b57',1,'HostMenu']]],
+  ['respawn',['Respawn',['../classPlayer.html#ae1104e2e3726f7bac674615c4e33b2bf',1,'Player']]],
   ['returnpressed',['ReturnPressed',['../classPauseMenu.html#aa613cb3284324c6877dac14c28ddb45e',1,'PauseMenu']]],
   ['right',['RIGHT',['../classBindings.html#a35badd58ab9e62e5f47320ec08569985a21507b40c80068eda19865706fdc2403',1,'Bindings']]],
   ['rightaxis',['RightAxis',['../classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d',1,'Player']]],

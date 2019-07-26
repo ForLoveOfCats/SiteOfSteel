@@ -18,6 +18,7 @@ var searchData=
   ['reset',['Reset',['../classHitscan.html#a66338a7061bea50d538812bb73452197',1,'Hitscan.Reset()'],['../classMenu.html#a0b7ee91c82cf1aaf5eceea6ff62fb541',1,'Menu.Reset()']]],
   ['resetselectedsave',['ResetSelectedSave',['../classHostMenu.html#a6d0b9adbecad158a212ae60c7179929a',1,'HostMenu']]],
   ['resetslotsvbox',['ResetSlotsVBox',['../classHostMenu.html#ad3dba43f531641d82cc7bd00873f7b57',1,'HostMenu']]],
+  ['respawn',['Respawn',['../classPlayer.html#ae1104e2e3726f7bac674615c4e33b2bf',1,'Player']]],
   ['returnpressed',['ReturnPressed',['../classPauseMenu.html#aa613cb3284324c6877dac14c28ddb45e',1,'PauseMenu']]],
   ['rightmove',['RightMove',['../classPlayer.html#ad31409406e4a4b2ccaff1f187f3c6b9d',1,'Player']]],
   ['rocketjumper',['RocketJumper',['../classRocketJumper.html#a776fdca843c9d2a1a1af2815fb9910d3',1,'RocketJumper.RocketJumper()'],['../classRocketJumper.html#a84c4644d81e986b040a6e84831a760a4',1,'RocketJumper.RocketJumper()']]],
