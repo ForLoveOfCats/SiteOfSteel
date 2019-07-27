@@ -6,7 +6,7 @@ var searchData=
   ['unloadgm',['UnloadGm',['../classAPI.html#a95471651c02de62ae2595c6f1e50e821',1,'API']]],
   ['unset',['UNSET',['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94ba666a87025ab0d8965e221050c8948001',1,'Bindings']]],
   ['up',['UP',['../classBindings.html#a35badd58ab9e62e5f47320ec08569985afbaedde498cdead4f2780217646e9ba1',1,'Bindings']]],
-  ['update',['Update',['../classMenu.html#ae0f2050064fcfe85d12add6e4f861292',1,'Menu.Update()'],['../classPlayer.html#a035965c140b5f4e9dd6c522b5407a328',1,'Player.Update()']]],
+  ['update',['Update',['../classMenu.html#ae0f2050064fcfe85d12add6e4f861292',1,'Menu.Update()'],['../classPlayer.html#a82baa0f449fc71b326ec6494d0208129',1,'Player.Update()']]],
   ['updatemenu',['UpdateMenu',['../classUpdateMenu.html',1,'']]],
   ['updatemenu_2ecs',['UpdateMenu.cs',['../UpdateMenu_8cs.html',1,'']]],
   ['usedelegate',['UseDelegate',['../structItems_1_1IdInfo.html#a1bec42d513e848c1135f6a35c47274c4',1,'Items::IdInfo']]],
