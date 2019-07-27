@@ -11,6 +11,8 @@ var searchData=
   ['forwardsens',['ForwardSens',['../classPlayer.html#a97a080a05fd57146c3e777c48c1b3573',1,'Player']]],
   ['fphitsound',['FpHitsound',['../classPlayerSfxManager.html#ad322d67c88bc81ef9c5294830cde7dee',1,'PlayerSfxManager']]],
   ['fphitsoundsfx',['FpHitsoundSfx',['../classPlayerSfxManager.html#a3ce8c098c3ce524d3e289c46104b5953',1,'PlayerSfxManager']]],
+  ['fpkillsound',['FpKillsound',['../classPlayerSfxManager.html#a966c5342a241d29e5c9b8dfc3e10de93',1,'PlayerSfxManager']]],
+  ['fpkillsoundsfx',['FpKillsoundSfx',['../classPlayerSfxManager.html#a7fdfcf48325ed45938631f639af5e130',1,'PlayerSfxManager']]],
   ['fpland',['FpLand',['../classPlayerSfxManager.html#a6d26e239e840d695c0a62716a18c1852',1,'PlayerSfxManager']]],
   ['fplandsfx',['FpLandSfx',['../classPlayerSfxManager.html#abd208eb2b4cfe0690301b5936c61ac03',1,'PlayerSfxManager']]],
   ['fppickup',['FpPickup',['../classPlayerSfxManager.html#a5defc4249a001c98ac9d890472226bc1',1,'PlayerSfxManager']]],

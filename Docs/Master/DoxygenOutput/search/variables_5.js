@@ -4,6 +4,7 @@ var searchData=
   ['forwardaxis',['ForwardAxis',['../classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5',1,'Player']]],
   ['forwardsens',['ForwardSens',['../classPlayer.html#a97a080a05fd57146c3e777c48c1b3573',1,'Player']]],
   ['fphitsoundsfx',['FpHitsoundSfx',['../classPlayerSfxManager.html#a3ce8c098c3ce524d3e289c46104b5953',1,'PlayerSfxManager']]],
+  ['fpkillsoundsfx',['FpKillsoundSfx',['../classPlayerSfxManager.html#a7fdfcf48325ed45938631f639af5e130',1,'PlayerSfxManager']]],
   ['fplandsfx',['FpLandSfx',['../classPlayerSfxManager.html#abd208eb2b4cfe0690301b5936c61ac03',1,'PlayerSfxManager']]],
   ['fppickupsfx',['FpPickupSfx',['../classPlayerSfxManager.html#afe2411121717bb14e095b89f5e8f84f8',1,'PlayerSfxManager']]],
   ['fprocketfiresfx',['FpRocketFireSfx',['../classPlayerSfxManager.html#a65a61d6ed923bd269a473904f50a55be',1,'PlayerSfxManager']]],

@@ -6,6 +6,7 @@ var searchData=
   ['fly',['Fly',['../classAPI.html#a9eace4fadcef330fc5ac9ab29f5cf131',1,'API']]],
   ['forwardmove',['ForwardMove',['../classPlayer.html#a6ecae580a7f73c91cbf58b480761cb5b',1,'Player']]],
   ['fphitsound',['FpHitsound',['../classPlayerSfxManager.html#ad322d67c88bc81ef9c5294830cde7dee',1,'PlayerSfxManager']]],
+  ['fpkillsound',['FpKillsound',['../classPlayerSfxManager.html#a966c5342a241d29e5c9b8dfc3e10de93',1,'PlayerSfxManager']]],
   ['fpland',['FpLand',['../classPlayerSfxManager.html#a6d26e239e840d695c0a62716a18c1852',1,'PlayerSfxManager']]],
   ['fppickup',['FpPickup',['../classPlayerSfxManager.html#a5defc4249a001c98ac9d890472226bc1',1,'PlayerSfxManager']]],
   ['fprocketfire',['FpRocketFire',['../classPlayerSfxManager.html#a47b99813729e83466ddbd60b82b9a2b3',1,'PlayerSfxManager']]],
