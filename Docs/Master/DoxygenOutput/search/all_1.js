@@ -12,6 +12,7 @@ var searchData=
   ['api',['API',['../classAPI.html',1,'']]],
   ['api_2ecs',['API.cs',['../API_8cs.html',1,'']]],
   ['applydamage',['ApplyDamage',['../classPlayer.html#a824f40ab3a9074e5c81d1371776adfa5',1,'Player']]],
+  ['applylength',['ApplyLength',['../classHitscanTrail.html#a036bf0b748b2efead0e2754238477118',1,'HitscanTrail']]],
   ['applylookvertical',['ApplyLookVertical',['../classPlayer.html#a91d0be4c66115dba163e7fceae4bbf0a',1,'Player']]],
   ['applypush',['ApplyPush',['../interfaceIPushable.html#a885d6ec912de8fc5d8fddb4a13643775',1,'IPushable.ApplyPush()'],['../classDroppedItem.html#ac7628d58d493612abe10ff8e49d2fb65',1,'DroppedItem.ApplyPush()'],['../classPlayer.html#a864391810797225d1eb22efb78650946',1,'Player.ApplyPush()']]],
   ['applyrecoil',['ApplyRecoil',['../classHitscan.html#ae13a7beec5f2814b75432605d6a2dece',1,'Hitscan']]],

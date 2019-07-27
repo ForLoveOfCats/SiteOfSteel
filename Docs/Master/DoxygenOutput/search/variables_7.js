@@ -8,6 +8,7 @@ var searchData=
   ['help',['Help',['../classMenu.html#a693ecce98aad000f39aa4461b6afcdad',1,'Menu']]],
   ['history',['History',['../classConsole.html#ab6186a269c9464b078fde3b6d68c02b8',1,'Console']]],
   ['historylocation',['HistoryLocation',['../classConsole.html#a32054f383b53fb33087094cde120b47e',1,'Console']]],
+  ['hitscantrailscene',['HitscanTrailScene',['../classHitscan.html#a195d4b041993c6c2ae8d753766c17f8a',1,'Hitscan']]],
   ['horizontalrecoil',['HorizontalRecoil',['../classThunderbolt.html#a427d3e8da2a751efc9a6333b36220d36',1,'Thunderbolt']]],
   ['host',['Host',['../classMenu.html#a2392df614c7ee87fcf938726bae62d5f',1,'Menu']]],
   ['hostmenuinstance',['HostMenuInstance',['../classSlotButton.html#ac7ec4c27d1e7f388271cf884b7754793',1,'SlotButton']]],

@@ -14,7 +14,7 @@ var searchData=
   ['licensesmenu',['LicensesMenu',['../classLicensesMenu.html',1,'']]],
   ['licensesmenu_2ecs',['LicensesMenu.cs',['../LicensesMenu_8cs.html',1,'']]],
   ['licensespressed',['LicensesPressed',['../classCreditsMenu.html#a12ed5203f482aad1a8ec907d4902d37f',1,'CreditsMenu']]],
-  ['life',['Life',['../classDroppedItem.html#a6a42c4fbdeb4a5f539c457b75fe1ba24',1,'DroppedItem.Life()'],['../classExplodeSfx.html#a076b065c0f8bf9c2a3bb753f1ab61523',1,'ExplodeSfx.Life()'],['../classExplosionParticles.html#a614de50e42c990ef391aae137cbe9b38',1,'ExplosionParticles.Life()'],['../classJumperRocket.html#a6469116a1983ba2c2c3e8fcecadcae95',1,'JumperRocket.Life()']]],
+  ['life',['Life',['../classDroppedItem.html#a6a42c4fbdeb4a5f539c457b75fe1ba24',1,'DroppedItem.Life()'],['../classHitscanTrail.html#a73e249c37c589584065a9efaa437049c',1,'HitscanTrail.Life()'],['../classExplodeSfx.html#a076b065c0f8bf9c2a3bb753f1ab61523',1,'ExplodeSfx.Life()'],['../classExplosionParticles.html#a614de50e42c990ef391aae137cbe9b38',1,'ExplosionParticles.Life()'],['../classJumperRocket.html#a6469116a1983ba2c2c3e8fcecadcae95',1,'JumperRocket.Life()']]],
   ['livedoneframe',['LivedOneFrame',['../classShaderCompilerHider.html#aeb2310f8d7ade9c32bdaf2a8588560e5',1,'ShaderCompilerHider']]],
   ['load',['Load',['../classAPI.html#a07af19fb6a1608eb2136dd3b654f8e65',1,'API.Load()'],['../classWorld.html#aa004d4464e5fb06004bf8e4e845b804b',1,'World.Load()']]],
   ['loadchunk',['LoadChunk',['../classWorld.html#a23c20b6709659836a396d35d26bdb4ff',1,'World']]],

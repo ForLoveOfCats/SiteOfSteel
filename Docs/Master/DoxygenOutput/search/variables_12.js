@@ -12,6 +12,8 @@ var searchData=
   ['tpthrowsfx',['TpThrowSfx',['../classPlayerSfxManager.html#ae0b0281402ef6b4b88f7ab95a3219fee',1,'PlayerSfxManager']]],
   ['tpthunderboltfiresfx',['TpThunderboltFireSfx',['../classPlayerSfxManager.html#a5fdd0e1fb327f43a4f820ad38d54bf98',1,'PlayerSfxManager']]],
   ['tpwallkicksfx',['TpWallKickSfx',['../classPlayerSfxManager.html#abdb2eb61aa9ce4bfe403dab9c0ec2cdf',1,'PlayerSfxManager']]],
+  ['trailshader',['TrailShader',['../classHitscanTrail.html#ab0d1ed13b33fff5be0672f34894e23d0',1,'HitscanTrail']]],
+  ['trailstartadjustment',['TrailStartAdjustment',['../classHitscan.html#a99f00444291f98feff2a52a653bc2ad8',1,'Hitscan']]],
   ['triangle',['Triangle',['../classHUD.html#a1490290df774a0f1c7d125b9b8895c69',1,'HUD']]],
   ['triggered',['Triggered',['../classJumperRocket.html#a7e97d127ae3205937bf06e325606f7ae',1,'JumperRocket']]],
   ['triggeredposition',['TriggeredPosition',['../classJumperRocket.html#ae3da2dbb47af3ca450fbea16c3d7b4ce',1,'JumperRocket']]],
