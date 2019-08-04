@@ -8,6 +8,7 @@ var searchData=
   ['redmat',['RedMat',['../classGhost.html#aa44195b94e677ff02e0c7c1c1e32499e',1,'Ghost']]],
   ['reloadgm',['ReloadGm',['../classAPI.html#a34ddcf7b92cf30fc909739c6478374cb',1,'API']]],
   ['reloadsave',['ReloadSave',['../classAPI.html#ac9c553d84d7f954c3c596878eb599944',1,'API']]],
+  ['remaininglife',['RemainingLife',['../classDamageIndicator.html#a3c3e7305ac73cbaa22befc5ca588bc53',1,'DamageIndicator']]],
   ['remotefire',['RemoteFire',['../classRocketJumper.html#a93c815ff6e3e05d30a2cfd2fb3cceae9',1,'RocketJumper']]],
   ['remoteloadedchunks',['RemoteLoadedChunks',['../classWorld.html#ad83b2e587ad931c5f9b73f88cb34999a',1,'World']]],
   ['remoteversion',['RemoteVersion',['../classGame.html#ace9bd1c9eb6f772482be85f04336f49e',1,'Game']]],

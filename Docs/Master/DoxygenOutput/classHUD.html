@@ -87,6 +87,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classHUD-members.html">List of all members</a>  </div>
@@ -119,6 +120,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adca8e7e369d98b5fd95b8b8e8eeb4ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01312ea566037483a3c81a3d31eba95a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#a01312ea566037483a3c81a3d31eba95a">RemoveNickLabel</a> (int Id)</td></tr>
 <tr class="separator:a01312ea566037483a3c81a3d31eba95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e30076ae4cee5dccaa54d0da36d9c49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#a3e30076ae4cee5dccaa54d0da36d9c49">AddDamageIndicator</a> (Vector3 ShotFirePosition, float Damage)</td></tr>
+<tr class="separator:a3e30076ae4cee5dccaa54d0da36d9c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2604fd28ebb28596cb7a8b6cc88067bf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#a2604fd28ebb28596cb7a8b6cc88067bf">ClearDamageIndicators</a> ()</td></tr>
+<tr class="separator:a2604fd28ebb28596cb7a8b6cc88067bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94ee72d9f58812f9bb008b4cb09b528a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#a94ee72d9f58812f9bb008b4cb09b528a">_Process</a> (float Delta)</td></tr>
 <tr class="separator:a94ee72d9f58812f9bb008b4cb09b528a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -128,6 +133,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a3be891433f21adab54f3394f1075163c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32ced251930ebca09a9cfc9681d41a49"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#a32ced251930ebca09a9cfc9681d41a49">Visible</a> = true</td></tr>
 <tr class="separator:a32ced251930ebca09a9cfc9681d41a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:aa0c01fd2a687df66d30aafe92a8996fa"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#aa0c01fd2a687df66d30aafe92a8996fa">DamageIndicatorLifeMultiplyer</a> = 0.1f</td></tr>
+<tr class="separator:aa0c01fd2a687df66d30aafe92a8996fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -148,6 +158,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aed53392a27694608eccf1e791bf1723e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ef5802ac54af34e3588c8d689796c0e"><td class="memItemLeft" align="right" valign="top">PackedScene&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#a5ef5802ac54af34e3588c8d689796c0e">NickLabelScene</a></td></tr>
 <tr class="separator:a5ef5802ac54af34e3588c8d689796c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b7ffff48f3019e710506eba85b6df18"><td class="memItemLeft" align="right" valign="top">PackedScene&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#a2b7ffff48f3019e710506eba85b6df18">DamageIndicatorScene</a></td></tr>
+<tr class="separator:a2b7ffff48f3019e710506eba85b6df18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f56e61b69797aa9c642170b5318cbf1"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, Label &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#a9f56e61b69797aa9c642170b5318cbf1">NickLabels</a> = new Dictionary&lt;int, Label&gt;()</td></tr>
 <tr class="separator:a9f56e61b69797aa9c642170b5318cbf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0d5b764945352a1519ce2a0dad93329"><td class="memItemLeft" align="right" valign="top">TextureRect&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#aa0d5b764945352a1519ce2a0dad93329">Crosshair</a></td></tr>
@@ -162,6 +174,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:abc40b615d16307b3ddfb8d9259ae23af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2d67215a1ca8ee4a50c4f6fbdb3bafa"><td class="memItemLeft" align="right" valign="top">Label&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#ae2d67215a1ca8ee4a50c4f6fbdb3bafa">FPSLabel</a></td></tr>
 <tr class="separator:ae2d67215a1ca8ee4a50c4f6fbdb3bafa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b2f5cd43671594c3526d6a6fa8dfec5"><td class="memItemLeft" align="right" valign="top">Node2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classHUD.html#a9b2f5cd43671594c3526d6a6fa8dfec5">DamageIndicatorRoot</a></td></tr>
+<tr class="separator:a9b2f5cd43671594c3526d6a6fa8dfec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -188,7 +202,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00024">24</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00028">28</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -215,7 +229,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00160">160</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00181">181</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -240,7 +254,43 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00035">35</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00040">40</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e30076ae4cee5dccaa54d0da36d9c49"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HUD.AddDamageIndicator </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>ShotFirePosition</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Damage</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00166">166</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -276,7 +326,32 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00141">141</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00147">147</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2604fd28ebb28596cb7a8b6cc88067bf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HUD.ClearDamageIndicators </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00174">174</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -301,7 +376,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00113">113</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00119">119</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -327,7 +402,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00100">100</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00106">106</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -352,7 +427,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00055">55</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00061">61</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -377,7 +452,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00094">94</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00100">100</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -403,7 +478,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00150">150</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00156">156</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -428,7 +503,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00133">133</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00139">139</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -454,7 +529,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00120">120</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00126">126</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -477,7 +552,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00007">7</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00009">9</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -499,7 +574,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00017">17</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00020">20</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -521,7 +596,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00015">15</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00018">18</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -543,7 +618,73 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00014">14</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00017">17</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa0c01fd2a687df66d30aafe92a8996fa"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HUD.DamageIndicatorLifeMultiplyer = 0.1f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00007">7</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9b2f5cd43671594c3526d6a6fa8dfec5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Node2D HUD.DamageIndicatorRoot</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00023">23</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2b7ffff48f3019e710506eba85b6df18"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">PackedScene HUD.DamageIndicatorScene</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00013">13</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -565,7 +706,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00019">19</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00022">22</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -587,7 +728,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00016">16</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00019">19</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -609,7 +750,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00009">9</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00011">11</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -623,7 +764,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00020">20</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00024">24</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -645,7 +786,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00012">12</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00015">15</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -667,7 +808,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00010">10</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00012">12</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -689,7 +830,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00018">18</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00021">21</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -711,7 +852,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00008">8</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00010">10</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>
@@ -725,7 +866,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00022">22</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
+<p>Definition at line <a class="el" href="HUD_8cs_source.html#l00026">26</a> of file <a class="el" href="HUD_8cs_source.html">HUD.cs</a>.</p>
 
 </div>
 </div>

@@ -33,6 +33,7 @@ var searchData=
   ['trailshader',['TrailShader',['../classHitscanTrail.html#ab0d1ed13b33fff5be0672f34894e23d0',1,'HitscanTrail']]],
   ['trailstartadjustment',['TrailStartAdjustment',['../classHitscan.html#a99f00444291f98feff2a52a653bc2ad8',1,'Hitscan']]],
   ['translation',['Translation',['../interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da',1,'IPushable.Translation()'],['../interfaceIInGrid.html#ac50b9ee86629d811b2516b07b6f5b617',1,'IInGrid.Translation()']]],
+  ['transparencyshader',['TransparencyShader',['../classDamageIndicator.html#ac68761c38a617d1550ca26d9f7392264',1,'DamageIndicator']]],
   ['triangle',['Triangle',['../classHUD.html#a1490290df774a0f1c7d125b9b8895c69',1,'HUD']]],
   ['triangle_5fwall',['TRIANGLE_WALL',['../classItems.html#a6774bacbe40c425044480de464c64e40af7204b86d9f24f48d86d8d593b5a5529',1,'Items']]],
   ['trianglewallbuildposition',['TriangleWallBuildPosition',['../classBuildingLogic.html#a06a4a1cfa51a49e49051fd5240c12bdc',1,'BuildingLogic']]],

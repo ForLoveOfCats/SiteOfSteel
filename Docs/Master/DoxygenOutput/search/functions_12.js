@@ -12,7 +12,7 @@ var searchData=
   ['setcooldown',['SetCooldown',['../classPlayer.html#aecdc42d5a359aec687e62a536e21d591',1,'Player']]],
   ['setfly',['SetFly',['../classPlayer.html#aa9c4fba2cae05877533675beaa981c96',1,'Player']]],
   ['setfreeze',['SetFreeze',['../classPlayer.html#a2d65fa4937a1c2cbf0d037c4acd8d55b',1,'Player']]],
-  ['setup',['Setup',['../classMenu.html#a715cc048f561645af12e42654078cf3a',1,'Menu']]],
+  ['setup',['Setup',['../classDamageIndicator.html#a1d6bc82423ca6290b94445e16128dcfb',1,'DamageIndicator.Setup()'],['../classMenu.html#a715cc048f561645af12e42654078cf3a',1,'Menu.Setup()']]],
   ['setupdefaults',['SetupDefaults',['../classStartup.html#aac3044da17239084606faa48a987fdc0',1,'Startup']]],
   ['setupitems',['SetupItems',['../classItems.html#a2d0d8030a64889be971fca7a301c5468',1,'Items']]],
   ['setupnewpeer',['SetupNewPeer',['../classNet.html#a8ac29b34ea0e9e61096b370790a13d71',1,'Net']]],

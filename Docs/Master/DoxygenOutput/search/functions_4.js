@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['damageindicator',['DamageIndicator',['../classDamageIndicator.html#a0446e00f0a68c4acf99883a24905c7f7',1,'DamageIndicator']]],
   ['debugplot',['DebugPlot',['../classWorld.html#ace3299e5ee13bdbc4b05118fcefe66ed',1,'World']]],
   ['defaultplatforms',['DefaultPlatforms',['../classWorld.html#a8558f725c7074adbaa5fbbeb63843f55',1,'World']]],
   ['deletepressed',['DeletePressed',['../classHostMenu.html#a9c4c0f08f7ba0726a44c28499504c1e5',1,'HostMenu']]],

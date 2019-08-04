@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['adddamageindicator',['AddDamageIndicator',['../classHUD.html#a3e30076ae4cee5dccaa54d0da36d9c49',1,'HUD']]],
   ['additem',['AddItem',['../classGridClass.html#aefefb6047187e89dbafa31aeea28ebfe',1,'GridClass']]],
   ['additemtochunk',['AddItemToChunk',['../classWorld.html#ab579ff25eb1249b2f593f41603a80814',1,'World']]],
   ['addnicklabel',['AddNickLabel',['../classHUD.html#adca8e7e369d98b5fd95b8b8e8eeb4ab8',1,'HUD']]],
@@ -11,7 +12,7 @@ var searchData=
   ['alpha',['Alpha',['../classHUD.html#a5a3a55d592ad7052a8a095da2f0344f0',1,'HUD']]],
   ['api',['API',['../classAPI.html',1,'']]],
   ['api_2ecs',['API.cs',['../API_8cs.html',1,'']]],
-  ['applydamage',['ApplyDamage',['../classPlayer.html#a824f40ab3a9074e5c81d1371776adfa5',1,'Player']]],
+  ['applydamage',['ApplyDamage',['../classPlayer.html#a451708c713e18f1191249b4f1b590505',1,'Player']]],
   ['applylength',['ApplyLength',['../classHitscanTrail.html#a036bf0b748b2efead0e2754238477118',1,'HitscanTrail']]],
   ['applylookvertical',['ApplyLookVertical',['../classPlayer.html#a91d0be4c66115dba163e7fceae4bbf0a',1,'Player']]],
   ['applypush',['ApplyPush',['../interfaceIPushable.html#a885d6ec912de8fc5d8fddb4a13643775',1,'IPushable.ApplyPush()'],['../classDroppedItem.html#ac7628d58d493612abe10ff8e49d2fb65',1,'DroppedItem.ApplyPush()'],['../classPlayer.html#a864391810797225d1eb22efb78650946',1,'Player.ApplyPush()']]],
