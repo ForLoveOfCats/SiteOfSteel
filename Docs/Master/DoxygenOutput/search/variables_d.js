@@ -1,11 +1,13 @@
 var searchData=
 [
-  ['oldcanbuild',['OldCanBuild',['../classGhost.html#a5cc598702b0068293292898e1422f7ca',1,'Ghost']]],
-  ['oldpositions',['OldPositions',['../classGhost.html#a3ee71c0913eb8e7d826314b9e4a7c3b0',1,'Ghost']]],
-  ['oldrotations',['OldRotations',['../classGhost.html#a90b143672a1667edd915d01d868bff4c',1,'Ghost']]],
-  ['oldtype',['OldType',['../classGhost.html#a3c1d547105422deabe08d19d65d2fe6c',1,'Ghost']]],
-  ['oldvisible',['OldVisible',['../classGhost.html#a8ff78b763d71dc3e9619544ffa2ba36e',1,'Ghost']]],
-  ['ownerid',['OwnerId',['../classTile.html#a6f2f091cf3ea524ecb48c1ba0e802572',1,'Tile']]],
-  ['owningplayer',['OwningPlayer',['../classHitboxClass.html#a12bc2eeda6ec84efe61915e21de1079f',1,'HitboxClass']]],
-  ['ownname',['OwnName',['../classGamemode.html#a23457a1d16e53b768ad1a84322da77fe',1,'Gamemode']]]
+  ['name',['Name',['../classBindingObject.html#a453e126e102cf621bf38ede00a2c05bb',1,'BindingObject']]],
+  ['nameedit',['NameEdit',['../classNickMenu.html#aeca7594477cfdae030cb4c7d9688ce83',1,'NickMenu']]],
+  ['nextrecoildirection',['NextRecoilDirection',['../classHitscan.html#a9ee4a22e1a0ef1c279b05634b2c62abb',1,'Hitscan']]],
+  ['nextspot',['NextSpot',['../structItems_1_1CustomItemEnum.html#a1a861970f6d670fcdbe2af2c15c20823',1,'Items::CustomItemEnum']]],
+  ['nick',['Nick',['../classMenu.html#a9ab9e8029418db931966d7b1b49e60be',1,'Menu']]],
+  ['nicklabellayer',['NickLabelLayer',['../classHUD.html#a3be891433f21adab54f3394f1075163c',1,'HUD']]],
+  ['nicklabels',['NickLabels',['../classHUD.html#a9f56e61b69797aa9c642170b5318cbf1',1,'HUD']]],
+  ['nicklabelscene',['NickLabelScene',['../classHUD.html#a5ef5802ac54af34e3588c8d689796c0e',1,'HUD']]],
+  ['nickname',['Nickname',['../classGame.html#aeaf2b356ac5a98df1a4cf56398d57ec9',1,'Game']]],
+  ['nicknames',['Nicknames',['../classNet.html#a4432b68d7400c4dd7d3226308deefdcf',1,'Net']]]
 ];
