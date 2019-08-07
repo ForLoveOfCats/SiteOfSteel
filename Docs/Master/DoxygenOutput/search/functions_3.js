@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['caclulateoffset',['CaclulateOffset',['../classHitscan_1_1AdditiveRecoil.html#acf85092d9036b23313c9d880966d5ee2',1,'Hitscan::AdditiveRecoil']]],
   ['calculatearea',['CalculateArea',['../classGridClass.html#ac638c9c370df9ead071970c1132e6add',1,'GridClass']]],
   ['calculateareas',['CalculateAreas',['../classGridClass.html#aa93dfb986dd5f1c941955f4759885bb9',1,'GridClass']]],
   ['calculatebuildrotation',['CalculateBuildRotation',['../classItems.html#a5d2269cf7933b47e5bfd9a085c676811',1,'Items']]],

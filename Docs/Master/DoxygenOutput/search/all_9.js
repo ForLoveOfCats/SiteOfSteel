@@ -9,6 +9,7 @@ var searchData=
   ['inputline',['InputLine',['../classConsole.html#a4fd20edda70bcdfa509f99b5fb1e3e3d',1,'Console.InputLine()'],['../classConsoleWindow.html#a991cc5cf48511b59ebe029a7ed668d15',1,'ConsoleWindow.InputLine()']]],
   ['instance',['Instance',['../classItems_1_1Instance.html#aed765acf5e4df9081b07cd1d8035e318',1,'Items::Instance']]],
   ['instance',['Instance',['../classItems_1_1Instance.html',1,'Items']]],
+  ['intendedlookvertical',['IntendedLookVertical',['../classPlayer.html#a4a8c8da14b320c9f3d456a6d2d45a790',1,'Player']]],
   ['intro',['Intro',['../classIntro.html',1,'Intro'],['../classMenu.html#ae34dd1fe074062671eaae8e41074a96a',1,'Menu.Intro()']]],
   ['intro_2ecs',['Intro.cs',['../Intro_8cs.html',1,'']]],
   ['inventory',['Inventory',['../classPlayer.html#afba22011adb6b3eb7030056845adc62d',1,'Player']]],

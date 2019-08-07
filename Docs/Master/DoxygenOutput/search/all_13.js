@@ -12,7 +12,7 @@ var searchData=
   ['throwlog',['ThrowLog',['../classConsole.html#acb7f1a01d79fa3b8d350977994d90cec',1,'Console']]],
   ['throwprint',['ThrowPrint',['../classConsole.html#ad9232c39171e69ff234b59526b7e6ddf',1,'Console']]],
   ['thumbnails',['Thumbnails',['../classItems.html#a993da7032b29dd992a419d2a54d3fd9a',1,'Items']]],
-  ['thunderbolt',['Thunderbolt',['../classThunderbolt.html',1,'Thunderbolt'],['../classThunderbolt.html#a19d988c99de31ff04f6505b53391f4c9',1,'Thunderbolt.Thunderbolt()'],['../classItems.html#a6774bacbe40c425044480de464c64e40a919f56fbca23093e881b0e24412d9bdf',1,'Items.THUNDERBOLT()']]],
+  ['thunderbolt',['Thunderbolt',['../classThunderbolt.html',1,'Thunderbolt'],['../classItems.html#a6774bacbe40c425044480de464c64e40a919f56fbca23093e881b0e24412d9bdf',1,'Items.THUNDERBOLT()'],['../classThunderbolt.html#a19d988c99de31ff04f6505b53391f4c9',1,'Thunderbolt.Thunderbolt()']]],
   ['thunderbolt_2ecs',['Thunderbolt.cs',['../Thunderbolt_8cs.html',1,'']]],
   ['tile',['Tile',['../classTile.html',1,'']]],
   ['tile_2ecs',['Tile.cs',['../Tile_8cs.html',1,'']]],
@@ -45,5 +45,5 @@ var searchData=
   ['triggered',['Triggered',['../classJumperRocket.html#a7e97d127ae3205937bf06e325606f7ae',1,'JumperRocket']]],
   ['triggeredposition',['TriggeredPosition',['../classJumperRocket.html#ae3da2dbb47af3ca450fbea16c3d7b4ce',1,'JumperRocket']]],
   ['trycalculatebuildposition',['TryCalculateBuildPosition',['../classItems.html#ade14792193004ab0107656faf611e81b',1,'Items']]],
-  ['type',['Type',['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classHitboxClass.html#aa791bf0b8bc217c38d37ad583714693b',1,'HitboxClass.Type()'],['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()'],['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203',1,'HitboxClass.TYPE()'],['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()']]]
+  ['type',['TYPE',['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203',1,'HitboxClass.TYPE()'],['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()'],['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classHitboxClass.html#aa791bf0b8bc217c38d37ad583714693b',1,'HitboxClass.Type()'],['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()']]]
 ];

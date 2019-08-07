@@ -9,12 +9,13 @@ var searchData=
   ['legs',['LEGS',['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203a994822189b7aa270c0ef47c2b1825379',1,'HitboxClass']]],
   ['legshotdamage',['LegshotDamage',['../classThunderbolt.html#ac635269f2bfdb5b7d0e34166749a3c28',1,'Thunderbolt']]],
   ['legsjoint',['LegsJoint',['../classPlayer.html#abf41f6deda7cfbf003c002490e23b631',1,'Player']]],
+  ['length',['Length',['../classHitscan_1_1AdditiveRecoil.html#a35c6662307614bbf477247d3378b1e00',1,'Hitscan::AdditiveRecoil']]],
   ['license_2emd',['LICENSE.md',['../LICENSE_8md.html',1,'']]],
   ['licenses',['Licenses',['../classMenu.html#acb60e6638d8b9c6d1e58af5ef8f9b9f1',1,'Menu']]],
   ['licensesmenu',['LicensesMenu',['../classLicensesMenu.html',1,'']]],
   ['licensesmenu_2ecs',['LicensesMenu.cs',['../LicensesMenu_8cs.html',1,'']]],
   ['licensespressed',['LicensesPressed',['../classCreditsMenu.html#a12ed5203f482aad1a8ec907d4902d37f',1,'CreditsMenu']]],
-  ['life',['Life',['../classDroppedItem.html#a6a42c4fbdeb4a5f539c457b75fe1ba24',1,'DroppedItem.Life()'],['../classHitscanTrail.html#a73e249c37c589584065a9efaa437049c',1,'HitscanTrail.Life()'],['../classExplodeSfx.html#a076b065c0f8bf9c2a3bb753f1ab61523',1,'ExplodeSfx.Life()'],['../classExplosionParticles.html#a614de50e42c990ef391aae137cbe9b38',1,'ExplosionParticles.Life()'],['../classJumperRocket.html#a6469116a1983ba2c2c3e8fcecadcae95',1,'JumperRocket.Life()']]],
+  ['life',['Life',['../classDroppedItem.html#a6a42c4fbdeb4a5f539c457b75fe1ba24',1,'DroppedItem.Life()'],['../classHitscan_1_1AdditiveRecoil.html#a273a0e0ab9c6cd31ac91fc0bf2856f07',1,'Hitscan.AdditiveRecoil.Life()'],['../classHitscanTrail.html#a73e249c37c589584065a9efaa437049c',1,'HitscanTrail.Life()'],['../classExplodeSfx.html#a076b065c0f8bf9c2a3bb753f1ab61523',1,'ExplodeSfx.Life()'],['../classExplosionParticles.html#a614de50e42c990ef391aae137cbe9b38',1,'ExplosionParticles.Life()'],['../classJumperRocket.html#a6469116a1983ba2c2c3e8fcecadcae95',1,'JumperRocket.Life()']]],
   ['livedoneframe',['LivedOneFrame',['../classShaderCompilerHider.html#aeb2310f8d7ade9c32bdaf2a8588560e5',1,'ShaderCompilerHider']]],
   ['load',['Load',['../classAPI.html#a07af19fb6a1608eb2136dd3b654f8e65',1,'API.Load()'],['../classWorld.html#aa004d4464e5fb06004bf8e4e845b804b',1,'World.Load()']]],
   ['loadchunk',['LoadChunk',['../classWorld.html#a23c20b6709659836a396d35d26bdb4ff',1,'World']]],
@@ -30,7 +31,6 @@ var searchData=
   ['lookright',['LookRight',['../classPlayer.html#a490dcc2cfb982773a8b4a3435d48ea46',1,'Player']]],
   ['looksensitivity',['LookSensitivity',['../classGame.html#adac4c94e567e328a8dd073532003dec5',1,'Game']]],
   ['lookup',['LookUp',['../classPlayer.html#a84b1e9e383ee209cd45b5054270e17fe',1,'Player']]],
-  ['lookvertical',['LookVertical',['../classPlayer.html#a4248bd33d63e58f75a47ad88ed2a22f0',1,'Player']]],
   ['looprotation',['LoopRotation',['../classSteelMath.html#ae94f4a7f95480141f540acfc20e23176',1,'SteelMath']]],
   ['license',['LICENSE',['../md_LICENSE.html',1,'']]]
 ];

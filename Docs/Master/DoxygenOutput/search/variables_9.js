@@ -3,6 +3,7 @@ var searchData=
   ['id',['Id',['../classItems_1_1Instance.html#aa2cf9cb3f93a0f598cc3c9e293f8e232',1,'Items.Instance.Id()'],['../classPlayer.html#ae8b62f5f01eef62c98db37b5efa8215b',1,'Player.Id()']]],
   ['idinfos',['IdInfos',['../classItems.html#a0964f8d30b334a4ac847583435fe49e9',1,'Items']]],
   ['inputline',['InputLine',['../classConsole.html#a4fd20edda70bcdfa509f99b5fb1e3e3d',1,'Console.InputLine()'],['../classConsoleWindow.html#a991cc5cf48511b59ebe029a7ed668d15',1,'ConsoleWindow.InputLine()']]],
+  ['intendedlookvertical',['IntendedLookVertical',['../classPlayer.html#a4a8c8da14b320c9f3d456a6d2d45a790',1,'Player']]],
   ['intro',['Intro',['../classMenu.html#ae34dd1fe074062671eaae8e41074a96a',1,'Menu']]],
   ['inventory',['Inventory',['../classPlayer.html#afba22011adb6b3eb7030056845adc62d',1,'Player']]],
   ['inventoryslot',['InventorySlot',['../classPlayer.html#ab4f1bfc3b4a60a374a7efbc1acb18f38',1,'Player']]],
