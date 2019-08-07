@@ -5,6 +5,7 @@ var searchData=
   ['calculateareas',['CalculateAreas',['../classGridClass.html#aa93dfb986dd5f1c941955f4759885bb9',1,'GridClass']]],
   ['calculatebuildrotation',['CalculateBuildRotation',['../classItems.html#a5d2269cf7933b47e5bfd9a085c676811',1,'Items']]],
   ['cam',['Cam',['../classPlayer.html#a2a24343d330c7c5961c905b03fd223d4',1,'Player']]],
+  ['canads',['CanAds',['../structItems_1_1IdInfo.html#a6dc5cc42bd67462b79bc0350a30e1af2',1,'Items::IdInfo']]],
   ['canbuild',['CanBuild',['../classGhost.html#a4642983126ec680d1802f65727ffc7c8',1,'Ghost']]],
   ['cancelpressed',['CancelPressed',['../classWaitConnectingMenu.html#a5f9be70fe12dd3bb05150a9afd2da122',1,'WaitConnectingMenu']]],
   ['center',['Center',['../classMenu.html#ab110d0e036ff2ab3af3d92a5924da381',1,'Menu']]],
@@ -65,6 +66,6 @@ var searchData=
   ['currentcooldown',['CurrentCooldown',['../classPlayer.html#afdac119610bf6045dee06e9ed18ff5d2',1,'Player']]],
   ['currentmaxcooldown',['CurrentMaxCooldown',['../classPlayer.html#a27f511504b76f9a22f0733302556b08a',1,'Player']]],
   ['currentmeshtype',['CurrentMeshType',['../classGhost.html#aac43ffc4b9f7be8713f5302d3222fe00',1,'Ghost']]],
-  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html',1,'Items']]],
-  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html#a1f76dda9a9426715a0ecfd46031287e3',1,'Items::CustomItemEnum']]]
+  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html#a1f76dda9a9426715a0ecfd46031287e3',1,'Items::CustomItemEnum']]],
+  ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html',1,'Items']]]
 ];

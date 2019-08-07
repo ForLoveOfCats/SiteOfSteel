@@ -1,6 +1,7 @@
 var searchData=
 [
   ['cam',['Cam',['../classPlayer.html#a2a24343d330c7c5961c905b03fd223d4',1,'Player']]],
+  ['canads',['CanAds',['../structItems_1_1IdInfo.html#a6dc5cc42bd67462b79bc0350a30e1af2',1,'Items::IdInfo']]],
   ['canbuild',['CanBuild',['../classGhost.html#a4642983126ec680d1802f65727ffc7c8',1,'Ghost']]],
   ['center',['Center',['../classMenu.html#ab110d0e036ff2ab3af3d92a5924da381',1,'Menu']]],
   ['chunkinfolabel',['ChunkInfoLabel',['../classHUD.html#af2a568db6df28ca7744b0d5474af5405',1,'HUD']]],
