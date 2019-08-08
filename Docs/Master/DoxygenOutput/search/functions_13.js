@@ -9,6 +9,7 @@ var searchData=
   ['tpland',['TpLand',['../classPlayerSfxManager.html#a63d951b23123bf01dc2148aff4e1e0f5',1,'PlayerSfxManager']]],
   ['tppickup',['TpPickup',['../classPlayerSfxManager.html#a3fe5af116a2f7b2ee9c942dbfa2c836b',1,'PlayerSfxManager']]],
   ['tprocketfire',['TpRocketFire',['../classPlayerSfxManager.html#ad2e284bfdc9264de8703d065a9fb835a',1,'PlayerSfxManager']]],
+  ['tpscattershockfire',['TpScattershockFire',['../classPlayerSfxManager.html#ac269e20217d914b59d2abc04fee0460f',1,'PlayerSfxManager']]],
   ['tpthrow',['TpThrow',['../classPlayerSfxManager.html#a148572afa7144859263ac72ff27c3224',1,'PlayerSfxManager']]],
   ['tpthunderboltfire',['TpThunderboltFire',['../classPlayerSfxManager.html#a5cd7cd8f041229c31b3e415900f8ae59',1,'PlayerSfxManager']]],
   ['tpwallkick',['TpWallKick',['../classPlayerSfxManager.html#ab19fd9f860251062642770711c46c04f',1,'PlayerSfxManager']]],

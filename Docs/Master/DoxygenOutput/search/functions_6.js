@@ -10,6 +10,7 @@ var searchData=
   ['fpland',['FpLand',['../classPlayerSfxManager.html#a6d26e239e840d695c0a62716a18c1852',1,'PlayerSfxManager']]],
   ['fppickup',['FpPickup',['../classPlayerSfxManager.html#a5defc4249a001c98ac9d890472226bc1',1,'PlayerSfxManager']]],
   ['fprocketfire',['FpRocketFire',['../classPlayerSfxManager.html#a47b99813729e83466ddbd60b82b9a2b3',1,'PlayerSfxManager']]],
+  ['fpscattershockfire',['FpScattershockFire',['../classPlayerSfxManager.html#ad25c67683f7d1b889a1b674655f578e9',1,'PlayerSfxManager']]],
   ['fpsmax',['FpsMax',['../classAPI.html#a49b3ad540535cb23f8f2f445b663b1a8',1,'API']]],
   ['fpthrow',['FpThrow',['../classPlayerSfxManager.html#a604e35f67a0a627d32349aab21189edb',1,'PlayerSfxManager']]],
   ['fpthunderboltfire',['FpThunderboltFire',['../classPlayerSfxManager.html#a3c33afa1c7866bc072ada5e5d7dbded0',1,'PlayerSfxManager']]],

@@ -20,6 +20,8 @@ var searchData=
   ['fppickupsfx',['FpPickupSfx',['../classPlayerSfxManager.html#afe2411121717bb14e095b89f5e8f84f8',1,'PlayerSfxManager']]],
   ['fprocketfire',['FpRocketFire',['../classPlayerSfxManager.html#a47b99813729e83466ddbd60b82b9a2b3',1,'PlayerSfxManager']]],
   ['fprocketfiresfx',['FpRocketFireSfx',['../classPlayerSfxManager.html#a65a61d6ed923bd269a473904f50a55be',1,'PlayerSfxManager']]],
+  ['fpscattershockfire',['FpScattershockFire',['../classPlayerSfxManager.html#ad25c67683f7d1b889a1b674655f578e9',1,'PlayerSfxManager']]],
+  ['fpscattershockfiresfx',['FpScattershockFireSfx',['../classPlayerSfxManager.html#a37d3250bd235dfdb1c11776e7b6013b1',1,'PlayerSfxManager']]],
   ['fpslabel',['FPSLabel',['../classHUD.html#ae2d67215a1ca8ee4a50c4f6fbdb3bafa',1,'HUD']]],
   ['fpsmax',['FpsMax',['../classAPI.html#a49b3ad540535cb23f8f2f445b663b1a8',1,'API']]],
   ['fpthrow',['FpThrow',['../classPlayerSfxManager.html#a604e35f67a0a627d32349aab21189edb',1,'PlayerSfxManager']]],

@@ -9,6 +9,7 @@ var searchData=
   ['fplandsfx',['FpLandSfx',['../classPlayerSfxManager.html#abd208eb2b4cfe0690301b5936c61ac03',1,'PlayerSfxManager']]],
   ['fppickupsfx',['FpPickupSfx',['../classPlayerSfxManager.html#afe2411121717bb14e095b89f5e8f84f8',1,'PlayerSfxManager']]],
   ['fprocketfiresfx',['FpRocketFireSfx',['../classPlayerSfxManager.html#a65a61d6ed923bd269a473904f50a55be',1,'PlayerSfxManager']]],
+  ['fpscattershockfiresfx',['FpScattershockFireSfx',['../classPlayerSfxManager.html#a37d3250bd235dfdb1c11776e7b6013b1',1,'PlayerSfxManager']]],
   ['fpslabel',['FPSLabel',['../classHUD.html#ae2d67215a1ca8ee4a50c4f6fbdb3bafa',1,'HUD']]],
   ['fpthrowsfx',['FpThrowSfx',['../classPlayerSfxManager.html#a1afdbfe2b043a8576fabff4dacc6110d',1,'PlayerSfxManager']]],
   ['fpthunderboltfiresfx',['FpThunderboltFireSfx',['../classPlayerSfxManager.html#adf6301e8e05bf8581c395af3b2a98d74',1,'PlayerSfxManager']]],
