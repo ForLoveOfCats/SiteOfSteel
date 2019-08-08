@@ -17,6 +17,7 @@ var searchData=
   ['airacceleration',['AirAcceleration',['../classPlayer.html#abc09c674116eea2ec514147d801a1acd',1,'Player']]],
   ['alertlabel',['AlertLabel',['../classConnectMenu.html#a0898a6a6fdebee97b7ce0eed19622316',1,'ConnectMenu.AlertLabel()'],['../classNickMenu.html#adb796b6ab230f82cb0e0b63a6a1d3cbc',1,'NickMenu.AlertLabel()']]],
   ['alpha',['Alpha',['../classHUD.html#a5a3a55d592ad7052a8a095da2f0344f0',1,'HUD']]],
+  ['angularoffset',['AngularOffset',['../classScattershock.html#aee6eeaeb69888f73e4435a7a198759ca',1,'Scattershock']]],
   ['api',['API',['../classAPI.html',1,'']]],
   ['api_2ecs',['API.cs',['../API_8cs.html',1,'']]],
   ['applyadditiverecoil',['ApplyAdditiveRecoil',['../classHitscan.html#af70854f0d81c2e795f1d8cf714602bed',1,'Hitscan']]],

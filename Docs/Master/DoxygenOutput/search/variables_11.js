@@ -1,8 +1,8 @@
 var searchData=
 [
   ['r',['R',['../classSavedTile.html#a45392533991d53eb20d3e21604a0f703',1,'SavedTile']]],
-  ['range',['Range',['../classThunderbolt.html#a738f837efe2596a3f996a0b137bc5240',1,'Thunderbolt']]],
-  ['recoillength',['RecoilLength',['../classThunderbolt.html#ad3056e2c4ab2f1f493627824ec0d94a8',1,'Thunderbolt']]],
+  ['range',['Range',['../classScattershock.html#a767e560cc004a9bd709718032b6dd91f',1,'Scattershock.Range()'],['../classThunderbolt.html#a738f837efe2596a3f996a0b137bc5240',1,'Thunderbolt.Range()']]],
+  ['recoillength',['RecoilLength',['../classScattershock.html#ae7b795aa0ee03fa9761790c1c78d0e2c',1,'Scattershock.RecoilLength()'],['../classThunderbolt.html#ad3056e2c4ab2f1f493627824ec0d94a8',1,'Thunderbolt.RecoilLength()']]],
   ['redmat',['RedMat',['../classGhost.html#aa44195b94e677ff02e0c7c1c1e32499e',1,'Ghost']]],
   ['remaininglife',['RemainingLife',['../classDamageIndicator.html#a3c3e7305ac73cbaa22befc5ca588bc53',1,'DamageIndicator']]],
   ['remoteloadedchunks',['RemoteLoadedChunks',['../classWorld.html#ad83b2e587ad931c5f9b73f88cb34999a',1,'World']]],

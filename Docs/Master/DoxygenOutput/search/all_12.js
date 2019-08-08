@@ -13,6 +13,8 @@ var searchData=
   ['savepressed',['SavePressed',['../classPauseMenu.html#a3682081c4109e89eeba8e50a369a0d7f',1,'PauseMenu']]],
   ['sc',['Sc',['../Bindings_8cs.html#ac9a92fab9864688e8ac859e779fe4187',1,'Sc():&#160;Bindings.cs'],['../Scripting_8cs.html#ac9a92fab9864688e8ac859e779fe4187',1,'Sc():&#160;Scripting.cs']]],
   ['scancode',['SCANCODE',['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94baa16d0119a218f7f66394fb87eb428c8f',1,'Bindings']]],
+  ['scattershock',['Scattershock',['../classScattershock.html',1,'Scattershock'],['../classItems.html#a6774bacbe40c425044480de464c64e40aedabb2279dcf18bdfdde9e896cbd24df',1,'Items.SCATTERSHOCK()']]],
+  ['scattershock_2ecs',['Scattershock.cs',['../Scattershock_8cs.html',1,'']]],
   ['scenes',['Scenes',['../classWorld.html#acbaba72deac59a6bfdeb76fa22cdf6b9',1,'World']]],
   ['scripting',['Scripting',['../classScripting.html',1,'Scripting'],['../classScripting.html#ab713491acca5e4f62655b5c452a4bd04',1,'Scripting.Scripting()']]],
   ['scripting_2ecs',['Scripting.cs',['../Scripting_8cs.html',1,'']]],
