@@ -4,7 +4,6 @@ var searchData=
   ['throwcurrentitem',['ThrowCurrentItem',['../classPlayer.html#aec5b0137784497934b1d11633442b6ef',1,'Player']]],
   ['throwlog',['ThrowLog',['../classConsole.html#acb7f1a01d79fa3b8d350977994d90cec',1,'Console']]],
   ['throwprint',['ThrowPrint',['../classConsole.html#ad9232c39171e69ff234b59526b7e6ddf',1,'Console']]],
-  ['thunderbolt',['Thunderbolt',['../classThunderbolt.html#a19d988c99de31ff04f6505b53391f4c9',1,'Thunderbolt']]],
   ['togglefly',['ToggleFly',['../classPlayer.html#a90ad2bec897fdc9ffc21e79c46267853',1,'Player.ToggleFly()'],['../classAPI.html#ab7a4b58585b65729ddbc175d347039ee',1,'API.ToggleFly()']]],
   ['tojson',['ToJson',['../classSavedChunk.html#ab58781eefa5f9163f25eae12f4d9eb38',1,'SavedChunk.ToJson()'],['../classSavedTile.html#a643a3aaa64d7df63effac80cc2baf0ab',1,'SavedTile.ToJson()']]],
   ['tpland',['TpLand',['../classPlayerSfxManager.html#a63d951b23123bf01dc2148aff4e1e0f5',1,'PlayerSfxManager']]],
