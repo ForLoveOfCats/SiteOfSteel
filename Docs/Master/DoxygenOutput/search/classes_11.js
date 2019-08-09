@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['waitconnectingmenu',['WaitConnectingMenu',['../classWaitConnectingMenu.html',1,'']]],
-  ['world',['World',['../classWorld.html',1,'']]]
+  ['updatemenu',['UpdateMenu',['../classUpdateMenu.html',1,'']]]
 ];

@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['queueddamage',['QueuedDamage',['../classHitscan_1_1QueuedDamage.html#a6562fc4f836822746246910d471418f5',1,'Hitscan::QueuedDamage']]],
+  ['queuefire',['QueueFire',['../classHitscan.html#aa4b7c8b66a2a679e4ae9dcb233ededd2',1,'Hitscan']]],
   ['queueremoveitem',['QueueRemoveItem',['../classGridClass.html#a58ab44d0b69dd82b4ee3530349248deb',1,'GridClass']]],
   ['queueupdatearea',['QueueUpdateArea',['../classGridClass.html#a086e9347fb2c7cd701620bb3dd435794',1,'GridClass']]],
   ['queueupdatenearby',['QueueUpdateNearby',['../classGridClass.html#a894aa77f3e94c6af049bd97a54f7d5be',1,'GridClass']]],

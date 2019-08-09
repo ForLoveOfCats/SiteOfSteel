@@ -1,8 +1,12 @@
 var searchData=
 [
+  ['queueddamage',['QueuedDamage',['../classHitscan_1_1QueuedDamage.html',1,'Hitscan']]],
+  ['queueddamage',['QueuedDamage',['../classHitscan_1_1QueuedDamage.html#a6562fc4f836822746246910d471418f5',1,'Hitscan::QueuedDamage']]],
+  ['queueddamagelist',['QueuedDamageList',['../classHitscan.html#aedbc432e6a32c26a1773b7244c94bbf5',1,'Hitscan']]],
   ['queuedremovalareas',['QueuedRemovalAreas',['../classGridClass.html#ac23df8b92c3af39d76e22289454a80ab',1,'GridClass']]],
   ['queuedremovals',['QueuedRemovals',['../classGridClass.html#a3c1f2a86d78530f88322a3135db88a6d',1,'GridClass']]],
   ['queuedupdates',['QueuedUpdates',['../classGridClass.html#ace1c1248bc86e710ef959a3e9cbf38a2',1,'GridClass']]],
+  ['queuefire',['QueueFire',['../classHitscan.html#aa4b7c8b66a2a679e4ae9dcb233ededd2',1,'Hitscan']]],
   ['queueremoveitem',['QueueRemoveItem',['../classGridClass.html#a58ab44d0b69dd82b4ee3530349248deb',1,'GridClass']]],
   ['queueupdatearea',['QueueUpdateArea',['../classGridClass.html#a086e9347fb2c7cd701620bb3dd435794',1,'GridClass']]],
   ['queueupdatenearby',['QueueUpdateNearby',['../classGridClass.html#a894aa77f3e94c6af049bd97a54f7d5be',1,'GridClass']]],

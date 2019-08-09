@@ -1,7 +1,7 @@
 var searchData=
 [
   ['filespressed',['FilesPressed',['../classMainMenu.html#a97ad177df957e61c82b90ed96ac86f6c',1,'MainMenu']]],
-  ['fire',['Fire',['../classHitscan.html#ace0783e6b2c19431cf922b702504582f',1,'Hitscan.Fire()'],['../classScattershock.html#adfeca4074bf5c7bdbf29376cf69d611f',1,'Scattershock.Fire()'],['../classThunderbolt.html#abdd988a507ea9849f7a16bc91f97beaa',1,'Thunderbolt.Fire()'],['../classRocketJumper.html#a33f539668df3c0ccee730d6577cb114d',1,'RocketJumper.Fire()']]],
+  ['fire',['Fire',['../classScattershock.html#adfeca4074bf5c7bdbf29376cf69d611f',1,'Scattershock.Fire()'],['../classThunderbolt.html#abdd988a507ea9849f7a16bc91f97beaa',1,'Thunderbolt.Fire()'],['../classRocketJumper.html#a33f539668df3c0ccee730d6577cb114d',1,'RocketJumper.Fire()']]],
   ['firecooldown',['FireCooldown',['../classScattershock.html#af5587d10ad4b41b7a45f6231dd9fb8ad',1,'Scattershock.FireCooldown()'],['../classThunderbolt.html#a14e3b7e22e6d233008fd1d2d1ce4590d',1,'Thunderbolt.FireCooldown()'],['../classRocketJumper.html#a0b56876039c0d30cf830b4e493fb3cb0',1,'RocketJumper.FireCooldown()']]],
   ['flattened',['Flattened',['../classSteelMath.html#ae37c93281fd3b3c5652c766ed64c462d',1,'SteelMath']]],
   ['fly',['Fly',['../classAPI.html#a9eace4fadcef330fc5ac9ab29f5cf131',1,'API']]],

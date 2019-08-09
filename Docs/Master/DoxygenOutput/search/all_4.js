@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['damage',['Damage',['../classHitscan_1_1QueuedDamage.html#aea85da8bb4ad284465abc3104ee150a5',1,'Hitscan::QueuedDamage']]],
   ['damageindicator',['DamageIndicator',['../classDamageIndicator.html',1,'DamageIndicator'],['../classDamageIndicator.html#a0446e00f0a68c4acf99883a24905c7f7',1,'DamageIndicator.DamageIndicator()']]],
   ['damageindicator_2ecs',['DamageIndicator.cs',['../DamageIndicator_8cs.html',1,'']]],
   ['damageindicatorlifemultiplyer',['DamageIndicatorLifeMultiplyer',['../classHUD.html#aa0c01fd2a687df66d30aafe92a8996fa',1,'HUD']]],

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rocketjumper',['RocketJumper',['../classRocketJumper.html',1,'']]]
+  ['queueddamage',['QueuedDamage',['../classHitscan_1_1QueuedDamage.html',1,'Hitscan']]]
 ];
