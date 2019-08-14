@@ -20,5 +20,6 @@ SkyOfSteel [Discord server](https://discord.gg/Ag5Yckw) and ask in the
 ## Internal Game Documentation:
 
 * [SkyOfSteel Master](/Docs/Master/DoxygenOutput)
+* [SkyOfSteel 0.1.5](/Docs/0.1.5/DoxygenOutput)
 * [SkyOfSteel 0.1.2](/Docs/0.1.2/DoxygenOutput)
 

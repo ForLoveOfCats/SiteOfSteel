@@ -1,0 +1,27 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+	<meta charset="utf-8"/>
+	<title>SkyOfSteel 0.1.5 Released + Building Competition!</title>
+	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/global.css">
+	<link rel="stylesheet" type="text/css" href="/Posts/posts.css">
+	<link rel="stylesheet" type="text/css" href="http://overpass-30e2.kxcdn.com/overpass.css">
+  </head>
+  <body>
+
+
+	{% include header.html %}
+
+
+	<div id="post-body">
+	  {% capture md_capture %}{% include Posts/0.1.5.md %}{% endcapture %}
+	  {{ md_capture | markdownify }}
+	</div>
+
+</body>
