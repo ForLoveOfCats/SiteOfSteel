@@ -71,7 +71,6 @@ var searchData=
   ['spawnplayer',['SpawnPlayer',['../classGame.html#a45b78578049acaa5255841088055190a',1,'Game']]],
   ['spot',['Spot',['../structItems_1_1CustomItemEnum.html#a17967637360c9e88a161ac650b851934',1,'Items::CustomItemEnum']]],
   ['sprint',['Sprint',['../classPlayer.html#af25e0dd64fc22f8c3bc6762674858ebf',1,'Player']]],
-  ['sprintflyingmultiplyer',['SprintFlyingMultiplyer',['../classPlayer.html#a23c61336d58adf2fa6f0cb88688ef468',1,'Player']]],
   ['sprintmultiplyer',['SprintMultiplyer',['../classPlayer.html#a7af9b0fa358e431600ab9ff20c825e39',1,'Player']]],
   ['sprintsens',['SprintSens',['../classPlayer.html#a6459ac126e09881a85b7db2c59a61dd2',1,'Player']]],
   ['start',['Start',['../classWorld.html#af2a2e1d5380aa94b6e3c1e5db940f9b5',1,'World']]],

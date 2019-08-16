@@ -1,6 +1,8 @@
 var searchData=
 [
   ['firecooldown',['FireCooldown',['../classScattershock.html#af5587d10ad4b41b7a45f6231dd9fb8ad',1,'Scattershock.FireCooldown()'],['../classThunderbolt.html#a14e3b7e22e6d233008fd1d2d1ce4590d',1,'Thunderbolt.FireCooldown()'],['../classRocketJumper.html#a0b56876039c0d30cf830b4e493fb3cb0',1,'RocketJumper.FireCooldown()']]],
+  ['flydeceleratetime',['FlyDecelerateTime',['../classPlayer.html#aa465ae1248c78c94dfc8218ea163052b',1,'Player']]],
+  ['flysprintmultiplyer',['FlySprintMultiplyer',['../classPlayer.html#a08254cd732fa48b9023b071e9ccbca03',1,'Player']]],
   ['forwardaxis',['ForwardAxis',['../classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5',1,'Player']]],
   ['forwardsens',['ForwardSens',['../classPlayer.html#a97a080a05fd57146c3e777c48c1b3573',1,'Player']]],
   ['fov',['Fov',['../classGame.html#a9de8ee37e33b27b4613287d44eb2f37d',1,'Game']]],
