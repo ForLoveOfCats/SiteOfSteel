@@ -59,6 +59,7 @@ var searchData=
   ['shouldwallkick',['ShouldWallKick',['../classGamemode.html#a61c608f020e1a68e7a8fa80714936e94',1,'Gamemode']]],
   ['show',['Show',['../classHUD.html#ae23f583776c0909d14745faab062592a',1,'HUD']]],
   ['shownodes',['ShowNodes',['../classHUD.html#a309b9fb94a82c084e5d3a251c80b8df3',1,'HUD']]],
+  ['slidefrictiondivisor',['SlideFrictionDivisor',['../classPlayer.html#a4fded75162edc3785fdc68b83ff340cd',1,'Player']]],
   ['slope',['SLOPE',['../classItems.html#a6774bacbe40c425044480de464c64e40a9e25d7b0ad41e0f1fbf4879602236875',1,'Items']]],
   ['slopebuildposition',['SlopeBuildPosition',['../classBuildingLogic.html#a853461f8b377d2305271a7f2c0f805b6',1,'BuildingLogic']]],
   ['slopebuildrotation',['SlopeBuildRotation',['../classBuildingLogic.html#a2471bdb2bd05482908fd17d8753515d5',1,'BuildingLogic']]],

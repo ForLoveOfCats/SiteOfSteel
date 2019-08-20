@@ -12,6 +12,7 @@ var searchData=
   ['sfxminlandmomentumy',['SfxMinLandMomentumY',['../classPlayer.html#aa9fb8c67bf181b7aed7490b7a0dcfd69',1,'Player']]],
   ['shadedbackground',['ShadedBackground',['../classMenu.html#aaeb7208639ded6774d1deb132e1229d9',1,'Menu']]],
   ['shotfirepos2d',['ShotFirePos2D',['../classDamageIndicator.html#a9433ff20e88a96346e991c1c8c7a89a9',1,'DamageIndicator']]],
+  ['slidefrictiondivisor',['SlideFrictionDivisor',['../classPlayer.html#a4fded75162edc3785fdc68b83ff340cd',1,'Player']]],
   ['slotbuttonscene',['SlotButtonScene',['../classHostMenu.html#a51daf6bf1d4334c1f1fce5bcb2fc116e',1,'HostMenu']]],
   ['slotsvbox',['SlotsVBox',['../classHostMenu.html#a9472b85df12d7fa168dd0b401d817649',1,'HostMenu']]],
   ['slotswitchcooldown',['SlotSwitchCooldown',['../classPlayer.html#a51bf41341dbd95c45a24f75e2c9a5312',1,'Player']]],
