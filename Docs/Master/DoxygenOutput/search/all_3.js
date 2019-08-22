@@ -61,6 +61,7 @@ var searchData=
   ['crouch',['Crouch',['../classPlayer.html#a0ecb24c69cfd5e961aedc2b34a18c3ff',1,'Player']]],
   ['crouchdownforce',['CrouchDownForce',['../classPlayer.html#a9d7cc2ac56ad104c7b2e76181bf22adc',1,'Player']]],
   ['crouchmovementdivisor',['CrouchMovementDivisor',['../classPlayer.html#a7efabff7769ef314e0d09c5f46950739',1,'Player']]],
+  ['crouchrecoilpercentage',['CrouchRecoilPercentage',['../classHitscan.html#ae26daf0ae0bbc89ac13d89f5cc28c908',1,'Hitscan']]],
   ['cs',['Cs',['../Scripting_8cs.html#a7d6fdf16b051e23e37d48415984cdd6a',1,'Scripting.cs']]],
   ['currentchunk',['CurrentChunk',['../classPlayer.html#aa36f605a9c1de629f607962cf6154e3f',1,'Player']]],
   ['currentchunktuple',['CurrentChunkTuple',['../classDroppedItem.html#aeefcd62dee470961cd1ba454a9428d29',1,'DroppedItem']]],
