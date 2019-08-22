@@ -10,6 +10,7 @@ var searchData=
   ['history',['History',['../classConsole.html#ab6186a269c9464b078fde3b6d68c02b8',1,'Console']]],
   ['historylocation',['HistoryLocation',['../classConsole.html#a32054f383b53fb33087094cde120b47e',1,'Console']]],
   ['hitscantrailscene',['HitscanTrailScene',['../classHitscan.html#a195d4b041993c6c2ae8d753766c17f8a',1,'Hitscan']]],
+  ['horizontalrecoil',['HorizontalRecoil',['../classSwiftSpark.html#a4280c8d8e58f9bd125423b1bdfbc3d32',1,'SwiftSpark']]],
   ['host',['Host',['../classMenu.html#a2392df614c7ee87fcf938726bae62d5f',1,'Menu']]],
   ['hostmenuinstance',['HostMenuInstance',['../classSlotButton.html#ac7ec4c27d1e7f388271cf884b7754793',1,'SlotButton']]],
   ['hudinstance',['HUDInstance',['../classPlayer.html#a332209051f5c687b04f9922890120a29',1,'Player']]]

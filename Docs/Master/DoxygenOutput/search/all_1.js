@@ -22,6 +22,7 @@ var searchData=
   ['api_2ecs',['API.cs',['../API_8cs.html',1,'']]],
   ['applyadditiverecoil',['ApplyAdditiveRecoil',['../classHitscan.html#af70854f0d81c2e795f1d8cf714602bed',1,'Hitscan']]],
   ['applydamage',['ApplyDamage',['../classPlayer.html#a451708c713e18f1191249b4f1b590505',1,'Player']]],
+  ['applyeffectiverecoil',['ApplyEffectiveRecoil',['../classHitscan.html#a763050b607383188444899fb959fcfa2',1,'Hitscan']]],
   ['applylength',['ApplyLength',['../classHitscanTrail.html#a036bf0b748b2efead0e2754238477118',1,'HitscanTrail']]],
   ['applylookvertical',['ApplyLookVertical',['../classPlayer.html#a91d0be4c66115dba163e7fceae4bbf0a',1,'Player']]],
   ['applypush',['ApplyPush',['../interfaceIPushable.html#a885d6ec912de8fc5d8fddb4a13643775',1,'IPushable.ApplyPush()'],['../classDroppedItem.html#ac7628d58d493612abe10ff8e49d2fb65',1,'DroppedItem.ApplyPush()'],['../classPlayer.html#a864391810797225d1eb22efb78650946',1,'Player.ApplyPush()']]],

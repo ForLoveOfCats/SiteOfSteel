@@ -22,6 +22,7 @@ var searchData=
   ['hitscantrail',['HitscanTrail',['../classHitscanTrail.html',1,'HitscanTrail'],['../classHitscanTrail.html#ad6b3446bc398c813bfeeb7ff42f717c4',1,'HitscanTrail.HitscanTrail()']]],
   ['hitscantrail_2ecs',['HitscanTrail.cs',['../HitscanTrail_8cs.html',1,'']]],
   ['hitscantrailscene',['HitscanTrailScene',['../classHitscan.html#a195d4b041993c6c2ae8d753766c17f8a',1,'Hitscan']]],
+  ['horizontalrecoil',['HorizontalRecoil',['../classSwiftSpark.html#a4280c8d8e58f9bd125423b1bdfbc3d32',1,'SwiftSpark']]],
   ['host',['Host',['../classMenu.html#a2392df614c7ee87fcf938726bae62d5f',1,'Menu.Host()'],['../classNet.html#a29ccd41164c17d8ee7b67a030aa863a5',1,'Net.Host()'],['../classAPI.html#aba42797a7dd2689d5cfbd9b0dfbc683c',1,'API.Host()']]],
   ['hostmenu',['HostMenu',['../classHostMenu.html',1,'']]],
   ['hostmenu_2ecs',['HostMenu.cs',['../HostMenu_8cs.html',1,'']]],
