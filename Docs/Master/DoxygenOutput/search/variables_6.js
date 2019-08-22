@@ -18,6 +18,7 @@ var searchData=
   ['fpwallkicksfx',['FpWallKickSfx',['../classPlayerSfxManager.html#aef1d4a060f9ada9a337252d01972db2a',1,'PlayerSfxManager']]],
   ['friction',['Friction',['../classDroppedItem.html#a895d5e94e52e517acd5c793ed2d93216',1,'DroppedItem']]],
   ['frozen',['Frozen',['../classPlayer.html#a2d141900f49e890a21e842fa481405e2',1,'Player']]],
+  ['fullauto',['FullAuto',['../structItems_1_1IdInfo.html#a1105065c6aeb08c55d7c57598cf55372',1,'Items::IdInfo']]],
   ['funcwitharg',['FuncWithArg',['../classBindingObject.html#a86cd1f8d75968cf83c4104f27b0e61e0',1,'BindingObject']]],
   ['funcwithoutarg',['FuncWithoutArg',['../classBindingObject.html#a0e72a98c12d7b657691e22056c3788e2',1,'BindingObject']]]
 ];
