@@ -82,5 +82,6 @@ var searchData=
   ['steelmath',['SteelMath',['../classSteelMath.html',1,'']]],
   ['steelmath_2ecs',['SteelMath.cs',['../SteelMath_8cs.html',1,'']]],
   ['steelrpc',['SteelRpc',['../classNet.html#ac033190feb2a2d5b3901f6bd7cbc0762',1,'Net']]],
-  ['steelrpcunreliable',['SteelRpcUnreliable',['../classNet.html#a722f9e36d7cf2f9d04139ad0170b4151',1,'Net']]]
+  ['steelrpcunreliable',['SteelRpcUnreliable',['../classNet.html#a722f9e36d7cf2f9d04139ad0170b4151',1,'Net']]],
+  ['swiftspark',['SWIFTSPARK',['../classItems.html#a6774bacbe40c425044480de464c64e40afec01320eaa257cd02d369ccad66dc8b',1,'Items']]]
 ];
