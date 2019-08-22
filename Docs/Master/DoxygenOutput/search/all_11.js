@@ -1,7 +1,7 @@
 var searchData=
 [
   ['r',['R',['../classSavedTile.html#a45392533991d53eb20d3e21604a0f703',1,'SavedTile']]],
-  ['range',['Range',['../classScattershock.html#a767e560cc004a9bd709718032b6dd91f',1,'Scattershock.Range()'],['../classThunderbolt.html#a738f837efe2596a3f996a0b137bc5240',1,'Thunderbolt.Range()']]],
+  ['range',['Range',['../classScattershock.html#a767e560cc004a9bd709718032b6dd91f',1,'Scattershock.Range()'],['../classSwiftSpark.html#a8eda271aa0180970a1a47addc554ea0a',1,'SwiftSpark.Range()'],['../classThunderbolt.html#a738f837efe2596a3f996a0b137bc5240',1,'Thunderbolt.Range()']]],
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
   ['readytorequestworld',['ReadyToRequestWorld',['../classNet.html#a74b1735d30323b446357a054d8f4fcf1',1,'Net']]],
   ['recievenick',['RecieveNick',['../classNet.html#a3b998694e12abd275fdc8a175ede7337',1,'Net']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['filespressed',['FilesPressed',['../classMainMenu.html#a97ad177df957e61c82b90ed96ac86f6c',1,'MainMenu']]],
-  ['fire',['Fire',['../classScattershock.html#adfeca4074bf5c7bdbf29376cf69d611f',1,'Scattershock.Fire()'],['../classThunderbolt.html#abdd988a507ea9849f7a16bc91f97beaa',1,'Thunderbolt.Fire()'],['../classRocketJumper.html#a33f539668df3c0ccee730d6577cb114d',1,'RocketJumper.Fire()']]],
+  ['fire',['Fire',['../classScattershock.html#adfeca4074bf5c7bdbf29376cf69d611f',1,'Scattershock.Fire()'],['../classSwiftSpark.html#a5a786fec0fe0d3e784d1914dd5670a73',1,'SwiftSpark.Fire()'],['../classThunderbolt.html#abdd988a507ea9849f7a16bc91f97beaa',1,'Thunderbolt.Fire()'],['../classRocketJumper.html#a33f539668df3c0ccee730d6577cb114d',1,'RocketJumper.Fire()']]],
   ['flattened',['Flattened',['../classSteelMath.html#ae37c93281fd3b3c5652c766ed64c462d',1,'SteelMath']]],
   ['fly',['Fly',['../classAPI.html#a9eace4fadcef330fc5ac9ab29f5cf131',1,'API']]],
   ['forwardmove',['ForwardMove',['../classPlayer.html#a6ecae580a7f73c91cbf58b480761cb5b',1,'Player']]],

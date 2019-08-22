@@ -7,7 +7,7 @@ var searchData=
   ['leftmove',['LeftMove',['../classPlayer.html#afaa2306a55687698787aeff4294d601f',1,'Player']]],
   ['leftsens',['LeftSens',['../classPlayer.html#ab90c205f1c1a5cb64081b2d6d00a4dd2',1,'Player']]],
   ['legs',['LEGS',['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203a994822189b7aa270c0ef47c2b1825379',1,'HitboxClass']]],
-  ['legshotdamage',['LegshotDamage',['../classScattershock.html#a94bad70f3b99974bace497999cf0e329',1,'Scattershock.LegshotDamage()'],['../classThunderbolt.html#ac635269f2bfdb5b7d0e34166749a3c28',1,'Thunderbolt.LegshotDamage()']]],
+  ['legshotdamage',['LegshotDamage',['../classScattershock.html#a94bad70f3b99974bace497999cf0e329',1,'Scattershock.LegshotDamage()'],['../classSwiftSpark.html#a92467e8cd9c61cdfb17f2c0cd526b0f2',1,'SwiftSpark.LegshotDamage()'],['../classThunderbolt.html#ac635269f2bfdb5b7d0e34166749a3c28',1,'Thunderbolt.LegshotDamage()']]],
   ['legsjoint',['LegsJoint',['../classPlayer.html#abf41f6deda7cfbf003c002490e23b631',1,'Player']]],
   ['length',['Length',['../classHitscan_1_1AdditiveRecoil.html#a35c6662307614bbf477247d3378b1e00',1,'Hitscan::AdditiveRecoil']]],
   ['license_2emd',['LICENSE.md',['../LICENSE_8md.html',1,'']]],

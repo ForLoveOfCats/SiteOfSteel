@@ -7,5 +7,6 @@ var searchData=
   ['shadercompilerhider',['ShaderCompilerHider',['../classShaderCompilerHider.html',1,'']]],
   ['slotbutton',['SlotButton',['../classSlotButton.html',1,'']]],
   ['startup',['Startup',['../classStartup.html',1,'']]],
-  ['steelmath',['SteelMath',['../classSteelMath.html',1,'']]]
+  ['steelmath',['SteelMath',['../classSteelMath.html',1,'']]],
+  ['swiftspark',['SwiftSpark',['../classSwiftSpark.html',1,'']]]
 ];
