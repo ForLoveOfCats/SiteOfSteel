@@ -14,5 +14,6 @@ var searchData=
   ['loglabel',['LogLabel',['../classConsole.html#a9bb59a765b97b7a739069cb1d4c4cac0',1,'Console']]],
   ['lookdivisor',['LookDivisor',['../classPlayer.html#aec3892803cbf1a429f75e9dd2654a38c',1,'Player']]],
   ['lookhorizontal',['LookHorizontal',['../classPlayer.html#a648b8dc110677287f624c875ebc48e9c',1,'Player']]],
-  ['looksensitivity',['LookSensitivity',['../classGame.html#adac4c94e567e328a8dd073532003dec5',1,'Game']]]
+  ['looksensitivity',['LookSensitivity',['../classGame.html#adac4c94e567e328a8dd073532003dec5',1,'Game']]],
+  ['lowerlegs',['LowerLegs',['../classPlayer.html#ad8329b78bcaafff3f5827e01cc775d1d',1,'Player']]]
 ];

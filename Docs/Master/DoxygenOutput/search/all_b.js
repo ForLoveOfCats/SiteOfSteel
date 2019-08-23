@@ -32,5 +32,6 @@ var searchData=
   ['looksensitivity',['LookSensitivity',['../classGame.html#adac4c94e567e328a8dd073532003dec5',1,'Game']]],
   ['lookup',['LookUp',['../classPlayer.html#a84b1e9e383ee209cd45b5054270e17fe',1,'Player']]],
   ['looprotation',['LoopRotation',['../classSteelMath.html#ae94f4a7f95480141f540acfc20e23176',1,'SteelMath']]],
+  ['lowerlegs',['LowerLegs',['../classPlayer.html#ad8329b78bcaafff3f5827e01cc775d1d',1,'Player']]],
   ['license',['LICENSE',['../md_LICENSE.html',1,'']]]
 ];
