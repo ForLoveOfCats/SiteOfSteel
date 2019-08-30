@@ -26,7 +26,6 @@ var searchData=
   ['closecreatetoolbar',['CloseCreateToolbar',['../classHostMenu.html#a81ebf8a618a82f48c466fdcda74a317a',1,'HostMenu']]],
   ['closedeletetoolbar',['CloseDeleteToolbar',['../classHostMenu.html#a7293449aa179a8b45b453a548a5c1def',1,'HostMenu']]],
   ['closerenametoolbar',['CloseRenameToolbar',['../classHostMenu.html#a37cd1eaa1dbdb657ede1497942945716',1,'HostMenu']]],
-  ['collisioncapsule',['CollisionCapsule',['../classPlayer.html#a06ca968f66ca88b17aced4bd2b1ba10d',1,'Player']]],
   ['confirmcreatepressed',['ConfirmCreatePressed',['../classHostMenu.html#a699242ef2f4be8e63b6bdd29152af0cb',1,'HostMenu']]],
   ['confirmdeletepressed',['ConfirmDeletePressed',['../classHostMenu.html#af201157cdf6b08430ad4c9a837ae86c9',1,'HostMenu']]],
   ['confirmpressed',['ConfirmPressed',['../classNickMenu.html#a194f3fd0efdc379d2d977346040a6801',1,'NickMenu']]],

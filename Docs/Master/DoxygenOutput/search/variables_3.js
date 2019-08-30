@@ -10,7 +10,6 @@ var searchData=
   ['chunks',['Chunks',['../classWorld.html#a93019f03e6b84b6f9f21f7bd8869fa1f',1,'World']]],
   ['chunksize',['ChunkSize',['../classWorld.html#ad0f2b6fbc6773a826b44f93dbd51ac33',1,'World']]],
   ['chunktuple',['ChunkTuple',['../classSavedChunk.html#a658d42471a149fb77785baab255f5a0f',1,'SavedChunk']]],
-  ['collisioncapsule',['CollisionCapsule',['../classPlayer.html#a06ca968f66ca88b17aced4bd2b1ba10d',1,'Player']]],
   ['connectmenu',['ConnectMenu',['../classMenu.html#a8b4a3757163c26c005c683d0051f2f18',1,'Menu']]],
   ['consolelabel',['ConsoleLabel',['../classConsole.html#addfa0b407ee45b1300eeeac3c0f73d39',1,'Console']]],
   ['consolestate',['ConsoleState',['../classScripting.html#ab2953cfcf0676e372aa8af4de16f584d',1,'Scripting']]],

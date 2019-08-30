@@ -68,6 +68,7 @@ var searchData=
   ['slotbuttonscene',['SlotButtonScene',['../classHostMenu.html#a51daf6bf1d4334c1f1fce5bcb2fc116e',1,'HostMenu']]],
   ['slotsvbox',['SlotsVBox',['../classHostMenu.html#a9472b85df12d7fa168dd0b401d817649',1,'HostMenu']]],
   ['slotswitchcooldown',['SlotSwitchCooldown',['../classPlayer.html#a51bf41341dbd95c45a24f75e2c9a5312',1,'Player']]],
+  ['smallcollisioncapsule',['SmallCollisionCapsule',['../classPlayer.html#aa337936e13266deb848db24e5c23d37f',1,'Player']]],
   ['snaptogrid',['SnapToGrid',['../classSteelMath.html#ab507956784020e95ebece3256d0b6ba9',1,'SteelMath']]],
   ['spawnplayer',['SpawnPlayer',['../classGame.html#a45b78578049acaa5255841088055190a',1,'Game']]],
   ['spot',['Spot',['../structItems_1_1CustomItemEnum.html#a17967637360c9e88a161ac650b851934',1,'Items::CustomItemEnum']]],
