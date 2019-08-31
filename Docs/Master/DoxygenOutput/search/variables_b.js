@@ -3,6 +3,7 @@ var searchData=
   ['labelpiecescene',['LabelPieceScene',['../classHostMenu.html#adbb2d27f021422d9e7cbe54f9e29369c',1,'HostMenu']]],
   ['largecollisioncapsule',['LargeCollisionCapsule',['../classPlayer.html#a20d4412cbdb658b40772c96c9354141b',1,'Player']]],
   ['lastmomentumy',['LastMomentumY',['../classPlayer.html#a380b565ee1fa38bf086fb2c6c7c82b87',1,'Player']]],
+  ['lastslidecollision',['LastSlideCollision',['../classPlayer.html#acacbf6b35d4814e9fbea6afd7b6cd691',1,'Player']]],
   ['leftlegflames',['LeftLegFlames',['../classPlayer.html#a7960c7e3cb7c6e926796a1a856c7dadb',1,'Player']]],
   ['leftsens',['LeftSens',['../classPlayer.html#ab90c205f1c1a5cb64081b2d6d00a4dd2',1,'Player']]],
   ['legshotdamage',['LegshotDamage',['../classScattershock.html#a94bad70f3b99974bace497999cf0e329',1,'Scattershock.LegshotDamage()'],['../classSwiftSpark.html#a92467e8cd9c61cdfb17f2c0cd526b0f2',1,'SwiftSpark.LegshotDamage()'],['../classThunderbolt.html#ac635269f2bfdb5b7d0e34166749a3c28',1,'Thunderbolt.LegshotDamage()']]],

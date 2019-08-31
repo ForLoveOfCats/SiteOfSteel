@@ -8,6 +8,7 @@ var searchData=
   ['wall',['WALL',['../classItems.html#a6774bacbe40c425044480de464c64e40a48d536b2de1195d0c9f6ea8ab884085e',1,'Items']]],
   ['wallbuildposition',['WallBuildPosition',['../classBuildingLogic.html#a6b4d310121925dba42e186c4a5c771a0',1,'BuildingLogic']]],
   ['wallbuildrotation',['WallBuildRotation',['../classBuildingLogic.html#a468d41e95b97fc5bb949cb595b5b36e2',1,'BuildingLogic']]],
+  ['wallkickarea',['WallKickArea',['../classPlayer.html#ac5c99bec0a8416a644cf83424de4e19d',1,'Player']]],
   ['wallkickhorzontalforce',['WallKickHorzontalForce',['../classPlayer.html#a262b8462c7a9248d62a0604b83ff19a2',1,'Player']]],
   ['wallkickjumpforce',['WallKickJumpForce',['../classPlayer.html#a76aceddd904d3f32a69c430b26441bb7',1,'Player']]],
   ['wasonfloor',['WasOnFloor',['../classPlayer.html#ab9e768c08a825e60fd8c99aae9b1e790',1,'Player']]],
