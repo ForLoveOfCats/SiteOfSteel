@@ -2,6 +2,8 @@ var searchData=
 [
   ['backpressed',['BackPressed',['../classConnectMenu.html#aaaa587fdb949edba9b09c83f3df466dd',1,'ConnectMenu.BackPressed()'],['../classCreditsMenu.html#a6301e457c9d49cbb74a82d61f3a40aa7',1,'CreditsMenu.BackPressed()'],['../classHelpMenu.html#a7633f0971e314e35c6e054d487f8be9b',1,'HelpMenu.BackPressed()'],['../classHostMenu.html#ad28e2dd91d2a5b605d010f19e3599754',1,'HostMenu.BackPressed()'],['../classLicensesMenu.html#a20fe8cd48e65b7d5b494c44a6b91dc54',1,'LicensesMenu.BackPressed()']]],
   ['backwardmove',['BackwardMove',['../classPlayer.html#af2522c04f88fb644ee2611ff8d2edd7d',1,'Player']]],
+  ['bentpipebuildposition',['BentPipeBuildPosition',['../classBuildingLogic.html#a100ba2c319575a27e2424ffdf5116d63',1,'BuildingLogic']]],
+  ['bentpipebuildrotation',['BentPipeBuildRotation',['../classBuildingLogic.html#ac6a7d0705f48950019b342ed91036dde',1,'BuildingLogic']]],
   ['bind',['Bind',['../classAPI.html#a819ddd0de28072acf780162e9f95281d',1,'API.Bind()'],['../classBindings.html#a0cb96f75a47a4e84b8fc89c22c6aa106',1,'Bindings.Bind()']]],
   ['bindingobject',['BindingObject',['../classBindingObject.html#a360e643f0017cbcd2084bab709f61c7d',1,'BindingObject']]],
   ['bindings',['Bindings',['../classBindings.html#aea96374ba3e50737f7c953d0860d1f3e',1,'Bindings']]],
