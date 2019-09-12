@@ -22,5 +22,6 @@ var searchData=
   ['returnpressed',['ReturnPressed',['../classPauseMenu.html#aa613cb3284324c6877dac14c28ddb45e',1,'PauseMenu']]],
   ['rightmove',['RightMove',['../classPlayer.html#ad31409406e4a4b2ccaff1f187f3c6b9d',1,'Player']]],
   ['rocketjumper',['RocketJumper',['../classRocketJumper.html#a776fdca843c9d2a1a1af2815fb9910d3',1,'RocketJumper.RocketJumper()'],['../classRocketJumper.html#a84c4644d81e986b040a6e84831a760a4',1,'RocketJumper.RocketJumper()']]],
+  ['roundvec3',['RoundVec3',['../classSteelMath.html#a0dacb4ff0008b57efe6c032decadd92a',1,'SteelMath']]],
   ['runconsoleline',['RunConsoleLine',['../classScripting.html#a88d3bc10d7c6fdeef233279590e3e05b',1,'Scripting']]]
 ];

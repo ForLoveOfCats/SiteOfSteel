@@ -43,6 +43,7 @@ var searchData=
   ['rockettravelspeed',['RocketTravelSpeed',['../classRocketJumper.html#ac05f5635b26f5fbf4ba6b0654014f7b5',1,'RocketJumper']]],
   ['rocketverticaldivisor',['RocketVerticalDivisor',['../classRocketJumper.html#a5d769f0ff038f9290eba6d033b97d47e',1,'RocketJumper']]],
   ['rotationdelegate',['RotationDelegate',['../structItems_1_1IdInfo.html#ab81e4124de5196bb94b7169c855a8148',1,'Items::IdInfo']]],
+  ['roundvec3',['RoundVec3',['../classSteelMath.html#a0dacb4ff0008b57efe6c032decadd92a',1,'SteelMath']]],
   ['rps',['RPS',['../classDroppedItem.html#ac7637f7c67c1672bd05dd6783399fe08',1,'DroppedItem']]],
   ['runconsoleline',['RunConsoleLine',['../classScripting.html#a88d3bc10d7c6fdeef233279590e3e05b',1,'Scripting']]],
   ['runtimeroot',['RuntimeRoot',['../classGame.html#a43ec0bc21bbeff875976141bcad60fb0',1,'Game']]]
