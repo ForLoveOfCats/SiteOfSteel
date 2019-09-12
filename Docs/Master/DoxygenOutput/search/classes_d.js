@@ -1,4 +1,8 @@
 var searchData=
 [
-  ['queueddamage',['QueuedDamage',['../classHitscan_1_1QueuedDamage.html',1,'Hitscan']]]
+  ['pausemenu',['PauseMenu',['../classPauseMenu.html',1,'']]],
+  ['pipe',['Pipe',['../classPipe.html',1,'']]],
+  ['player',['Player',['../classPlayer.html',1,'']]],
+  ['playersfxmanager',['PlayerSfxManager',['../classPlayerSfxManager.html',1,'']]],
+  ['projectilecollision',['ProjectileCollision',['../classProjectileCollision.html',1,'']]]
 ];

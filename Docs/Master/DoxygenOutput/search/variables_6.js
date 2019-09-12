@@ -1,6 +1,9 @@
 var searchData=
 [
   ['firecooldown',['FireCooldown',['../classScattershock.html#af5587d10ad4b41b7a45f6231dd9fb8ad',1,'Scattershock.FireCooldown()'],['../classSwiftSpark.html#ac7be9a82143bddc4b8ec9996cb8aa915',1,'SwiftSpark.FireCooldown()'],['../classThunderbolt.html#a14e3b7e22e6d233008fd1d2d1ce4590d',1,'Thunderbolt.FireCooldown()'],['../classRocketJumper.html#a0b56876039c0d30cf830b4e493fb3cb0',1,'RocketJumper.FireCooldown()']]],
+  ['firstendcollision',['FirstEndCollision',['../classPipe.html#ad95d896c525b960b18726e014c8e0d68',1,'Pipe']]],
+  ['firstendmesh',['FirstEndMesh',['../classPipe.html#a4ea85bc4cef5eff5305a898fbb20fb46',1,'Pipe']]],
+  ['firstopenend',['FirstOpenEnd',['../classPipe.html#a6e863e4d422cab2cfceb69ae767b08d4',1,'Pipe']]],
   ['flydeceleratetime',['FlyDecelerateTime',['../classPlayer.html#aa465ae1248c78c94dfc8218ea163052b',1,'Player']]],
   ['flysprintmultiplyer',['FlySprintMultiplyer',['../classPlayer.html#a08254cd732fa48b9023b071e9ccbca03',1,'Player']]],
   ['forwardaxis',['ForwardAxis',['../classPlayer.html#ad5e90f13321e19b6fb9cb379a33bb9e5',1,'Player']]],
