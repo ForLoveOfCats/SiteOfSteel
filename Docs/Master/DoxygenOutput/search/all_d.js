@@ -18,6 +18,5 @@ var searchData=
   ['nickname',['Nickname',['../classGame.html#aeaf2b356ac5a98df1a4cf56398d57ec9',1,'Game.Nickname()'],['../classAPI.html#a6de88308fa444e22415c06d6c8deedd6',1,'API.Nickname()']]],
   ['nicknames',['Nicknames',['../classNet.html#a4432b68d7400c4dd7d3226308deefdcf',1,'Net']]],
   ['notifysuccessconnect',['NotifySuccessConnect',['../classNet.html#aa47fa440ca155f4ef7642894c6414ef8',1,'Net']]],
-  ['notifyteamchange',['NotifyTeamChange',['../classPlayer.html#a0fb323ba92119026c433de8fce073e94',1,'Player']]],
-  ['number',['Number',['../classPipeSystem.html#a3b10cc21c5432ddcd4e178ecdb26ec8a',1,'PipeSystem']]]
+  ['notifyteamchange',['NotifyTeamChange',['../classPlayer.html#a0fb323ba92119026c433de8fce073e94',1,'Player']]]
 ];
