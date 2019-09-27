@@ -23,6 +23,7 @@ var searchData=
   ['buildinglogic',['BuildingLogic',['../classBuildingLogic.html',1,'']]],
   ['buildinglogic_2ecs',['BuildingLogic.cs',['../BuildingLogic_8cs.html',1,'']]],
   ['buildintro',['BuildIntro',['../classMenu.html#a50804a9650bd7889535b3dc4c70fdc6f',1,'Menu']]],
+  ['buildinventory',['BuildInventory',['../classMenu.html#a600e8452c718b735f586f7ba3a236de4',1,'Menu']]],
   ['buildlicenses',['BuildLicenses',['../classMenu.html#a0c8a171128e62233f086347f3e4ffd6a',1,'Menu']]],
   ['buildmain',['BuildMain',['../classMenu.html#a4a2287d8d13a4783cadd6dffdd3efb28',1,'Menu']]],
   ['buildnick',['BuildNick',['../classMenu.html#a53df15fe51e57a4d71e82da3f37ac16e',1,'Menu']]],

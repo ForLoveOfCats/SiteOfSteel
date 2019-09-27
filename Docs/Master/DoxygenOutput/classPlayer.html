@@ -103,6 +103,7 @@ Inheritance diagram for Player:</div>
   <img src="classPlayer.png" usemap="#Player_map" alt=""/>
   <map id="Player_map" name="Player_map">
 <area href="interfaceIPushable.html" alt="IPushable" shape="rect" coords="105,0,200,24"/>
+<area href="interfaceIInventory.html" alt="IInventory" shape="rect" coords="210,0,305,24"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -307,8 +308,6 @@ Public Attributes</h2></td></tr>
 <tr class="separator:ac2204deb48aeff469da562a297c3442f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c1626f95317258105360211ac9cb453"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="classHitscan_1_1AdditiveRecoil.html">Hitscan.AdditiveRecoil</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer.html#a1c1626f95317258105360211ac9cb453">ActiveAdditiveRecoil</a> = new List&lt;<a class="el" href="classHitscan_1_1AdditiveRecoil.html">Hitscan.AdditiveRecoil</a>&gt;()</td></tr>
 <tr class="separator:a1c1626f95317258105360211ac9cb453"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afba22011adb6b3eb7030056845adc62d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classItems_1_1Instance.html">Items.Instance</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer.html#afba22011adb6b3eb7030056845adc62d">Inventory</a> = new <a class="el" href="classItems_1_1Instance.html">Items.Instance</a>[10]</td></tr>
-<tr class="separator:afba22011adb6b3eb7030056845adc62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4f1bfc3b4a60a374a7efbc1acb18f38"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer.html#ab4f1bfc3b4a60a374a7efbc1acb18f38">InventorySlot</a> = 0</td></tr>
 <tr class="separator:ab4f1bfc3b4a60a374a7efbc1acb18f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8187a9fc8791d7c392bd876026db0728"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer.html#a8187a9fc8791d7c392bd876026db0728">BuildRotation</a> = 0</td></tr>
@@ -375,9 +374,14 @@ Properties</h2></td></tr>
 <tr class="separator:afdac119610bf6045dee06e9ed18ff5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90d88120746dc851a3d42c02523cd064"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer.html#a90d88120746dc851a3d42c02523cd064">PreventSwitch</a> = 100<code> [get, private set]</code></td></tr>
 <tr class="separator:a90d88120746dc851a3d42c02523cd064"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afba22011adb6b3eb7030056845adc62d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classItems_1_1Instance.html">Items.Instance</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPlayer.html#afba22011adb6b3eb7030056845adc62d">Inventory</a><code> [get, set]</code></td></tr>
+<tr class="separator:afba22011adb6b3eb7030056845adc62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interfaceIPushable"><td colspan="2" onclick="javascript:toggleInherit('properties_interfaceIPushable')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interfaceIPushable.html">IPushable</a></td></tr>
 <tr class="memitem:a799afaa8fe50e5ef1d1e3866d3cff6da inherit properties_interfaceIPushable"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceIPushable.html#a799afaa8fe50e5ef1d1e3866d3cff6da">Translation</a><code> [get, set]</code></td></tr>
 <tr class="separator:a799afaa8fe50e5ef1d1e3866d3cff6da inherit properties_interfaceIPushable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interfaceIInventory"><td colspan="2" onclick="javascript:toggleInherit('properties_interfaceIInventory')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interfaceIInventory.html">IInventory</a></td></tr>
+<tr class="memitem:aeb3c378c7aa8c31589696eae9eff04ad inherit properties_interfaceIInventory"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classItems_1_1Instance.html">Items.Instance</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfaceIInventory.html#aeb3c378c7aa8c31589696eae9eff04ad">Inventory</a><code> [get, set]</code></td></tr>
+<tr class="separator:aeb3c378c7aa8c31589696eae9eff04ad inherit properties_interfaceIInventory"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -2094,20 +2098,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afba22011adb6b3eb7030056845adc62d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classItems_1_1Instance.html">Items.Instance</a> [] Player.Inventory = new <a class="el" href="classItems_1_1Instance.html">Items.Instance</a>[10]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="Player_8cs_source.html#l00102">102</a> of file <a class="el" href="Player_8cs_source.html">Player.cs</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="ab4f1bfc3b4a60a374a7efbc1acb18f38"></a>
 <div class="memitem">
 <div class="memproto">
@@ -2932,6 +2922,28 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="Player_8cs_source.html#l00022">22</a> of file <a class="el" href="Player_8cs_source.html">Player.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="afba22011adb6b3eb7030056845adc62d"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classItems_1_1Instance.html">Items.Instance</a> [] Player.Inventory</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="Player_8cs_source.html#l00102">102</a> of file <a class="el" href="Player_8cs_source.html">Player.cs</a>.</p>
 
 </div>
 </div>
