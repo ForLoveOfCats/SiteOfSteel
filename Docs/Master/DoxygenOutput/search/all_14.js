@@ -10,6 +10,7 @@ var searchData=
   ['updateicon',['UpdateIcon',['../classInventoryIcon.html#ac15837bf95dc19480ae30f2d072d9d6a',1,'InventoryIcon']]],
   ['updatemenu',['UpdateMenu',['../classUpdateMenu.html',1,'']]],
   ['updatemenu_2ecs',['UpdateMenu.cs',['../UpdateMenu_8cs.html',1,'']]],
+  ['updatesize',['UpdateSize',['../classInventoryIcon.html#ab42af3cf9086db0117fa32d51af5e9b1',1,'InventoryIcon']]],
   ['usedelegate',['UseDelegate',['../structItems_1_1IdInfo.html#a1bec42d513e848c1135f6a35c47274c4',1,'Items::IdInfo']]],
   ['useitem',['UseItem',['../classItems.html#a00b58366a9fe755cb62a173fa188a850',1,'Items']]],
   ['useitemdelegate',['UseItemDelegate',['../classItems.html#ae3a632388c864d5f1cbdba261789bed3',1,'Items']]],
