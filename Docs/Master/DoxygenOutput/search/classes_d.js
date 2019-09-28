@@ -2,6 +2,7 @@ var searchData=
 [
   ['pausemenu',['PauseMenu',['../classPauseMenu.html',1,'']]],
   ['pipe',['Pipe',['../classPipe.html',1,'']]],
+  ['pipecorelogic',['PipeCoreLogic',['../classPipeCoreLogic.html',1,'']]],
   ['pipejoint',['PipeJoint',['../classPipeJoint.html',1,'']]],
   ['pipesystem',['PipeSystem',['../classPipeSystem.html',1,'']]],
   ['player',['Player',['../classPlayer.html',1,'']]],

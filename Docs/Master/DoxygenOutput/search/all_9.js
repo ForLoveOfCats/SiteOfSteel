@@ -39,8 +39,6 @@ var searchData=
   ['inventoryup',['InventoryUp',['../classPlayer.html#a81d7c10580f7dfc28f841f02f8ee584b',1,'Player']]],
   ['ip',['Ip',['../classNet.html#a779150436be77df01034c832292becf0',1,'Net']]],
   ['ipedit',['IpEdit',['../classConnectMenu.html#ae86839ec5c9c0da44eb0514751d3d6d6',1,'ConnectMenu']]],
-  ['ipipe',['IPipe',['../interfaceIPipe.html',1,'']]],
-  ['ipipe_2ecs',['IPipe.cs',['../IPipe_8cs.html',1,'']]],
   ['iprojectilecollision',['IProjectileCollision',['../interfaceIProjectileCollision.html',1,'']]],
   ['ipushable',['IPushable',['../interfaceIPushable.html',1,'']]],
   ['ipushable_2ecs',['IPushable.cs',['../IPushable_8cs.html',1,'']]],

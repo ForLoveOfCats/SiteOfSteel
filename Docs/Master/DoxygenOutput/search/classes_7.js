@@ -7,7 +7,6 @@ var searchData=
   ['intro',['Intro',['../classIntro.html',1,'']]],
   ['inventoryicon',['InventoryIcon',['../classInventoryIcon.html',1,'']]],
   ['inventorymenu',['InventoryMenu',['../classInventoryMenu.html',1,'']]],
-  ['ipipe',['IPipe',['../interfaceIPipe.html',1,'']]],
   ['iprojectilecollision',['IProjectileCollision',['../interfaceIProjectileCollision.html',1,'']]],
   ['ipushable',['IPushable',['../interfaceIPushable.html',1,'']]],
   ['items',['Items',['../classItems.html',1,'']]]

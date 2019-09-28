@@ -8,7 +8,7 @@ var searchData=
   ['onplayercollide',['OnPlayerCollide',['../classGamemode.html#a4b0c45e2894bc096e53544926347ac1e',1,'Gamemode']]],
   ['onplayerconnect',['OnPlayerConnect',['../classGamemode.html#a05ed31c955a5ee02cee5af27f6690d34',1,'Gamemode']]],
   ['onplayerdisconnect',['OnPlayerDisconnect',['../classGamemode.html#aefd4f99a7cc64b1248a020fdcc0253c5',1,'Gamemode']]],
-  ['onremove',['OnRemove',['../classLocker.html#a552c909307338c53248fca514a0cf5fe',1,'Locker.OnRemove()'],['../classPipe.html#aad438e6099a927000648fa75c3d0d7bc',1,'Pipe.OnRemove()'],['../classPipeJoint.html#aa224d678b3b9c30c1fc9426e4369d810',1,'PipeJoint.OnRemove()'],['../classTile.html#a0b7290adfd77f2b0234c3b913493322a',1,'Tile.OnRemove()']]],
+  ['onremove',['OnRemove',['../classPipeCoreLogic.html#a682a9711df9f7924bc31cc87eee72051',1,'PipeCoreLogic.OnRemove()'],['../classTile.html#a0b7290adfd77f2b0234c3b913493322a',1,'Tile.OnRemove()']]],
   ['onscreenresized',['OnScreenResized',['../classHUD.html#aeb23040d305339707c3981017a14f6dc',1,'HUD']]],
   ['onunload',['OnUnload',['../classGamemode.html#ad71ab0a1881b131dcce4140aaf8395ef',1,'Gamemode']]],
   ['open',['Open',['../classConsole.html#ad7d9459bb157673ce63aaba13c18dd87',1,'Console.Open()'],['../classConsoleWindow.html#a47d5d235fc82bdbb6935797d7a91aa8d',1,'ConsoleWindow.Open()']]],
