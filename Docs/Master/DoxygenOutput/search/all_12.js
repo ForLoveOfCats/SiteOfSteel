@@ -66,6 +66,7 @@ var searchData=
   ['sixthendmesh',['SixthEndMesh',['../classPipeJoint.html#a1f0306376d09d448b23c530bf90051a1',1,'PipeJoint']]],
   ['sixthopenend',['SixthOpenEnd',['../classPipeJoint.html#a42746f61be79b56fc87c9bcec23ed1c0',1,'PipeJoint']]],
   ['slidefrictiondivisor',['SlideFrictionDivisor',['../classPlayer.html#a4fded75162edc3785fdc68b83ff340cd',1,'Player']]],
+  ['slidejumpboost',['SlideJumpBoost',['../classPlayer.html#aeaffdfd2231266718c7a80b2d962870f',1,'Player']]],
   ['slope',['SLOPE',['../classItems.html#a6774bacbe40c425044480de464c64e40a9e25d7b0ad41e0f1fbf4879602236875',1,'Items']]],
   ['slopebuildposition',['SlopeBuildPosition',['../classBuildingLogic.html#a853461f8b377d2305271a7f2c0f805b6',1,'BuildingLogic']]],
   ['slopebuildrotation',['SlopeBuildRotation',['../classBuildingLogic.html#a2471bdb2bd05482908fd17d8753515d5',1,'BuildingLogic']]],

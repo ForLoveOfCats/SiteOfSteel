@@ -19,6 +19,7 @@ var searchData=
   ['sixthendmesh',['SixthEndMesh',['../classPipeJoint.html#a1f0306376d09d448b23c530bf90051a1',1,'PipeJoint']]],
   ['sixthopenend',['SixthOpenEnd',['../classPipeJoint.html#a42746f61be79b56fc87c9bcec23ed1c0',1,'PipeJoint']]],
   ['slidefrictiondivisor',['SlideFrictionDivisor',['../classPlayer.html#a4fded75162edc3785fdc68b83ff340cd',1,'Player']]],
+  ['slidejumpboost',['SlideJumpBoost',['../classPlayer.html#aeaffdfd2231266718c7a80b2d962870f',1,'Player']]],
   ['slot',['Slot',['../classInventoryIcon.html#a3e4fa22e3dd49b94aa5c8ec06351b05c',1,'InventoryIcon']]],
   ['slotbuttonscene',['SlotButtonScene',['../classHostMenu.html#a51daf6bf1d4334c1f1fce5bcb2fc116e',1,'HostMenu']]],
   ['slotsvbox',['SlotsVBox',['../classHostMenu.html#a9472b85df12d7fa168dd0b401d817649',1,'HostMenu']]],
