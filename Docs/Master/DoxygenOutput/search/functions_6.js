@@ -4,6 +4,7 @@ var searchData=
   ['fire',['Fire',['../classScattershock.html#adfeca4074bf5c7bdbf29376cf69d611f',1,'Scattershock.Fire()'],['../classSwiftSpark.html#a5a786fec0fe0d3e784d1914dd5670a73',1,'SwiftSpark.Fire()'],['../classThunderbolt.html#abdd988a507ea9849f7a16bc91f97beaa',1,'Thunderbolt.Fire()'],['../classRocketJumper.html#a33f539668df3c0ccee730d6577cb114d',1,'RocketJumper.Fire()']]],
   ['flattened',['Flattened',['../classSteelMath.html#ae37c93281fd3b3c5652c766ed64c462d',1,'SteelMath']]],
   ['fly',['Fly',['../classAPI.html#a9eace4fadcef330fc5ac9ab29f5cf131',1,'API']]],
+  ['flysprint',['FlySprint',['../classPlayer.html#a08a63551f10025b2425e1bf6fedef4c0',1,'Player']]],
   ['forwardmove',['ForwardMove',['../classPlayer.html#a6ecae580a7f73c91cbf58b480761cb5b',1,'Player']]],
   ['fphitsound',['FpHitsound',['../classPlayerSfxManager.html#ad322d67c88bc81ef9c5294830cde7dee',1,'PlayerSfxManager']]],
   ['fpkillsound',['FpKillsound',['../classPlayerSfxManager.html#a966c5342a241d29e5c9b8dfc3e10de93',1,'PlayerSfxManager']]],

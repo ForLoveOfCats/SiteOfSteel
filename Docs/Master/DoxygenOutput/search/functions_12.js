@@ -40,7 +40,6 @@ var searchData=
   ['slopebuildrotation',['SlopeBuildRotation',['../classBuildingLogic.html#a2471bdb2bd05482908fd17d8753515d5',1,'BuildingLogic']]],
   ['snaptogrid',['SnapToGrid',['../classSteelMath.html#ab507956784020e95ebece3256d0b6ba9',1,'SteelMath']]],
   ['spawnplayer',['SpawnPlayer',['../classGame.html#a45b78578049acaa5255841088055190a',1,'Game']]],
-  ['sprint',['Sprint',['../classPlayer.html#af25e0dd64fc22f8c3bc6762674858ebf',1,'Player']]],
   ['start',['Start',['../classWorld.html#af2a2e1d5380aa94b6e3c1e5db940f9b5',1,'World']]],
   ['steelrpc',['SteelRpc',['../classNet.html#ac033190feb2a2d5b3901f6bd7cbc0762',1,'Net']]],
   ['steelrpcunreliable',['SteelRpcUnreliable',['../classNet.html#a722f9e36d7cf2f9d04139ad0170b4151',1,'Net']]]

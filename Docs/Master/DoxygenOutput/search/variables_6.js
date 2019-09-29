@@ -9,6 +9,7 @@ var searchData=
   ['firstopenend',['FirstOpenEnd',['../classPipe.html#a6e863e4d422cab2cfceb69ae767b08d4',1,'Pipe.FirstOpenEnd()'],['../classPipeJoint.html#a210a9a6167f6928020a0b0cbc8670185',1,'PipeJoint.FirstOpenEnd()']]],
   ['flydeceleratetime',['FlyDecelerateTime',['../classPlayer.html#aa465ae1248c78c94dfc8218ea163052b',1,'Player']]],
   ['flysprintmultiplyer',['FlySprintMultiplyer',['../classPlayer.html#a08254cd732fa48b9023b071e9ccbca03',1,'Player']]],
+  ['flysprintsens',['FlySprintSens',['../classPlayer.html#a97d139fee96a15263f81d8afd27bdd5b',1,'Player']]],
   ['forthendcollision',['ForthEndCollision',['../classPipeJoint.html#ace6c1131fb5ed9705925965c97d3697c',1,'PipeJoint']]],
   ['forthendmesh',['ForthEndMesh',['../classPipeJoint.html#ac0d11f83b45a783ecf32a3ce7de80610',1,'PipeJoint']]],
   ['forthopenend',['ForthOpenEnd',['../classPipeJoint.html#accd4089cb96cb630774130ce857238a6',1,'PipeJoint']]],

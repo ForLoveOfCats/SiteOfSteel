@@ -11,7 +11,6 @@ var searchData=
   ['maxhealth',['MaxHealth',['../classPlayer.html#a894ae405984872edee4caef3bc87cb5d',1,'Player']]],
   ['maxjumplength',['MaxJumpLength',['../classPlayer.html#aa06732cd3f6955f9c36de519ce4fd32f',1,'Player']]],
   ['maxlife',['MaxLife',['../classHitscanTrail.html#a725054cc3f3f9728d127bb17f06617f4',1,'HitscanTrail.MaxLife()'],['../classExplodeSfx.html#a2545d3dcb5e62f4f59d7af757d1803e0',1,'ExplodeSfx.MaxLife()'],['../classExplosionParticles.html#a7575ca6c6ba48ee3e3b03faed6a67350',1,'ExplosionParticles.MaxLife()'],['../classDamageIndicator.html#aa6079c7f879c6db50d710ad1bf268aa7',1,'DamageIndicator.MaxLife()']]],
-  ['maxmovementspeed',['MaxMovementSpeed',['../classPlayer.html#aeca7bf2e2564f6fe45d14f8a90bbf319',1,'Player']]],
   ['maxplayers',['MaxPlayers',['../classGame.html#aff4e8e31b7687e96cb443a25e7586974',1,'Game']]],
   ['maxrocketdistance',['MaxRocketDistance',['../classRocketJumper.html#a577763f2a4de186d3b97ea9123302426',1,'RocketJumper']]],
   ['maxrocketpush',['MaxRocketPush',['../classRocketJumper.html#a1c5e5af31906c1b0ad11b7db1c317d51',1,'RocketJumper']]],
@@ -32,5 +31,6 @@ var searchData=
   ['mouseenter',['MouseEnter',['../classSlotButton.html#a5b05cdd9d0daea48132f626f68e26183',1,'SlotButton.MouseEnter()'],['../classButtonPiece.html#a0d6eb773e6ae185ff1518a2450a8d9e1',1,'ButtonPiece.MouseEnter()']]],
   ['mouseoversfx',['MouseOverSfx',['../classSlotButton.html#a18f31f144af9ed475cbd8949da4ab729',1,'SlotButton.MouseOverSfx()'],['../classButtonPiece.html#a6ee81f7f1aa407b0cf406d5d524714be',1,'ButtonPiece.MouseOverSfx()']]],
   ['mousewheel',['MOUSEWHEEL',['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94bab5e1fa25b2720638803705f22d4bcc15',1,'Bindings']]],
-  ['movementreset',['MovementReset',['../classPlayer.html#a4df0e304b2bf0776ece616d8689de92c',1,'Player']]]
+  ['movementreset',['MovementReset',['../classPlayer.html#a4df0e304b2bf0776ece616d8689de92c',1,'Player']]],
+  ['movementspeed',['MovementSpeed',['../classPlayer.html#a382902827c9e636dc686c70c3b06f698',1,'Player']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['parent',['Parent',['../classOpenEnd.html#a14505d5ce4cebe957d26e4d30095f409',1,'OpenEnd']]],
-  ['preventswitch',['PreventSwitch',['../classPlayer.html#a90d88120746dc851a3d42c02523cd064',1,'Player']]]
+  ['system',['System',['../classPipeCoreLogic.html#a1d997878dd303f0e0dacc4f2db0688ff',1,'PipeCoreLogic']]]
 ];

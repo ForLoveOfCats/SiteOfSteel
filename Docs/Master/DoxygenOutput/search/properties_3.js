@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['maxmovementspeed',['MaxMovementSpeed',['../classPlayer.html#aeca7bf2e2564f6fe45d14f8a90bbf319',1,'Player']]]
+  ['parent',['Parent',['../classOpenEnd.html#a14505d5ce4cebe957d26e4d30095f409',1,'OpenEnd']]],
+  ['preventswitch',['PreventSwitch',['../classPlayer.html#a90d88120746dc851a3d42c02523cd064',1,'Player']]]
 ];
