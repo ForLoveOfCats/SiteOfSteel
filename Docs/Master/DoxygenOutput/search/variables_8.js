@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['hasjumped',['HasJumped',['../classPlayer.html#a0aa8f47fa4e02bf730ea27a0bffcf9bf',1,'Player']]],
   ['headjoint',['HeadJoint',['../classPlayer.html#a701822cb49c25d0827efa3fb35b7b82c',1,'Player']]],
   ['headshotdamage',['HeadshotDamage',['../classScattershock.html#a7d067a3240cbca85bc10b7cfc5884804',1,'Scattershock.HeadshotDamage()'],['../classSwiftSpark.html#acf20da01d6584f941c234af26f538774',1,'SwiftSpark.HeadshotDamage()'],['../classThunderbolt.html#a454053f2885f1bd2d5b1fbe30b18c8a7',1,'Thunderbolt.HeadshotDamage()']]],
   ['health',['Health',['../classPlayer.html#aa79638dd0093c0bb0d4b905f8646e663',1,'Player']]],
