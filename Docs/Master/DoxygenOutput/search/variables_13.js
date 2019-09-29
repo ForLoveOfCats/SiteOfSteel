@@ -18,7 +18,6 @@ var searchData=
   ['tpscattershockfiresfx',['TpScattershockFireSfx',['../classPlayerSfxManager.html#afded2d8d3a0c3e664a4a9922a5560da0',1,'PlayerSfxManager']]],
   ['tpthrowsfx',['TpThrowSfx',['../classPlayerSfxManager.html#ae0b0281402ef6b4b88f7ab95a3219fee',1,'PlayerSfxManager']]],
   ['tpthunderboltfiresfx',['TpThunderboltFireSfx',['../classPlayerSfxManager.html#a5fdd0e1fb327f43a4f820ad38d54bf98',1,'PlayerSfxManager']]],
-  ['tpwallkicksfx',['TpWallKickSfx',['../classPlayerSfxManager.html#abdb2eb61aa9ce4bfe403dab9c0ec2cdf',1,'PlayerSfxManager']]],
   ['trailshader',['TrailShader',['../classHitscanTrail.html#ab0d1ed13b33fff5be0672f34894e23d0',1,'HitscanTrail']]],
   ['trailstartadjustment',['TrailStartAdjustment',['../classHitscan.html#a99f00444291f98feff2a52a653bc2ad8',1,'Hitscan']]],
   ['transparencyshader',['TransparencyShader',['../classDamageIndicator.html#ac68761c38a617d1550ca26d9f7392264',1,'DamageIndicator']]],

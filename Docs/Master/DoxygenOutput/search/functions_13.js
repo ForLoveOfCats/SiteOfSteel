@@ -12,7 +12,6 @@ var searchData=
   ['tpscattershockfire',['TpScattershockFire',['../classPlayerSfxManager.html#ac269e20217d914b59d2abc04fee0460f',1,'PlayerSfxManager']]],
   ['tpthrow',['TpThrow',['../classPlayerSfxManager.html#a148572afa7144859263ac72ff27c3224',1,'PlayerSfxManager']]],
   ['tpthunderboltfire',['TpThunderboltFire',['../classPlayerSfxManager.html#a5cd7cd8f041229c31b3e415900f8ae59',1,'PlayerSfxManager']]],
-  ['tpwallkick',['TpWallKick',['../classPlayerSfxManager.html#ab19fd9f860251062642770711c46c04f',1,'PlayerSfxManager']]],
   ['trianglewallbuildposition',['TriangleWallBuildPosition',['../classBuildingLogic.html#a06a4a1cfa51a49e49051fd5240c12bdc',1,'BuildingLogic']]],
   ['trianglewallbuildrotation',['TriangleWallBuildRotation',['../classBuildingLogic.html#a095fc2df8d65726f3b52a65db8ff03a1',1,'BuildingLogic']]],
   ['trycalculatebuildposition',['TryCalculateBuildPosition',['../classItems.html#ade14792193004ab0107656faf611e81b',1,'Items']]]
