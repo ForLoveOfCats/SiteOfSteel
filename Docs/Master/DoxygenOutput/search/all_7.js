@@ -15,6 +15,7 @@ var searchData=
   ['ghostmesh',['GhostMesh',['../classGhost.html#a60bc06fd11d9ed30d2b0304c372c476f',1,'Ghost']]],
   ['githubpressed',['GithubPressed',['../classMainMenu.html#a0251371314960043313e09f8f4559ea4',1,'MainMenu']]],
   ['give',['Give',['../classAPI.html#a4c6e24653ea01af223bc4fb1d0965e04',1,'API']]],
+  ['givedefaultitems',['GiveDefaultItems',['../classPlayer.html#a6834f4873fafb7c44095d9d0fe508a2d',1,'Player']]],
   ['gm',['Gm',['../classAPI.html#adc6ac876a7e6487c1d02a51216c38aaf',1,'API']]],
   ['gmconfig_2ecs',['GmConfig.cs',['../GmConfig_8cs.html',1,'']]],
   ['gmconfigclass',['GmConfigClass',['../classGmConfigClass.html',1,'']]],

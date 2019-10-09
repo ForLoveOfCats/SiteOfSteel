@@ -5,13 +5,13 @@ var searchData=
   ['teambutton',['TeamButton',['../classPauseMenu.html#a3ec025848c3add895839c3f676a4b848',1,'PauseMenu']]],
   ['teamchanged',['TeamChanged',['../classPauseMenu.html#a0c5f4ed10ae77b7c099ef01c7f1542de',1,'PauseMenu.TeamChanged()'],['../classPauseMenu.html#ad4b2595608799c2d4a11fe99d0a7be9e',1,'PauseMenu.TeamChanged(string Text)']]],
   ['teamedit',['TeamEdit',['../classPauseMenu.html#a2a96cfcc7738970e64f2d75e97763cbe',1,'PauseMenu']]],
-  ['temperature',['Temperature',['../classItems_1_1Instance.html#ad416af818ec4ceb8b8faf2ac46eed49a',1,'Items::Instance']]],
   ['textures',['Textures',['../classItems.html#a74d044457deb56e0deae186ffc121d55',1,'Items']]],
   ['thirdendcollision',['ThirdEndCollision',['../classPipeJoint.html#ace3a20064e827a2344e5d3610c374960',1,'PipeJoint']]],
   ['thirdendmesh',['ThirdEndMesh',['../classPipeJoint.html#a0545995decee4999acc34fb6831bd4e5',1,'PipeJoint']]],
   ['thirdopenend',['ThirdOpenEnd',['../classPipeJoint.html#acad023d06b7f1dff8842734f85c90d25',1,'PipeJoint']]],
   ['thirdpersonitem',['ThirdPersonItem',['../classPlayer.html#a696082fae179c904f215e1b737770d65',1,'Player']]],
   ['throwcurrentitem',['ThrowCurrentItem',['../classPlayer.html#aec5b0137784497934b1d11633442b6ef',1,'Player']]],
+  ['throwitemfromslot',['ThrowItemFromSlot',['../classPlayer.html#a00f3890e967125f1eaea76792eda0e9a',1,'Player']]],
   ['throwlog',['ThrowLog',['../classConsole.html#acb7f1a01d79fa3b8d350977994d90cec',1,'Console']]],
   ['throwprint',['ThrowPrint',['../classConsole.html#ad9232c39171e69ff234b59526b7e6ddf',1,'Console']]],
   ['thumbnails',['Thumbnails',['../classItems.html#a993da7032b29dd992a419d2a54d3fd9a',1,'Items']]],
@@ -48,5 +48,5 @@ var searchData=
   ['triggered',['Triggered',['../classJumperRocket.html#a7e97d127ae3205937bf06e325606f7ae',1,'JumperRocket']]],
   ['triggeredposition',['TriggeredPosition',['../classJumperRocket.html#ae3da2dbb47af3ca450fbea16c3d7b4ce',1,'JumperRocket']]],
   ['trycalculatebuildposition',['TryCalculateBuildPosition',['../classItems.html#ade14792193004ab0107656faf611e81b',1,'Items']]],
-  ['type',['Type',['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classHitboxClass.html#aa791bf0b8bc217c38d37ad583714693b',1,'HitboxClass.Type()'],['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()'],['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203',1,'HitboxClass.TYPE()'],['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()']]]
+  ['type',['TYPE',['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203',1,'HitboxClass.TYPE()'],['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()'],['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classHitboxClass.html#aa791bf0b8bc217c38d37ad583714693b',1,'HitboxClass.Type()'],['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()']]]
 ];

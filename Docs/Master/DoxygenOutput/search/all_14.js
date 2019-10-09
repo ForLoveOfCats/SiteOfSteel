@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['unbind',['Unbind',['../classAPI.html#aed41e28fb1df0e26335acd36e92c31cd',1,'API.Unbind()'],['../classBindings.html#a23d273c8af12c3154d7564d4c13dfe8b',1,'Bindings.UnBind()']]],
+  ['unbind',['UnBind',['../classBindings.html#a23d273c8af12c3154d7564d4c13dfe8b',1,'Bindings.UnBind()'],['../classAPI.html#aed41e28fb1df0e26335acd36e92c31cd',1,'API.Unbind()']]],
   ['unloadandrequestchunks',['UnloadAndRequestChunks',['../classNet.html#a5d1587bfe272db068e88b4fe24d73384',1,'Net']]],
   ['unloadgamemode',['UnloadGamemode',['../classScripting.html#ae1f98caffdc520b7ef61b967bb576059',1,'Scripting']]],
   ['unloadgm',['UnloadGm',['../classAPI.html#a95471651c02de62ae2595c6f1e50e821',1,'API']]],
@@ -13,6 +13,5 @@ var searchData=
   ['updatesize',['UpdateSize',['../classInventoryIcon.html#ab42af3cf9086db0117fa32d51af5e9b1',1,'InventoryIcon']]],
   ['usedelegate',['UseDelegate',['../structItems_1_1IdInfo.html#a1bec42d513e848c1135f6a35c47274c4',1,'Items::IdInfo']]],
   ['useitem',['UseItem',['../classItems.html#a00b58366a9fe755cb62a173fa188a850',1,'Items']]],
-  ['useitemdelegate',['UseItemDelegate',['../classItems.html#ae3a632388c864d5f1cbdba261789bed3',1,'Items']]],
-  ['usesremaining',['UsesRemaining',['../classItems_1_1Instance.html#abb62be133f0c719a6dcbfae4c12b0ed4',1,'Items::Instance']]]
+  ['useitemdelegate',['UseItemDelegate',['../classItems.html#ae3a632388c864d5f1cbdba261789bed3',1,'Items']]]
 ];

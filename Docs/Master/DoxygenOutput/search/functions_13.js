@@ -2,6 +2,7 @@ var searchData=
 [
   ['teamchanged',['TeamChanged',['../classPauseMenu.html#a0c5f4ed10ae77b7c099ef01c7f1542de',1,'PauseMenu.TeamChanged()'],['../classPauseMenu.html#ad4b2595608799c2d4a11fe99d0a7be9e',1,'PauseMenu.TeamChanged(string Text)']]],
   ['throwcurrentitem',['ThrowCurrentItem',['../classPlayer.html#aec5b0137784497934b1d11633442b6ef',1,'Player']]],
+  ['throwitemfromslot',['ThrowItemFromSlot',['../classPlayer.html#a00f3890e967125f1eaea76792eda0e9a',1,'Player']]],
   ['throwlog',['ThrowLog',['../classConsole.html#acb7f1a01d79fa3b8d350977994d90cec',1,'Console']]],
   ['throwprint',['ThrowPrint',['../classConsole.html#ad9232c39171e69ff234b59526b7e6ddf',1,'Console']]],
   ['togglefly',['ToggleFly',['../classPlayer.html#a90ad2bec897fdc9ffc21e79c46267853',1,'Player.ToggleFly()'],['../classAPI.html#ab7a4b58585b65729ddbc175d347039ee',1,'API.ToggleFly()']]],
