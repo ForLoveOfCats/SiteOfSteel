@@ -9,5 +9,6 @@ var searchData=
   ['nicklabels',['NickLabels',['../classHUD.html#a9f56e61b69797aa9c642170b5318cbf1',1,'HUD']]],
   ['nicklabelscene',['NickLabelScene',['../classHUD.html#a5ef5802ac54af34e3588c8d689796c0e',1,'HUD']]],
   ['nickname',['Nickname',['../classGame.html#aeaf2b356ac5a98df1a4cf56398d57ec9',1,'Game']]],
-  ['nicknames',['Nicknames',['../classNet.html#a4432b68d7400c4dd7d3226308deefdcf',1,'Net']]]
+  ['nicknames',['Nicknames',['../classNet.html#a4432b68d7400c4dd7d3226308deefdcf',1,'Net']]],
+  ['normalviewmodelx',['NormalViewmodelX',['../classPlayer.html#a7ccfbc6db9acd950e09f956d0776e74f',1,'Player']]]
 ];
