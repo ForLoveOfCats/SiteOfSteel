@@ -19,7 +19,7 @@ var searchData=
   ['nickmenu_2ecs',['NickMenu.cs',['../NickMenu_8cs.html',1,'']]],
   ['nickname',['Nickname',['../classGame.html#aeaf2b356ac5a98df1a4cf56398d57ec9',1,'Game.Nickname()'],['../classAPI.html#a6de88308fa444e22415c06d6c8deedd6',1,'API.Nickname()']]],
   ['nicknames',['Nicknames',['../classNet.html#a4432b68d7400c4dd7d3226308deefdcf',1,'Net']]],
-  ['normalviewmodelx',['NormalViewmodelX',['../classPlayer.html#a7ccfbc6db9acd950e09f956d0776e74f',1,'Player']]],
+  ['normalviewmodelarmx',['NormalViewmodelArmX',['../classPlayer.html#a317cbcb961d3b17c766286cfbaa39343',1,'Player']]],
   ['notifysuccessconnect',['NotifySuccessConnect',['../classNet.html#aa47fa440ca155f4ef7642894c6414ef8',1,'Net']]],
   ['notifyteamchange',['NotifyTeamChange',['../classPlayer.html#a0fb323ba92119026c433de8fce073e94',1,'Player']]]
 ];

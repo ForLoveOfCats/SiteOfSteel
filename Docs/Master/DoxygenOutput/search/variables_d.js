@@ -10,5 +10,5 @@ var searchData=
   ['nicklabelscene',['NickLabelScene',['../classHUD.html#a5ef5802ac54af34e3588c8d689796c0e',1,'HUD']]],
   ['nickname',['Nickname',['../classGame.html#aeaf2b356ac5a98df1a4cf56398d57ec9',1,'Game']]],
   ['nicknames',['Nicknames',['../classNet.html#a4432b68d7400c4dd7d3226308deefdcf',1,'Net']]],
-  ['normalviewmodelx',['NormalViewmodelX',['../classPlayer.html#a7ccfbc6db9acd950e09f956d0776e74f',1,'Player']]]
+  ['normalviewmodelarmx',['NormalViewmodelArmX',['../classPlayer.html#a317cbcb961d3b17c766286cfbaa39343',1,'Player']]]
 ];

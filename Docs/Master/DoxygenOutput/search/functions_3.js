@@ -8,6 +8,7 @@ var searchData=
   ['centersprite',['CenterSprite',['../classDamageIndicator.html#ac1c52d28e125442bb58c7912da58fbba',1,'DamageIndicator']]],
   ['chunkexists',['ChunkExists',['../classWorld.html#a712c99f43b0f2bcaf98fb40993b0ddb1',1,'World.ChunkExists(Vector3 Position)'],['../classWorld.html#ab0d0a95deec3a88e4fefaf819845e0ad',1,'World.ChunkExists(Tuple&lt; int, int &gt; Position)']]],
   ['chunkrenderdistance',['ChunkRenderDistance',['../classAPI.html#af167f0fe441137769b305de09a668529',1,'API']]],
+  ['clampvec2',['ClampVec2',['../classSteelMath.html#aa3450df457b13121da850ba40df4c0ad',1,'SteelMath']]],
   ['clampvec3',['ClampVec3',['../classSteelMath.html#a1cb570ba34c61abe360fcc7a6a4d3040',1,'SteelMath']]],
   ['clear',['Clear',['../classGridClass.html#a3b37b2c76de7738b7f87c5f5fe8fabdc',1,'GridClass.Clear()'],['../classWorld.html#abe031803634b7b58ee9cd27a34380542',1,'World.Clear()']]],
   ['cleardamageindicators',['ClearDamageIndicators',['../classHUD.html#a2604fd28ebb28596cb7a8b6cc88067bf',1,'HUD']]],

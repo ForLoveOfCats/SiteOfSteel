@@ -19,6 +19,7 @@ var searchData=
   ['chunks',['Chunks',['../classWorld.html#a93019f03e6b84b6f9f21f7bd8869fa1f',1,'World']]],
   ['chunksize',['ChunkSize',['../classWorld.html#ad0f2b6fbc6773a826b44f93dbd51ac33',1,'World']]],
   ['chunktuple',['ChunkTuple',['../classSavedChunk.html#a658d42471a149fb77785baab255f5a0f',1,'SavedChunk']]],
+  ['clampvec2',['ClampVec2',['../classSteelMath.html#aa3450df457b13121da850ba40df4c0ad',1,'SteelMath']]],
   ['clampvec3',['ClampVec3',['../classSteelMath.html#a1cb570ba34c61abe360fcc7a6a4d3040',1,'SteelMath']]],
   ['clear',['Clear',['../classGridClass.html#a3b37b2c76de7738b7f87c5f5fe8fabdc',1,'GridClass.Clear()'],['../classWorld.html#abe031803634b7b58ee9cd27a34380542',1,'World.Clear()']]],
   ['cleardamageindicators',['ClearDamageIndicators',['../classHUD.html#a2604fd28ebb28596cb7a8b6cc88067bf',1,'HUD']]],
