@@ -5,6 +5,7 @@ var searchData=
   ['gamemode',['Gamemode',['../classGamemode.html',1,'Gamemode'],['../classAPI.html#a6f426e018491ecfa9c6281ba31204435',1,'API.Gamemode()']]],
   ['gamemode_2ecs',['Gamemode.cs',['../Gamemode_8cs.html',1,'']]],
   ['gamemodename',['GamemodeName',['../classScripting.html#ade5b51771201a31fd7174ea00c62bb78',1,'Scripting']]],
+  ['getadsmovementmultiplyer',['GetAdsMovementMultiplyer',['../classPlayer.html#a0ec1d8ae0878d640eb8a5790850f40bb',1,'Player']]],
   ['getchunkpos',['GetChunkPos',['../classWorld.html#a4b119f9177ec4f95b69a1791deafb2c8',1,'World']]],
   ['getchunktuple',['GetChunkTuple',['../classWorld.html#a8e28a7ce76cf6c242e81790ac4c7ad47',1,'World']]],
   ['getinfoornull',['GetInfoOrNull',['../classSavedTile.html#a8e9f5b8f967e1a7a759606b37a8ad820',1,'SavedTile']]],

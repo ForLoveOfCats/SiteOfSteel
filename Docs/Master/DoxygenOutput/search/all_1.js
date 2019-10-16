@@ -11,6 +11,7 @@ var searchData=
   ['addtiletochunk',['AddTileToChunk',['../classWorld.html#a6bdabfa26a5c0ecca1c4f2026a38d133',1,'World']]],
   ['ads',['Ads',['../classPlayer.html#a8c705ea55c6861d7d556e5b27a1b1fa4',1,'Player']]],
   ['adsmultiplyer',['AdsMultiplyer',['../classPlayer.html#af4f3ffb5dd011458e6eb2b8704dd999e',1,'Player']]],
+  ['adsmultiplyermovementeffect',['AdsMultiplyerMovementEffect',['../classPlayer.html#aa44d3fe1c0f6218ad4ddc0f3e0decff6',1,'Player']]],
   ['adstime',['AdsTime',['../classPlayer.html#a1753fbcdea0bea76dd12fd004f3d4668',1,'Player']]],
   ['affectedbodies',['AffectedBodies',['../classJumperRocket.html#a20e82cd798cc9a367fdab427b84904cc',1,'JumperRocket']]],
   ['airaccelerate',['AirAccelerate',['../classPlayer.html#a5aba1eb2c3a5238a1ccd2b49ec7989d9',1,'Player']]],

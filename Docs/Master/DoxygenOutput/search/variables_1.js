@@ -4,6 +4,7 @@ var searchData=
   ['actuallookvertical',['ActualLookVertical',['../classPlayer.html#aa353462c69476ceeda1adbfa37237d4e',1,'Player']]],
   ['ads',['Ads',['../classPlayer.html#a8c705ea55c6861d7d556e5b27a1b1fa4',1,'Player']]],
   ['adsmultiplyer',['AdsMultiplyer',['../classPlayer.html#af4f3ffb5dd011458e6eb2b8704dd999e',1,'Player']]],
+  ['adsmultiplyermovementeffect',['AdsMultiplyerMovementEffect',['../classPlayer.html#aa44d3fe1c0f6218ad4ddc0f3e0decff6',1,'Player']]],
   ['adstime',['AdsTime',['../classPlayer.html#a1753fbcdea0bea76dd12fd004f3d4668',1,'Player']]],
   ['affectedbodies',['AffectedBodies',['../classJumperRocket.html#a20e82cd798cc9a367fdab427b84904cc',1,'JumperRocket']]],
   ['airacceleration',['AirAcceleration',['../classPlayer.html#abc09c674116eea2ec514147d801a1acd',1,'Player']]],

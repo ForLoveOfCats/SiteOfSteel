@@ -2,6 +2,7 @@ var searchData=
 [
   ['game',['Game',['../classGame.html#a2e034e53e9c032964ecd2a831b29a616',1,'Game']]],
   ['gamemode',['Gamemode',['../classAPI.html#a6f426e018491ecfa9c6281ba31204435',1,'API']]],
+  ['getadsmovementmultiplyer',['GetAdsMovementMultiplyer',['../classPlayer.html#a0ec1d8ae0878d640eb8a5790850f40bb',1,'Player']]],
   ['getchunkpos',['GetChunkPos',['../classWorld.html#a4b119f9177ec4f95b69a1791deafb2c8',1,'World']]],
   ['getchunktuple',['GetChunkTuple',['../classWorld.html#a8e28a7ce76cf6c242e81790ac4c7ad47',1,'World']]],
   ['getinfoornull',['GetInfoOrNull',['../classSavedTile.html#a8e9f5b8f967e1a7a759606b37a8ad820',1,'SavedTile']]],
