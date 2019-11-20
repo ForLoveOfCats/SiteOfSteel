@@ -1,11 +1,11 @@
 var searchData=
 [
   ['teamchanged',['TeamChanged',['../classPauseMenu.html#a0c5f4ed10ae77b7c099ef01c7f1542de',1,'PauseMenu.TeamChanged()'],['../classPauseMenu.html#ad4b2595608799c2d4a11fe99d0a7be9e',1,'PauseMenu.TeamChanged(string Text)']]],
-  ['throwcurrentitem',['ThrowCurrentItem',['../classPlayer.html#aec5b0137784497934b1d11633442b6ef',1,'Player']]],
+  ['throwcurrentitem',['ThrowCurrentItem',['../classPlayer.html#a70df30388a12d8206337a55090455d7e',1,'Player']]],
   ['throwitemfromslot',['ThrowItemFromSlot',['../classPlayer.html#a00f3890e967125f1eaea76792eda0e9a',1,'Player']]],
   ['throwlog',['ThrowLog',['../classConsole.html#acb7f1a01d79fa3b8d350977994d90cec',1,'Console']]],
   ['throwprint',['ThrowPrint',['../classConsole.html#ad9232c39171e69ff234b59526b7e6ddf',1,'Console']]],
-  ['togglefly',['ToggleFly',['../classPlayer.html#a90ad2bec897fdc9ffc21e79c46267853',1,'Player.ToggleFly()'],['../classAPI.html#ab7a4b58585b65729ddbc175d347039ee',1,'API.ToggleFly()']]],
+  ['togglefly',['ToggleFly',['../classAPI.html#ab7a4b58585b65729ddbc175d347039ee',1,'API.ToggleFly()'],['../classPlayer.html#a4616e010fc86a98e164ea242369468c7',1,'Player.ToggleFly()']]],
   ['tojson',['ToJson',['../classSavedChunk.html#ab58781eefa5f9163f25eae12f4d9eb38',1,'SavedChunk.ToJson()'],['../classSavedTile.html#a643a3aaa64d7df63effac80cc2baf0ab',1,'SavedTile.ToJson()']]],
   ['tpland',['TpLand',['../classPlayerSfxManager.html#a63d951b23123bf01dc2148aff4e1e0f5',1,'PlayerSfxManager']]],
   ['tppickup',['TpPickup',['../classPlayerSfxManager.html#a3fe5af116a2f7b2ee9c942dbfa2c836b',1,'PlayerSfxManager']]],

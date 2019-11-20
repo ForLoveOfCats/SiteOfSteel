@@ -10,7 +10,7 @@ var searchData=
   ['thirdendmesh',['ThirdEndMesh',['../classPipeJoint.html#a0545995decee4999acc34fb6831bd4e5',1,'PipeJoint']]],
   ['thirdopenend',['ThirdOpenEnd',['../classPipeJoint.html#acad023d06b7f1dff8842734f85c90d25',1,'PipeJoint']]],
   ['thirdpersonitem',['ThirdPersonItem',['../classPlayer.html#a696082fae179c904f215e1b737770d65',1,'Player']]],
-  ['throwcurrentitem',['ThrowCurrentItem',['../classPlayer.html#aec5b0137784497934b1d11633442b6ef',1,'Player']]],
+  ['throwcurrentitem',['ThrowCurrentItem',['../classPlayer.html#a70df30388a12d8206337a55090455d7e',1,'Player']]],
   ['throwitemfromslot',['ThrowItemFromSlot',['../classPlayer.html#a00f3890e967125f1eaea76792eda0e9a',1,'Player']]],
   ['throwlog',['ThrowLog',['../classConsole.html#acb7f1a01d79fa3b8d350977994d90cec',1,'Console']]],
   ['throwprint',['ThrowPrint',['../classConsole.html#ad9232c39171e69ff234b59526b7e6ddf',1,'Console']]],
@@ -22,7 +22,7 @@ var searchData=
   ['tiles',['Tiles',['../classChunkClass.html#ae91eeb6131a9117d89af9ef32fb54132',1,'ChunkClass']]],
   ['tileshader',['TileShader',['../classItems.html#aac6afd3b62f54f34511d8568b568b844',1,'Items']]],
   ['tilesroot',['TilesRoot',['../classWorld.html#ae736814b6743bf07d4833e7aa032c7d8',1,'World']]],
-  ['togglefly',['ToggleFly',['../classPlayer.html#a90ad2bec897fdc9ffc21e79c46267853',1,'Player.ToggleFly()'],['../classAPI.html#ab7a4b58585b65729ddbc175d347039ee',1,'API.ToggleFly()']]],
+  ['togglefly',['ToggleFly',['../classAPI.html#ab7a4b58585b65729ddbc175d347039ee',1,'API.ToggleFly()'],['../classPlayer.html#a4616e010fc86a98e164ea242369468c7',1,'Player.ToggleFly()']]],
   ['tojson',['ToJson',['../classSavedChunk.html#ab58781eefa5f9163f25eae12f4d9eb38',1,'SavedChunk.ToJson()'],['../classSavedTile.html#a643a3aaa64d7df63effac80cc2baf0ab',1,'SavedTile.ToJson()']]],
   ['toolbarscrollseperator',['ToolbarScrollSeperator',['../classHostMenu.html#aea3c9e363cfbaa2919c70d57d7728564',1,'HostMenu']]],
   ['tpland',['TpLand',['../classPlayerSfxManager.html#a63d951b23123bf01dc2148aff4e1e0f5',1,'PlayerSfxManager']]],
@@ -48,5 +48,5 @@ var searchData=
   ['triggered',['Triggered',['../classJumperRocket.html#a7e97d127ae3205937bf06e325606f7ae',1,'JumperRocket']]],
   ['triggeredposition',['TriggeredPosition',['../classJumperRocket.html#ae3da2dbb47af3ca450fbea16c3d7b4ce',1,'JumperRocket']]],
   ['trycalculatebuildposition',['TryCalculateBuildPosition',['../classItems.html#ade14792193004ab0107656faf611e81b',1,'Items']]],
-  ['type',['Type',['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classHitboxClass.html#aa791bf0b8bc217c38d37ad583714693b',1,'HitboxClass.Type()'],['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()'],['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203',1,'HitboxClass.TYPE()'],['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()']]]
+  ['type',['Type',['../classBindingObject.html#a344776f595806eb519cf3faef6309ad5',1,'BindingObject.Type()'],['../classDroppedItem.html#a5d3d43091f0ac313241a8dc7a149587c',1,'DroppedItem.Type()'],['../classHitboxClass.html#aa791bf0b8bc217c38d37ad583714693b',1,'HitboxClass.Type()'],['../classTile.html#ad3cb3144a575d9044b7cb0832b6e1ab6',1,'Tile.Type()'],['../classBindings.html#ad86ddc7f95cd2af837724525fa2fa94b',1,'Bindings.TYPE()'],['../classHitboxClass.html#a1d236a3474ddfec5a385c0ab38006203',1,'HitboxClass.TYPE()']]]
 ];

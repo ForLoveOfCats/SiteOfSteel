@@ -30,6 +30,6 @@ var searchData=
   ['continuepressed',['ContinuePressed',['../classIntro.html#a595606b305395d63b1fcc19ad41ffea1',1,'Intro']]],
   ['copyfolder',['CopyFolder',['../classGame.html#a9fc5cf0a2f25ef99975ddc085766380a',1,'Game']]],
   ['creditspressed',['CreditsPressed',['../classMainMenu.html#a06735179c8e3457f5bf35ee2f42b8aae',1,'MainMenu']]],
-  ['crouch',['Crouch',['../classPlayer.html#a0ecb24c69cfd5e961aedc2b34a18c3ff',1,'Player']]],
+  ['crouch',['Crouch',['../classPlayer.html#a3556f3757feac3b052f357d23e764ff8',1,'Player']]],
   ['customitemenum',['CustomItemEnum',['../structItems_1_1CustomItemEnum.html#a1f76dda9a9426715a0ecfd46031287e3',1,'Items::CustomItemEnum']]]
 ];

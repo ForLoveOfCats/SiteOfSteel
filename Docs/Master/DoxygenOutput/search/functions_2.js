@@ -1,8 +1,8 @@
 var searchData=
 [
   ['backpressed',['BackPressed',['../classConnectMenu.html#aaaa587fdb949edba9b09c83f3df466dd',1,'ConnectMenu.BackPressed()'],['../classCreditsMenu.html#a6301e457c9d49cbb74a82d61f3a40aa7',1,'CreditsMenu.BackPressed()'],['../classHelpMenu.html#a7633f0971e314e35c6e054d487f8be9b',1,'HelpMenu.BackPressed()'],['../classHostMenu.html#ad28e2dd91d2a5b605d010f19e3599754',1,'HostMenu.BackPressed()'],['../classLicensesMenu.html#a20fe8cd48e65b7d5b494c44a6b91dc54',1,'LicensesMenu.BackPressed()']]],
-  ['backwardmove',['BackwardMove',['../classPlayer.html#af2522c04f88fb644ee2611ff8d2edd7d',1,'Player']]],
-  ['bind',['Bind',['../classAPI.html#a819ddd0de28072acf780162e9f95281d',1,'API.Bind()'],['../classBindings.html#a0cb96f75a47a4e84b8fc89c22c6aa106',1,'Bindings.Bind()']]],
+  ['backwardmove',['BackwardMove',['../classPlayer.html#aed7c4db55199b196820416259d897d0a',1,'Player']]],
+  ['bind',['Bind',['../classBindings.html#a0cb96f75a47a4e84b8fc89c22c6aa106',1,'Bindings.Bind()'],['../classAPI.html#a819ddd0de28072acf780162e9f95281d',1,'API.Bind()']]],
   ['bindingobject',['BindingObject',['../classBindingObject.html#a360e643f0017cbcd2084bab709f61c7d',1,'BindingObject']]],
   ['bindings',['Bindings',['../classBindings.html#aea96374ba3e50737f7c953d0860d1f3e',1,'Bindings']]],
   ['buildconnect',['BuildConnect',['../classMenu.html#adf1a9a1b15063f62974a714f6fdb00ed',1,'Menu']]],
@@ -16,7 +16,7 @@ var searchData=
   ['buildmain',['BuildMain',['../classMenu.html#a4a2287d8d13a4783cadd6dffdd3efb28',1,'Menu']]],
   ['buildnick',['BuildNick',['../classMenu.html#a53df15fe51e57a4d71e82da3f37ac16e',1,'Menu']]],
   ['buildpause',['BuildPause',['../classMenu.html#a8263149c9104ff85c39dd6ce9402e636',1,'Menu']]],
-  ['buildrotate',['BuildRotate',['../classPlayer.html#a3817f268dd01793b51185debfaf3eb50',1,'Player']]],
+  ['buildrotate',['BuildRotate',['../classPlayer.html#aa3b54a23635c664c36918d5239f7298f',1,'Player']]],
   ['buildupdate',['BuildUpdate',['../classMenu.html#a0ff39732a93d2b1abae61b6de81a80a5',1,'Menu']]],
   ['buildwaitconnecting',['BuildWaitConnecting',['../classMenu.html#a096efdcba3ca31f0961349823f3b3c34',1,'Menu']]],
   ['buttonpressed',['ButtonPressed',['../classSlotButton.html#a5e7ca33c631d1c396767b0f5690d785c',1,'SlotButton']]]

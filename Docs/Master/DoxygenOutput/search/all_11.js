@@ -8,7 +8,6 @@ var searchData=
   ['recoillength',['RecoilLength',['../classScattershock.html#ae7b795aa0ee03fa9761790c1c78d0e2c',1,'Scattershock.RecoilLength()'],['../classThunderbolt.html#ad3056e2c4ab2f1f493627824ec0d94a8',1,'Thunderbolt.RecoilLength()']]],
   ['recursiveaddfriendstosystem',['RecursiveAddFriendsToSystem',['../classPipeCoreLogic.html#ad14a0fc4a64bbd388a0bb0b33d0ca769',1,'PipeCoreLogic']]],
   ['redmat',['RedMat',['../classGhost.html#aa44195b94e677ff02e0c7c1c1e32499e',1,'Ghost']]],
-  ['reloadgm',['ReloadGm',['../classAPI.html#a34ddcf7b92cf30fc909739c6478374cb',1,'API']]],
   ['reloadsave',['ReloadSave',['../classAPI.html#ac9c553d84d7f954c3c596878eb599944',1,'API']]],
   ['remaininglife',['RemainingLife',['../classDamageIndicator.html#a3c3e7305ac73cbaa22befc5ca588bc53',1,'DamageIndicator']]],
   ['remotefire',['RemoteFire',['../classRocketJumper.html#a93c815ff6e3e05d30a2cfd2fb3cceae9',1,'RocketJumper']]],
@@ -24,8 +23,6 @@ var searchData=
   ['requestchunks',['RequestChunks',['../classWorld.html#a58c8adcee5c580d3ff4c83ddeac129e7',1,'World']]],
   ['requestclear',['RequestClear',['../classWorld.html#a1d7605ef8477505d8872d401f76aa270',1,'World']]],
   ['requestdroppeditem',['RequestDroppedItem',['../classWorld.html#a381f572b7408eefaf8e7247f909a0ce5',1,'World']]],
-  ['requestgmload',['RequestGmLoad',['../classScripting.html#a6e5f98645ee157d62e7082cb483881d7',1,'Scripting']]],
-  ['requestgmunload',['RequestGmUnload',['../classScripting.html#a6e576d1afe6661807b9c73f6fb264563',1,'Scripting']]],
   ['requireduncrouchhight',['RequiredUncrouchHight',['../classPlayer.html#a55d4e693d038eb4a3becc470232c46fa',1,'Player']]],
   ['reset',['Reset',['../classHitscan.html#a66338a7061bea50d538812bb73452197',1,'Hitscan.Reset()'],['../classMenu.html#a0b7ee91c82cf1aaf5eceea6ff62fb541',1,'Menu.Reset()']]],
   ['resetselectedsave',['ResetSelectedSave',['../classHostMenu.html#a6d0b9adbecad158a212ae60c7179929a',1,'HostMenu']]],
@@ -35,7 +32,7 @@ var searchData=
   ['right',['RIGHT',['../classBindings.html#a35badd58ab9e62e5f47320ec08569985a21507b40c80068eda19865706fdc2403',1,'Bindings']]],
   ['rightaxis',['RightAxis',['../classPlayer.html#a586d83e2ac46eb3f080884ff1aff787d',1,'Player']]],
   ['rightlegflames',['RightLegFlames',['../classPlayer.html#a7f8fe631c5808d21d21c3b595ab720fe',1,'Player']]],
-  ['rightmove',['RightMove',['../classPlayer.html#ad31409406e4a4b2ccaff1f187f3c6b9d',1,'Player']]],
+  ['rightmove',['RightMove',['../classPlayer.html#aa9ca688bb902ef65040147aa3e733be0',1,'Player']]],
   ['rightsens',['RightSens',['../classPlayer.html#a9c135d11f60fd2d64f233e355a6ee534',1,'Player']]],
   ['rocket_5fjumper',['ROCKET_JUMPER',['../classItems.html#a6774bacbe40c425044480de464c64e40a8a268eec595412742bfefa6674e207d8',1,'Items']]],
   ['rocketfusetime',['RocketFuseTime',['../classRocketJumper.html#a9a286ae821e8f7ecfe8c1e8abeee75f9',1,'RocketJumper']]],
@@ -47,6 +44,6 @@ var searchData=
   ['rotationdelegate',['RotationDelegate',['../structItems_1_1IdInfo.html#ab81e4124de5196bb94b7169c855a8148',1,'Items::IdInfo']]],
   ['roundvec3',['RoundVec3',['../classSteelMath.html#a0dacb4ff0008b57efe6c032decadd92a',1,'SteelMath']]],
   ['rps',['RPS',['../classDroppedItem.html#ac7637f7c67c1672bd05dd6783399fe08',1,'DroppedItem']]],
-  ['runconsoleline',['RunConsoleLine',['../classScripting.html#a88d3bc10d7c6fdeef233279590e3e05b',1,'Scripting']]],
+  ['runconsoleline',['RunConsoleLine',['../classConsole.html#a73105b6b53bafe91da850762951fa132',1,'Console']]],
   ['runtimeroot',['RuntimeRoot',['../classGame.html#a43ec0bc21bbeff875976141bcad60fb0',1,'Game']]]
 ];

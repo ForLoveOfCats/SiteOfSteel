@@ -10,6 +10,5 @@ var searchData=
   ['openendmesh',['OpenEndMesh',['../classLocker.html#aabaa8255e2a19cb840a51a7b7987ac8a',1,'Locker']]],
   ['origin',['Origin',['../classHitscan_1_1QueuedDamage.html#a19b6cc1e6212bc3b95d0eb6c9e252345',1,'Hitscan::QueuedDamage']]],
   ['ownerid',['OwnerId',['../classTile.html#a6f2f091cf3ea524ecb48c1ba0e802572',1,'Tile']]],
-  ['owningplayer',['OwningPlayer',['../classHitboxClass.html#a12bc2eeda6ec84efe61915e21de1079f',1,'HitboxClass']]],
-  ['ownname',['OwnName',['../classGamemode.html#a23457a1d16e53b768ad1a84322da77fe',1,'Gamemode']]]
+  ['owningplayer',['OwningPlayer',['../classHitboxClass.html#a12bc2eeda6ec84efe61915e21de1079f',1,'HitboxClass']]]
 ];

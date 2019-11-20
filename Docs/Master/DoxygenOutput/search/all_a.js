@@ -1,7 +1,7 @@
 var searchData=
 [
   ['joywasindeadzone',['JoyWasInDeadzone',['../classBindingObject.html#a5eb5b5686674d15df9fdcc806513031a',1,'BindingObject']]],
-  ['jump',['Jump',['../classPlayer.html#a0e81bfad59829105d6d9e1deb6feea2c',1,'Player']]],
+  ['jump',['Jump',['../classPlayer.html#a868adf908fe0b7a140d0f2fc707f2d0f',1,'Player']]],
   ['jumpaxis',['JumpAxis',['../classPlayer.html#a8042c5639c1f4f63e64fc196f9d485ad',1,'Player']]],
   ['jumpcontinueforce',['JumpContinueForce',['../classPlayer.html#a7e653f903ca9770902a5f523ca50ffd1',1,'Player']]],
   ['jumperrocket',['JumperRocket',['../classJumperRocket.html',1,'JumperRocket'],['../classJumperRocket.html#a423962446bc41fad7c4afdbe2672889a',1,'JumperRocket.JumperRocket()']]],
